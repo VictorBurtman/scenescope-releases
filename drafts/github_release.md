@@ -14,7 +14,7 @@ The complete installer includes its runtime. The application component ZIP alone
 is insufficient for installation. The studio ZIP is for managed deployments.
 SHA-256 files accompany the downloadable assets.
 
-Downloads are free. [Optional contributions]({{GUMROAD_URL}}) support development
+Downloads are free. [Optional contributions](https://victorburtman.gumroad.com/l/qgcdqp) support development
 and deliver the same application.
 
 ## Included in this preview
