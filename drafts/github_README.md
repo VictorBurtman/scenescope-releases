@@ -17,7 +17,7 @@ Choose the complete `SceneScope-Setup-{{VERSION}}.exe` installer. The separate
 application ZIP requires its matching runtime; use the complete installer for
 personal installation. The full studio ZIP is intended for managed deployment.
 
-Downloads are free. [Support development on Gumroad]({{GUMROAD_URL}}) if you wish;
+Downloads are free. [Support development on Gumroad](https://victorburtman.gumroad.com/l/qgcdqp) if you wish;
 contributions are optional and deliver the same application.
 
 ## Explore your scene
