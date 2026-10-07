@@ -12,6 +12,8 @@ dans un autre dépôt privé ; aucun historique de développement n'est importé
 
 Compte Gumroad : https://victorburtman.gumroad.com/
 
+Page SceneScope créée par Victor : https://victorburtman.gumroad.com/l/qgcdqp
+
 Les champs entre doubles accolades attendent les derniers choix de publication.
 Aucun téléchargement public n'est disponible dans ce dépôt à ce stade.
 Les derniers essais Windows, les conditions et notices de redistribution,
