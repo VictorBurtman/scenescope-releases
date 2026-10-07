@@ -1,9 +1,12 @@
 # Gumroad product draft
 
-Private review copy, 2026-10-07. No product has been created or published.
+Private review copy, 2026-10-07. The owner created the public product page:
+https://victorburtman.gumroad.com/l/qgcdqp. A read-only HTTP check confirms its
+title `SceneScope - 3D Scene and Cache Viewer` and price metadata `0.0 EUR`.
+Checkout, optional-contribution settings and delivered content remain unverified.
 The sections below are copyable after placeholders and release requirements are
 resolved. Review the product settings and delivery links with the publisher
-before creating or publishing the product.
+before announcing downloadable availability.
 
 ## Proposed settings
 
@@ -13,10 +16,8 @@ before creating or publishing the product.
 - Suggested amount: owner to choose; may remain unset.
 - Contribution: optional; the same application is available from public GitHub downloads.
 - Delivery: version-specific GitHub release link and installation instructions.
-- Slug proposal: `scenescope`; availability is unconfirmed.
+- Product URL: https://victorburtman.gumroad.com/l/qgcdqp.
 - Account confirmed by the owner: https://victorburtman.gumroad.com/.
-  Proposed product address: `victorburtman.gumroad.com/l/scenescope`;
-  the product does not exist yet and the slug remains unverified.
 - Support contact, final terms, requirements and refund policy: owner to complete.
 - Cover: an actual approved SceneScope screenshot with the existing logo.
 
