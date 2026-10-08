@@ -14,7 +14,8 @@ The complete installer includes its runtime. The application component ZIP alone
 is insufficient for installation. The studio ZIP is for managed deployments.
 SHA-256 files accompany the downloadable assets.
 
-Downloads are free. [Optional contributions](https://victorburtman.gumroad.com/l/qgcdqp) support development
+Downloads and personal/professional studio use are free, with no seat limit.
+[Optional contributions](https://victorburtman.gumroad.com/l/qgcdqp) support development
 and deliver the same application.
 
 ## Included in this preview
@@ -34,10 +35,11 @@ of very large sequences remain ongoing work.
 For a manual update, close SceneScope and install the new version at the same
 destination. Integrated automatic update installation is not available in this preview.
 
-Application terms: {{APPLICATION_TERMS_URL}}
-Third-party notices and corresponding-source information: {{THIRD_PARTY_NOTICES_URL}}
+Publisher: Victor Burtman
+Application terms: https://github.com/VictorBurtman/scenescope-releases/blob/main/drafts/application_terms.md
+Third-party notices and corresponding-source information: https://github.com/VictorBurtman/scenescope-releases/blob/main/drafts/third_party_notices.md
 Windows executable signing status: {{FINAL_AUTHENTICODE_STATUS}}
-Feedback: {{SUPPORT_CHANNEL}}
+Feedback: victorburtman@gmail.com
 
 ## Validation
 
@@ -48,3 +50,6 @@ checks, isolated fresh/upgrade installation, native launch/shutdown and installe
 XMesh. Final external-machine acceptance and redistribution review remain open.
 Replace this comment and the validation field with evidence for the final public
 payload. Do not copy the private engineering ledger or private asset paths. -->
+
+<!-- Terms/notice links currently point to private review drafts. Complete them,
+package the matching documents and verify public access at publication. -->

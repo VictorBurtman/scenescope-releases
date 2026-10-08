@@ -18,7 +18,12 @@ before announcing downloadable availability.
 - Delivery: version-specific GitHub release link and installation instructions.
 - Product URL: https://victorburtman.gumroad.com/l/qgcdqp.
 - Account confirmed by the owner: https://victorburtman.gumroad.com/.
-- Support contact, final terms, requirements and refund policy: owner to complete.
+- Publisher: **Victor Burtman**; support: **victorburtman@gmail.com**.
+- Usage: free personal and professional use, including commercial studio work,
+  with no seat limit. Original application code remains proprietary/private.
+- Terms and notices: review drafts prepared in the private release repository;
+  complete review, source delivery and packaging before activating download delivery.
+- Requirements and contribution/refund presentation: finalize before delivery.
 - Cover: an actual approved SceneScope screenshot with the existing logo.
 
 Gumroad's [pricing guide](https://gumroad.com/help/article/133-pay-what-you-want-pricing)
@@ -31,7 +36,8 @@ the application's final terms.
 ### Summary
 
 Inspect 3D scenes, animation and simulation caches in a Windows desktop viewer.
-Free download, with an optional contribution to development.
+Free for personal and professional use, including studio work, with an optional
+contribution to development.
 
 ### Description
 
@@ -44,13 +50,15 @@ Velocity and Object ID views, color eligible geometry from attributes and inspec
 supported volume fields. Available features depend on the format and source data.
 
 You receive the Windows preview download link and installation instructions.
-GitHub downloads are public and free. Enter zero here or contribute if you want
+GitHub downloads will be public and free when the release is available. Enter zero here or contribute if you want
 to support development; either choice gives you the same application.
 
 Current preview: {{VERSION}}
 Requirements: {{CONFIRMED_WINDOWS_GPU_REQUIREMENTS}}
-Application terms: {{APPLICATION_TERMS_URL}}
-Support: {{SUPPORT_CHANNEL}}
+Application terms: https://github.com/VictorBurtman/scenescope-releases/blob/main/drafts/application_terms.md
+Third-party notices: https://github.com/VictorBurtman/scenescope-releases/blob/main/drafts/third_party_notices.md
+Publisher: Victor Burtman
+Support: victorburtman@gmail.com
 
 This is a development preview with documented format/exporter limitations.
 
@@ -59,7 +67,8 @@ This is a development preview with documented format/exporter limitations.
 ### Résumé
 
 Inspectez vos scènes 3D, animations et caches de simulation dans une application
-Windows. Téléchargement gratuit, avec une contribution facultative au développement.
+Windows. Usage gratuit personnel et professionnel, y compris en studio,
+avec une contribution facultative au développement.
 
 ### Description
 
@@ -74,13 +83,16 @@ champs de volume pris en charge. Les fonctions disponibles dépendent du format
 et des données présentes dans le fichier.
 
 Vous recevez le lien de téléchargement de la version Windows et les instructions
-d'installation. Les téléchargements GitHub sont publics et gratuits. Vous pouvez
+d'installation. Les téléchargements GitHub seront publics et gratuits dès la
+publication de la version. Vous pouvez
 saisir zéro ici ou contribuer au développement : l'application fournie est identique.
 
 Version de prévisualisation : {{VERSION}}
 Configuration requise : {{CONFIRMED_WINDOWS_GPU_REQUIREMENTS}}
-Conditions d'utilisation : {{APPLICATION_TERMS_URL}}
-Assistance : {{SUPPORT_CHANNEL}}
+Conditions d'utilisation : https://github.com/VictorBurtman/scenescope-releases/blob/main/drafts/application_terms.md
+Notices tierces : https://github.com/VictorBurtman/scenescope-releases/blob/main/drafts/third_party_notices.md
+Éditeur : Victor Burtman
+Assistance : victorburtman@gmail.com
 
 Il s'agit d'une version de développement dont les limites de formats et
 d'exporteurs sont documentées.
@@ -96,7 +108,7 @@ open SceneScope from the Start Menu. Once installed, scene inspection works offl
 For manual updates, close SceneScope and use the new installer at the same destination.
 
 Read the release notes, system requirements and application terms on the release
-page before installing. For help: {{SUPPORT_CHANNEL}}.
+page before installing. For help: victorburtman@gmail.com.
 
 ## Contenu de livraison français
 
@@ -111,4 +123,11 @@ et utilisez le nouvel installateur dans le même dossier.
 
 Consultez les notes de version, la configuration requise et les conditions
 d'utilisation sur la page de téléchargement avant l'installation.
-Pour obtenir de l'aide : {{SUPPORT_CHANNEL}}.
+Pour obtenir de l'aide : victorburtman@gmail.com.
+
+## Preparation link status
+
+Terms/notice links above currently require owner access to the private GitHub
+repository and lead to review drafts. They are not customer delivery links yet.
+Finalize the documents and verify anonymous access after public release before
+copying this content into the public Gumroad page or its delivery section.

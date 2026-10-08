@@ -17,7 +17,8 @@ Choose the complete `SceneScope-Setup-{{VERSION}}.exe` installer. The separate
 application ZIP requires its matching runtime; use the complete installer for
 personal installation. The full studio ZIP is intended for managed deployment.
 
-Downloads are free. [Support development on Gumroad](https://victorburtman.gumroad.com/l/qgcdqp) if you wish;
+Downloads and use are free for personal and professional purposes, including
+commercial studio work, with no seat limit. [Support development on Gumroad](https://victorburtman.gumroad.com/l/qgcdqp) if you wish;
 contributions are optional and deliver the same application.
 
 ## Explore your scene
@@ -52,15 +53,19 @@ limits apply. XMesh source materials and authored shading normals are not
 reconstructed; its channel association must remain constant across a sequence.
 Broader exporter fidelity and very-large-scene streaming remain ongoing work.
 
-Report reproducible problems through {{SUPPORT_CHANNEL}} with the SceneScope
+Report reproducible problems to [victorburtman@gmail.com](mailto:victorburtman@gmail.com) with the SceneScope
 version, Windows/GPU information, file format and steps. Share only scenes and
 screenshots you are permitted to disclose; exclude confidential studio data.
 
 ## License and notices
 
-SceneScope's original application code is proprietary. See {{APPLICATION_TERMS_LINK}}
-for the applicable terms. Third-party components retain their own licenses;
-see {{THIRD_PARTY_NOTICES_LINK}} and the required corresponding-source information.
+Published by **Victor Burtman**. SceneScope's original application code is
+proprietary. See the [application terms](application_terms.md) for the applicable
+terms. Third-party components retain their own licenses; see the
+[third-party notices](third_party_notices.md) and corresponding-source information.
+
+<!-- Preparation links point to review drafts. Finalize the terms, source
+delivery and matching packaged notices before using this README publicly. -->
 
 This repository contains release documentation and binaries. Original application
 source is maintained separately in a private repository.

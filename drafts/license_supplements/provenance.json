@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-08",
+  "status": "supplements for next build; not packaged in dev.4",
+  "sources": [
+    {
+      "project": "freetype",
+      "version": "2.14.3",
+      "source_url": "https://download.savannah.gnu.org/releases/freetype/freetype-2.14.3.tar.gz",
+      "source_sha256": "e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1",
+      "files": [
+        {
+          "path": "FreeType-2.14.3-FTL.txt",
+          "archive_member": "freetype-2.14.3/docs/FTL.TXT",
+          "bytes": 6743,
+          "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f"
+        },
+        {
+          "path": "FreeType-2.14.3-LICENSE.txt",
+          "archive_member": "freetype-2.14.3/LICENSE.TXT",
+          "bytes": 2149,
+          "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
+        }
+      ]
+    },
+    {
+      "project": "gettext",
+      "version": "0.22.5",
+      "source_url": "https://ftp.gnu.org/pub/gnu/gettext/gettext-0.22.5.tar.xz",
+      "source_sha256": "fe10c37353213d78a5b83d48af231e005c4da84db5ce88037d88355938259640",
+      "files": [
+        {
+          "path": "gettext-0.22.5-COPYING.LIB.txt",
+          "archive_member": "gettext-0.22.5/gettext-runtime/intl/COPYING.LIB",
+          "bytes": 26545,
+          "sha256": "3fe5361f24b7c49ba12911c08f5a33f9cb18871d95d9fb881f5b8a4793e04288"
+        }
+      ]
+    },
+    {
+      "project": "SQLite",
+      "version": "3.53.4",
+      "source": "Library/include/sqlite3.h in dev.4 runtime",
+      "source_sha256": "919e7f2e8ed1d8f56ac17b412b8971c76aa5d1a879752cc6058f75e7d5910e1d",
+      "files": [
+        {
+          "path": "SQLite-3.53.4-public-domain.txt",
+          "bytes": 297,
+          "sha256": "7b8578a074f9ddd01b7554b58b4db2793943a1f8cba2caa29f87a636868ec755"
+        }
+      ]
+    }
+  ]
+}
