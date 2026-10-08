@@ -50,17 +50,22 @@ appropriate corresponding-source provision. Qt's
 [official LGPL obligations](https://www.qt.io/development/open-source-lgpl-obligations)
 describe these requirements.
 
-**Source delivery status:** not yet ready for a public release. Before publication,
-attach a verified source bundle containing the exact upstream sources, package
-build recipes, patches and required build/install information for the covered
-components. Record its filename, hash and publicly accessible release link here.
-An upstream homepage or an email address alone is not that source bundle.
-Do not present this preparation paragraph as a completed source offer.
+**Source delivery status:** eight verified source archives, their package recipes,
+build scripts and patches are now prepared locally. See the
+[source preparation index](third_party_sources.md). The final per-file/embedded
+review and public release links remain open; these assets are not published.
+Before publication, reconcile the sources/build information with the final
+payload, attach the required archives and record their verified public links.
+An upstream homepage or an email address alone is not source delivery.
 
 ## Library replacement procedure to validate
 
-This procedure describes the current folder layout and still requires a real
-replacement test before it can become the release's verified instructions.
+This procedure describes the current folder layout. On 2026-10-08, an isolated
+dev.4 copy successfully starts with a modified QtCore DLL and closes normally.
+The modification changes the diagnostic string returned by `QLibraryInfo::build()`;
+the changed return value executes, and the application process loads that exact
+modified DLL. This demonstrates replacement under the existing ABI, rather than
+a rebuild of Qt or compatibility with arbitrary future library versions.
 
 1. Close all SceneScope windows and make a copy of the complete installation in
    a directory you can write to. Work on that copy and keep the original backup.
@@ -79,8 +84,6 @@ replacement test before it can become the release's verified instructions.
    or update operations may restore the official runtime. Keep your modified copy
    separate and preserve the supplied license texts and notices.
 
-Compatible replacements need no signing key from the publisher in this observed
-layout. This has been established by source inspection; successful execution
-with a genuinely modified library remains to be demonstrated. Replacement
-libraries can affect functionality, so report the modified runtime when seeking
-assistance.
+The test needs no signing key from the publisher. The release's final layout and
+libraries must retain that capability. Replacement libraries can affect
+functionality, so report the modified runtime when seeking assistance.

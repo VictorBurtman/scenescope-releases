@@ -23,3 +23,17 @@ inspected runtime. They need inventory classification, rather than inventing
 a license for a nonexistent binary. The actual FreeType DLL and Microsoft
 runtime files remain subject to their applicable terms. These supplements do
 not complete the full redistribution or corresponding-source review.
+
+The subsequent source collection adds the unchanged full Graphite2 1.3.15 LICENSE
+and Qt 6.11.2 GPLv3/LGPLv3/Qt GPL exception texts. See
+`source-supplements-provenance.json`. Graphite's full text includes multiple
+license choices and exceptions; its original COPYING notice is retained and a
+per-file selection is still to be reconciled.
+
+`vendor-supplements-provenance.json` records the missing OpenUSD 26.08 NOTICE
+and the official Microsoft Visual C++ V14 2026 end-user contract. The latter is
+kept as its original authoritative DOCX plus a paragraph-text extraction for
+convenience. Its presence is not the publisher's redistribution grant: that
+review additionally uses Community terms, redistributable file lists and SDK
+terms. The OpenUSD LICENSE matches upstream byte-for-byte; MaterialX's exact
+source license matches the collected text after newline decoding.

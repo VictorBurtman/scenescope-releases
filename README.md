@@ -11,6 +11,7 @@ dans un autre dépôt privé ; aucun historique de développement n'est importé
 - [Notes de préversion](drafts/github_release.md)
 - [Conditions d'utilisation](drafts/application_terms.md)
 - [Notices tierces et remplacement des bibliothèques](drafts/third_party_notices.md)
+- [Préparation des sources tierces](drafts/third_party_sources.md)
 - [Suppléments de licences vérifiés](drafts/license_supplements/README.md)
 
 Compte Gumroad : https://victorburtman.gumroad.com/
@@ -29,3 +30,9 @@ Assistance : victorburtman@gmail.com. Les contributions Gumroad restent facultat
 Les conditions et notices sont des brouillons à relire. La fourniture des sources
 des dépendances, les derniers contrôles de redistribution et la validation du
 prochain paquet restent à terminer avant publication.
+
+Suite du 8 octobre : huit archives sources exactes et leurs recettes/correctifs
+sont préparés et vérifiés hors ligne. Un essai de SceneScope avec un DLL QtCore
+réellement modifié réussit dans une copie isolée. Le NOTICE OpenUSD et les textes
+complets Graphite2/Qt sont préparés. La revue finale des fichiers et la livraison
+publique des sources restent à terminer ; aucun binaire n'est publié ici.

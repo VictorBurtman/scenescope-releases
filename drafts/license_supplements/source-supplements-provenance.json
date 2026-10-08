@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-08",
+  "status": "verified source supplements for next build; dev.4 unchanged",
+  "sources": [
+    {
+      "project": "graphite2",
+      "archive": "archives/graphite2-1.3.15.tgz",
+      "archive_sha256": "c6bc8b4252724665297f7cad0c55897285c673f9b8e6db3522ace833593fe0b1",
+      "files": [
+        {
+          "path": "Graphite2-1.3.15-LICENSE.txt",
+          "archive_member": "graphite2-1.3.15/LICENSE",
+          "bytes": 29228,
+          "sha256": "cab46cd45adbfea4b1d0f14b033c70062c73074fa0b56532c2f351576ddf455e"
+        }
+      ]
+    },
+    {
+      "project": "qt6-main",
+      "archive": "archives/qt-everywhere-src-6.11.2.tar.xz",
+      "archive_sha256": "6dcfbca271d76a6502741a2c0dc6fc98ef7dd0b7b4cfd0abcebb285a86a26f33",
+      "files": [
+        {
+          "path": "Qt-6.11.2-GPL-3.0-only.txt",
+          "archive_member": "qt-everywhere-src-6.11.2/LICENSES/GPL-3.0-only.txt",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        }
+      ]
+    },
+    {
+      "project": "qt6-main",
+      "archive": "archives/qt-everywhere-src-6.11.2.tar.xz",
+      "archive_sha256": "6dcfbca271d76a6502741a2c0dc6fc98ef7dd0b7b4cfd0abcebb285a86a26f33",
+      "files": [
+        {
+          "path": "Qt-6.11.2-LGPL-3.0-only.txt",
+          "archive_member": "qt-everywhere-src-6.11.2/LICENSES/LGPL-3.0-only.txt",
+          "bytes": 7651,
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+        }
+      ]
+    },
+    {
+      "project": "qt6-main",
+      "archive": "archives/qt-everywhere-src-6.11.2.tar.xz",
+      "archive_sha256": "6dcfbca271d76a6502741a2c0dc6fc98ef7dd0b7b4cfd0abcebb285a86a26f33",
+      "files": [
+        {
+          "path": "Qt-6.11.2-Qt-GPL-exception-1.0.txt",
+          "archive_member": "qt-everywhere-src-6.11.2/LICENSES/Qt-GPL-exception-1.0.txt",
+          "bytes": 965,
+          "sha256": "40678d338ce53cd93f8b22b281a2ecbcaa3ee65ce60b25ffb0c462b0530846b2"
+        }
+      ]
+    }
+  ]
+}
