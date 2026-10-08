@@ -13,8 +13,8 @@
         },
         {
           "path": "Microsoft-Visual-Cpp-V14-2026-License-extracted.txt",
-          "bytes": 11974,
-          "sha256": "1030a878e15f7f21ecf4d9bc1d47f9316b76ac4e21926ed42ec856867759d0ae",
+          "bytes": 12027,
+          "sha256": "b3672b2cdb357fcb306c0fc2120a971de588dfd62ff3bc1ef19d1e93806a9507",
           "transformation": "Extracted w:t paragraph text; original DOCX retained"
         }
       ]
