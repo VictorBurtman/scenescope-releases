@@ -36,3 +36,12 @@ sont préparés et vérifiés hors ligne. Un essai de SceneScope avec un DLL QtC
 réellement modifié réussit dans une copie isolée. Le NOTICE OpenUSD et les textes
 complets Graphite2/Qt sont préparés. La revue finale des fichiers et la livraison
 publique des sources restent à terminer ; aucun binaire n'est publié ici.
+
+Revue Qt/Mesa/Microsoft du 8 octobre : les 70 bibliothèques Qt principales sont
+rapprochées de leurs cibles source ; 364 fichiers de notices Qt/PySide sont
+préparés et les sept problèmes de format d'attribution sont résolus. Le DLL Mesa
+correspond au précompilé Qt, avec les notices LLVM 3.6.2. Les 116 copies Microsoft
+recensées correspondent désormais aux fichiers redistribuables du fournisseur.
+Les conditions incluent les protections Microsoft en préservant les droits LGPL.
+Les nouveaux bundles de notices restent des documents pour le prochain build.
+Aucun installateur, média SDK Microsoft ou code original SceneScope n'est publié.

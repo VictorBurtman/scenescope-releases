@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-08",
+  "candidate": "0.1.0-dev.4",
+  "status": "prepared for next build; existing candidate immutable",
+  "files": [
+    {
+      "path": "Microsoft-Windows-SDK-10.0.26100-License.rtf",
+      "bytes": 248573,
+      "sha256": "0f4a26ac9dc50066f8a1bfeaaf3f092d1b9e4791df5487b9f3c31e7c3dc4d7f5",
+      "source": "Installed Microsoft Windows SDK 10.0.26100.0 license; redistributable terms used with verified SDK ISO"
+    },
+    {
+      "path": "Microsoft-Windows-SDK-10.0.26100-License-extracted.txt",
+      "bytes": 28185,
+      "sha256": "dc871182d5f23d2b20a887b87c46cc70c681caed22365b2ed93b321afc1b0e1e",
+      "source": "Microsoft-Windows-SDK-10.0.26100-License.rtf",
+      "transformation": "Windows RichTextBox RTF text extraction, no installation or visible UI"
+    },
+    {
+      "path": "LLVM-3.6.2-LICENSE.txt",
+      "bytes": 3281,
+      "sha256": "e3bc36440fc927c62d5cc24efeefe225a14d4e34ffeb0c92e430625cce9ee444",
+      "source": "https://releases.llvm.org/3.6.2/llvm-3.6.2.src.tar.xz#llvm-3.6.2.src/LICENSE.TXT"
+    },
+    {
+      "path": "Mesa-12.0.0-rc2-LICENSE.txt",
+      "bytes": 1084,
+      "sha256": "bcba0444c8b216b0d4a9e17bc2dd9f339dd920aa954005dc13a34a74743ef384",
+      "source": "https://archive.mesa3d.org/older-versions/12.x/12.0.0/mesa-12.0.0-rc2.tar.xz#mesa-12.0.0-rc2/docs/license.html",
+      "transformation": "Exact default-license preformatted block; raw upstream HTML retained in Mesa/LLVM notice bundle"
+    },
+    {
+      "path": "Qt-PySide-6.11.2-notices.zip",
+      "bytes": 1241903,
+      "sha256": "d648a91ab82b8d40d9ae30da42bd64ff84c825c3ce0ba23cd617546ffab0a281",
+      "members": 365,
+      "source": "Verified source-notice files; exact archived bytes preserved"
+    },
+    {
+      "path": "Mesa-12.0.0-rc2-LLVM-3.6.2-notices.zip",
+      "bytes": 130466,
+      "sha256": "992b758e5ad0f9eea5b4de2b2cf4e63b884d51512a268e193c68653be94222ec",
+      "members": 15,
+      "source": "Verified source-notice files; exact archived bytes preserved"
+    }
+  ],
+  "microsoft_supplier_review": {
+    "vc_openmp_exact_copies": 24,
+    "ucrt_exact_copies": 92,
+    "sdk_iso_sha256": "bbaf94039238e84a532088189728133c3753a085a8c2ae060d5eb511ae610f97"
+  },
+  "mesa_supplier_review": {
+    "qt_archive_sha256": "2a0d2f92c60e0962ef5f6039d3793424c6f39e49ba27ac04a5b21ca4ae012e15",
+    "dll_sha256": "963641a718f9cae2705d5299eae9b7444e84e72ab3bef96a691510dd05fa1da4",
+    "dll_exact_byte_match": true,
+    "llvm_version_evidence": "llvm-mc (based on LLVM 3.6.2) in exact DLL"
+  },
+  "source_archives": [
+    {
+      "path": "mesa-12.0.0-rc2.tar.xz",
+      "url": "https://archive.mesa3d.org/older-versions/12.x/12.0.0/mesa-12.0.0-rc2.tar.xz",
+      "bytes": 8550332,
+      "sha256": "4fea2e873e8baf92cefa58695d4e719bcddb279c601077f0e7fafaed1259fbc0",
+      "upstream_version_archive": true,
+      "rebuild_not_performed": true
+    },
+    {
+      "path": "llvm-3.6.2.src.tar.xz",
+      "url": "https://releases.llvm.org/3.6.2/llvm-3.6.2.src.tar.xz",
+      "bytes": 12802380,
+      "sha256": "f60dc158bfda6822de167e87275848969f0558b3134892ff54fced87e4667b94",
+      "upstream_version_archive": true,
+      "rebuild_not_performed": true
+    }
+  ],
+  "publication_complete": false
+}

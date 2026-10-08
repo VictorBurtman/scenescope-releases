@@ -3,6 +3,7 @@
 Review draft, 2026-10-08. Prepared for the next release; these terms have not
 been added to the tested dev.4 installer. Publisher: **Victor Burtman**.
 Contact: **victorburtman@gmail.com**.
+Copyright © 2026 Victor Burtman. All rights reserved in the original application.
 
 ## Free personal and professional use
 
@@ -46,6 +47,25 @@ libraries, to the extent permitted by the applicable LGPL. Follow the release's
 library replacement and source instructions. Any conflicting restriction in
 these application terms does not apply to those activities.
 Rights granted by applicable law also remain unaffected.
+
+## Microsoft components
+
+Microsoft runtime components are provided in their original binary form to run
+SceneScope on Microsoft Windows. They remain subject to their accompanying
+Microsoft terms; see the Microsoft license documents in `license_supplements/`.
+The permission to use SceneScope does not grant a separate right to modify,
+sublicense, sell, publish or redistribute those Microsoft components as a
+standalone product. Any separate Microsoft license you hold may grant other
+rights. Keep their copyright, trademark and other proprietary notices intact.
+Do not reverse engineer, decompile or disassemble Microsoft components, or bypass
+their technical limitations, except where applicable law or the component's own
+terms permit it. Do not use Microsoft names or marks to suggest endorsement.
+
+Internal SceneScope copies must retain these terms and all component notices.
+External recipients must agree to the accompanying applicable terms before
+installing or using the software. These Microsoft-specific restrictions do not
+restrict the modification, replacement or debugging rights for LGPL libraries
+or any other third-party rights described above.
 
 ## Preview, support and responsibility
 

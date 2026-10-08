@@ -34,18 +34,34 @@ binaries and each preserved recipe file. Follow the package's recorded Windows
 build script, dependencies, variant configuration and patches after extracting
 its upstream source. A successful rebuild of every library has not been performed.
 
-The notice preparation ZIP contains 348 exact source notice/attribution files.
-The Qt inspection covers the retained module families and records 17,808 source
-license declarations and 93 attribution records. Seven attribution files require
-manual reconciliation because their upstream JSON fails strict parsing; the
-original files are preserved. These counts describe evidence, not a completed
-license verdict for every shipped binary.
+The revised Qt/PySide notice ZIP contains 364 exact source legal/attribution
+files and its hash/attribution index. The engineering scan covers all ten recipe
+families, including qtimageformats, with 17,861 source license declarations and
+95 attribution files describing 116 components. All seven previously failing
+files are parsed according to Qt's newline convention; their original bytes and
+all duplicate descriptive/version fields remain available. Two Shiboken PSF
+license references are explicitly included. These counts describe the evidence,
+not an assertion that all source components are linked into Windows binaries.
+
+Mesa's separately precompiled `opengl32sw.dll` now matches the recipe-pinned Qt
+archive byte-for-byte. Its embedded LLVM version is 3.6.2. Official upstream
+version archives are also prepared for notice provenance:
+
+| Archive | SHA-256 |
+|---|---|
+| mesa-12.0.0-rc2.tar.xz | 4fea2e873e8baf92cefa58695d4e719bcddb279c601077f0e7fafaed1259fbc0 |
+| llvm-3.6.2.src.tar.xz | f60dc158bfda6822de167e87275848969f0558b3134892ff54fced87e4667b94 |
+
+Mesa/LLVM are permissive components; their notice ZIP preserves the original
+licenses and selected file headers. These upstream archives are not a claim of
+a reproduced complete Qt Mesa build or an additional LGPL source obligation.
+Microsoft SDK installation media used for the supplier-byte comparison are
+private review evidence and are not part of the source-delivery assets.
 
 ## Before publication
 
-Complete the retained Qt tool/module and embedded-component review, including
-the separately supplied Mesa/llvmpipe binary. Reconcile source/build information
-and notices with the final runtime, then upload the corresponding source archives,
+Reconcile the reviewed Qt/Mesa set, remaining native/resource scope, source/build
+information and notices with the final runtime, then upload the corresponding source archives,
 recipe ZIP and final notices beside the binary release. Fill in the verified
 version-specific download links here and verify anonymous access. This document
 does not substitute an email address or upstream homepage for source delivery.

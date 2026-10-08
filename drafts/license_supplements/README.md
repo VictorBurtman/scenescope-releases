@@ -37,3 +37,25 @@ convenience. Its presence is not the publisher's redistribution grant: that
 review additionally uses Community terms, redistributable file lists and SDK
 terms. The OpenUSD LICENSE matches upstream byte-for-byte; MaterialX's exact
 source license matches the collected text after newline decoding.
+
+## Qt/Mesa/Microsoft continuation
+
+The exact Qt/PySide notice ZIP contains 364 original files plus its hash and
+attribution index; the Mesa/LLVM ZIP contains 14 upstream licensing/header files
+plus its index. The new-candidate stager verifies both complete bundles and all
+members, then extracts readable notices under `notices/qt-pyside/` and
+`notices/mesa-llvm/`. Conservatively included source-only/platform-only material
+is labeled; the collection is not a claim that every component is linked.
+
+The 12.0.0-rc2 Mesa DLL matches Qt's recipe-pinned precompiled archive. LLVM's
+embedded diagnostic identifies 3.6.2, whose original NCSA release license is
+supplied separately too. The Mesa default MIT license is extracted from its
+upstream licensing HTML; the original HTML, Khronos/C11 headers and LLVM embedded
+notice files remain in the corresponding ZIP. No complete rebuilt Mesa DLL is
+claimed. The SDK RTF is the original installed Microsoft license; its separately
+labeled plain-text extraction is for convenient reading.
+
+`qt-ms-supplements-provenance.json` pins all new files, source versions and exact
+supplier-byte evidence. All 24 VC/OpenMP and 92 UCRT copies match their permitted
+release x64 supplier files; Community/SDK publisher requirements remain applicable.
+Installation media used for this comparison are not redistributed here.
