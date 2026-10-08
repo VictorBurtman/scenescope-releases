@@ -84,6 +84,29 @@ index/instructions, SHA-256
 It supplements the earlier eight-component recipe package; it is not all
 upstream sources or proof of every historical native build.
 
+## Completed local source assessment
+
+The final engineering assessment covers every one of the 104 conda packages,
+plus native bridges/resources, verifier embedded components, generated launchers
+and installer/compiler runtime notices. A final lock records **81** source
+declarations with recipe pins, verified archive hashes, exact Git revisions and
+separate source/data archives where applicable. This includes conservative
+other-platform/source-only inputs; it is not 81 libraries loaded by SceneScope.
+
+One archive substitution is explicit: the Ubuntu 0.83 recipe ZIP endpoint is
+unavailable, so Canonical's `ubuntu-font-family-sources_0.83.orig.tar.gz` is used
+for provenance. Its independent SHA-256 is
+`1a96df0ea32bf88278ce9d24c3a31e4c3d31f4397ff7a3af6622dc488b0b830a`;
+all 13 shipped fonts match its members byte-for-byte. It is not assigned the
+recipe ZIP checksum. Fonts are unmodified; their original font licence remains.
+
+The final native notice ZIP and nine bounded readable parts preserve exact
+source legal documents/comments beyond general package labels. Source delivery
+for LGPL/GPL/MPL components still requires real matching release assets with
+verified anonymous links, including the complete conda recipe/build/patch ZIP.
+These files remain private preparation; existing dev.6 is unchanged and there
+is no new public download or claim of rebuilding every historical vendor binary.
+
 Rust standard-library notices additionally match the source commit observed in
 cryptography's binary, Rust 1.93.0. The official std/compiler archive hashes and
 original standard-library attribution catalogue are preserved in
@@ -94,7 +117,7 @@ publisher; it is not SLSA build provenance. Public source delivery remains open.
 
 ## Before publication
 
-Reconcile the reviewed Qt/Mesa set, remaining native/resource scope, source/build
+Integrate the completed Qt/Mesa/native/resource assessment, source/build
 information and notices with the final runtime, then upload the corresponding source archives,
 recipe ZIP and final notices beside the binary release. Fill in the verified
 version-specific download links here and verify anonymous access. This document

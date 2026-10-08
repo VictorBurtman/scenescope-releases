@@ -1,8 +1,9 @@
 # SceneScope third-party notices and library replacement
 
-Local preview notice index, 2026-10-08, prepared for **0.1.0-dev.6** with runtime
-**rt-2192364560b51c5afc8f7221**. This is an index for preparing distribution,
-not a declaration that the current package's redistribution review is complete.
+Final prepared notice index, 2026-10-08, based on **0.1.0-dev.6** with runtime
+**rt-2192364560b51c5afc8f7221**. The local dependency engineering assessment is
+complete with the final supplements. Those additions require a new installer;
+existing dev.6 and the public source-delivery gate remain unchanged.
 The final release must carry the full applicable license texts, attributions,
 corresponding sources and verified instructions for its actual payload.
 
@@ -86,10 +87,20 @@ prepared for the next version and are not yet included in that installer:
   the matching Rust source commit. The catalogue includes conservative
   platform-specific attributions; it does not establish a historical rebuild.
 
+The final native/runtime ZIP preserves 15,406 unique original legal documents
+and exact comment blocks, with a complete source/hash/offset index. Nine
+`Native-runtime-NOTICES-*.txt` parts provide readable offline text. This includes
+the complete IJG README, Adobe Gain Map, LLVM support/ITT, MinGW, generated
+launcher/PSF and Nuitka supplier credits. Conservative catalogue inclusion does
+not assert that every platform/source-only component is linked on Windows.
+Graphite2's exact LICENSE offers MIT; that library option is selected alongside
+the preserved alternatives. All 13 Ubuntu fonts match Canonical's 0.83 source.
+
 Third-party source, modification and redistribution rights continue to take
 precedence over original application terms. Hash/source indices are in the
-matching supplement provenance files. Public delivery and final embedded/native
-classification remain pending.
+matching supplement provenance files and the complete supplement manifest.
+Embedded/native classification is recorded in the final 104-package matrix;
+new-installer integration and public delivery remain pending.
 
 ## LGPL libraries and corresponding source
 
@@ -103,8 +114,9 @@ describe these requirements.
 
 **Source delivery status:** eight verified source archives, their package recipes,
 build scripts and patches are now prepared locally. See the
-[source preparation index](third_party_sources.md). Final package-wide native/resource reconciliation and public release
-links remain open; these assets are not published.
+[source preparation index](third_party_sources.md). Local native/resource
+reconciliation is complete; final public release links remain open and these
+assets are not published.
 Before publication, reconcile the sources/build information with the final
 payload, attach the required archives and record their verified public links.
 An upstream homepage or an email address alone is not source delivery.

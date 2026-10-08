@@ -1,0 +1,2715 @@
+{
+  "schema": 1,
+  "date": "2026-10-08",
+  "based_on_immutable_candidate": "0.1.0-dev.6",
+  "runtime": "rt-2192364560b51c5afc8f7221",
+  "scope": "Engineering licence/notice/source assessment of packaged dependencies; historical rebuild and publication approval are distinct.",
+  "engineering_dependency_review_complete": true,
+  "public_source_delivery_complete": false,
+  "new_notice_installer_validated": false,
+  "external_pc_acceptance": "deferred by owner",
+  "existing_candidate_changed": false,
+  "packages": [
+    {
+      "package": "blosc-1.21.6-hfd34d9b_1",
+      "name": "blosc",
+      "version": "1.21.6",
+      "shipped_files": 5,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/blosc-1.21.6-hfd34d9b_1.conda",
+      "binary_sha256": "9303a7a0e03cf118eab3691013f6d6cbd1cbac66efbc70d89b20f5d0145257c0",
+      "feedstock": "https://github.com/conda-forge/blosc-feedstock",
+      "feedstock_commit": "c57a4e59b3cf26bb7c87a9950ff57e0c4ed1b7b3",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1644,
+          "sha256": "22623131a9b9f6a86a4dc6b9bccbb1d2aeb390df86bca00fc727af24735c2fae",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "9fcd60301aae28f97f1301b735f966cc19e7c49b6b4321b839b4579a0c156f38"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "bzip2-1.0.8-h0ad9c76_10",
+      "name": "bzip2",
+      "version": "1.0.8",
+      "shipped_files": 6,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/bzip2-1.0.8-h0ad9c76_10.conda",
+      "binary_sha256": "04767466ee9227c9c57ab2c6503e0149177d34111c7418d2f420297acb1eb229",
+      "feedstock": "https://github.com/conda-forge/bzip2-feedstock",
+      "feedstock_commit": "f0f345e062aed39aa7f500c0746efed2dcea6971",
+      "metadata_license": "bzip2-1.0.6",
+      "selected_terms": "bzip2-1.0.6",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1896,
+          "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "db106b740252669664fd8f3a1c69fe7f689d5cd4b132f82ba82b9afba27627df"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "ca-certificates-2026.7.22-h4c7d964_0",
+      "name": "ca-certificates",
+      "version": "2026.7.22",
+      "shipped_files": 2,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.7.22-h4c7d964_0.conda",
+      "binary_sha256": "95e8e74062a5fe5f870ac8c90302b6e89945165fdaed7810606e84ddee6aac12",
+      "feedstock": "https://github.com/conda-forge/ca-certificates-feedstock",
+      "feedstock_commit": "e9adaddd7b8b4f8def01b4cfd8690cd7fec7fc7b",
+      "metadata_license": "ISC",
+      "selected_terms": "MPL-2.0 (certificate data); retain package attribution",
+      "review": "Exact certifi 2026.7.22 source/PEM comparison; copied original data remains editable.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 989,
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "cairo-1.18.6-h477c42c_0",
+      "name": "cairo",
+      "version": "1.18.6",
+      "shipped_files": 37,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/cairo-1.18.6-h477c42c_0.conda",
+      "binary_sha256": "af62a4e441719050878d050d242619f8256a891983515950f8fb877137868a45",
+      "feedstock": "https://github.com/conda-forge/cairo-feedstock",
+      "feedstock_commit": "8b534c45e4a7945ac29aa8bd177109af1c318594",
+      "metadata_license": "LGPL-2.1-only or MPL-1.1",
+      "selected_terms": "LGPL-2.1 branch of LGPL/MPL alternative; per-file MIT/other terms",
+      "review": "Dynamic DLLs; source/patches prepared. Tests/tools/GPL source files are not linked merely by archive inclusion.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 1576,
+          "sha256": "67228a9f7c5f9b67c58f556f1be178f62da4d9e2e6285318d8c74d567255abdf",
+          "central_copy_matches": true
+        },
+        {
+          "path": "COPYING-LGPL-2.1",
+          "bytes": 26533,
+          "sha256": "9e9e8608c4cdda51a78cc3a385f4ec9a2e4c96d5ecad74ac8bca5fca3e563b7d",
+          "central_copy_matches": true
+        },
+        {
+          "path": "COPYING-MPL-1.1",
+          "bytes": 25755,
+          "sha256": "53692a2ed6c6a2c6ec9b32dd0b820dfae91e0a1fcdf625ca9ed0bdf8705fcc4f",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "1c767308174337a74694da0f3ec069c271452163a1ef4540964c50c301f157d4"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "double-conversion-3.4.0-hac47afa_0",
+      "name": "double-conversion",
+      "version": "3.4.0",
+      "shipped_files": 19,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/double-conversion-3.4.0-hac47afa_0.conda",
+      "binary_sha256": "09e30a170e0da3e9847d449b594b5e55e6ae2852edd3a3680e05753a5e015605",
+      "feedstock": "https://github.com/conda-forge/double-conversion-feedstock",
+      "feedstock_commit": "8be41fd43a5eff34942821980a0729422f45571e",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1527,
+          "sha256": "4af93c12062c58058378de2397dc1c92bbff9ddfb1d583a01c84127557ce97ca",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "42fd4d980ea86426e457b24bdfa835a6f5ad9517ddb01cdb42b99ab9c8dd5dc9"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "draco-1.5.7-h38ad407_4",
+      "name": "draco",
+      "version": "1.5.7",
+      "shipped_files": 209,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/draco-1.5.7-h38ad407_4.conda",
+      "binary_sha256": "c62ebe73f65f77c4febc24583a032de4a708dbbbc2e545b6cfef90f78cd6d987",
+      "feedstock": "https://github.com/conda-forge/draco-feedstock",
+      "feedstock_commit": "d320637e01ca2e7efc126057429541784a161c21",
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 13898,
+          "sha256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "bf6b105b79223eab2b86795363dfe5e5356050006a96521477973aba8f036fe1"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "embree-4.4.1-h8b2b210_3",
+      "name": "embree",
+      "version": "4.4.1",
+      "shipped_files": 33,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/embree-4.4.1-h8b2b210_3.conda",
+      "binary_sha256": "8850ecb1846bc8a81eb46b1805e8dbe2d2c5160bbc0dac6997f952e3f0f9a316",
+      "feedstock": "https://github.com/conda-forge/embree-feedstock",
+      "feedstock_commit": "e42377d3e06a3610d65b930697297626e509909e",
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "dcf338cc61b636c871ccf370e673bfd380c5ecb71ce49ad50f28e1d4ec9995dc"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "fmt-12.2.0-h1ced75a_1",
+      "name": "fmt",
+      "version": "12.2.0",
+      "shipped_files": 23,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/fmt-12.2.0-h1ced75a_1.conda",
+      "binary_sha256": "a12bdef2df7ba994cf6f9a69b16375d0ad421095f29d0f907a68b42063a5557d",
+      "feedstock": "https://github.com/conda-forge/fmt-feedstock",
+      "feedstock_commit": "270377f0b05babef35c66b6ffc85ba1902919cd3",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1094,
+          "sha256": "a65fcc5a1095fc33cc37e4fff69366e49d7e92f613558a2b95ed1b70e33758b4",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "8b852bb5aa6e7d8564f9e81394055395dd1d1936d38dfd3a17792a02bebd7af0"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "font-ttf-dejavu-sans-mono-2.37-hab24e00_0",
+      "name": "font-ttf-dejavu-sans-mono",
+      "version": "2.37",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/font-ttf-dejavu-sans-mono-2.37-hab24e00_0.tar.bz2",
+      "binary_sha256": "58d7f40d2940dd0a8aa28651239adbf5613254df0f75789919c4e6762054403b",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "Bitstream Vera terms; DejaVu additions public domain",
+      "review": "Redistribute unmodified font with application, retain original notice and reserved-name restrictions; do not sell font alone.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 8816,
+          "sha256": "7a083b136e64d064794c3419751e5c7dd10d2f64c108fe5ba161eae5e5958a93",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "5c6e497a2f36552cb5ffb112c413a6af39c0f3c47653662b90b4fa6499822fd7"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "font-ttf-inconsolata-3.000-h77eed37_0",
+      "name": "font-ttf-inconsolata",
+      "version": "3.000",
+      "shipped_files": 2,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/font-ttf-inconsolata-3.000-h77eed37_0.tar.bz2",
+      "binary_sha256": "c52a29fdac682c20d252facc50f01e7c2e7ceac52aa9817aaf0bb83f7559ec5c",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "OFL-1.1",
+      "selected_terms": "OFL-1.1",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "OFL.txt",
+          "bytes": 4394,
+          "sha256": "5d362a6f8690517fd9a5573128a081d8bbbb2f92714cf00556e08fbbe9600426",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "f2d8d8ba6caa785a966ef17996822ab14ba91ec423431a29e1b6c4b14bc4cda5"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "font-ttf-source-code-pro-2.038-h77eed37_0",
+      "name": "font-ttf-source-code-pro",
+      "version": "2.038",
+      "shipped_files": 14,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/font-ttf-source-code-pro-2.038-h77eed37_0.tar.bz2",
+      "binary_sha256": "00925c8c055a2275614b4d983e1df637245e19058d79fc7dd1a93b8d9fb4b139",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "OFL-1.1",
+      "selected_terms": "OFL-1.1",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 4578,
+          "sha256": "1036668c56392d012c81aa1c84cd8aacea3e767c52190f789d14857b3d0a5765",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "d8f879fefd66ecb7291ea2d73984b9c0a97fb499424e58290ba6b81787d0c725"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "font-ttf-ubuntu-0.83-h77eed37_3",
+      "name": "font-ttf-ubuntu",
+      "version": "0.83",
+      "shipped_files": 14,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/font-ttf-ubuntu-0.83-h77eed37_3.conda",
+      "binary_sha256": "2821ec1dc454bd8b9a31d0ed22a7ce22422c0aef163c59f49dfdf915d0f0ca14",
+      "feedstock": "https://github.com/conda-forge/font-ttf-ubuntu-feedstock",
+      "feedstock_commit": "e0124cc5a2cfff85f9584b558ec4f43bf091761b",
+      "metadata_license": "LicenseRef-Ubuntu-Font-Licence-Version-1.0",
+      "selected_terms": "Ubuntu Font Licence 1.0",
+      "review": "13 font files byte-match Canonical 0.83 source tar. Original recipe ZIP endpoint unavailable; alternate upstream archive and separate checksum explicitly recorded. Fonts unmodified.",
+      "notice_files": [
+        {
+          "path": "LICENCE.txt",
+          "bytes": 4673,
+          "sha256": "2f0015108d68627bd788d313f529c21ff4da2c2c42a5e1f3883acc83480f9002",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "1a96df0ea32bf88278ce9d24c3a31e4c3d31f4397ff7a3af6622dc488b0b830a"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "fontconfig-2.18.3-hd47e2ca_1",
+      "name": "fontconfig",
+      "version": "2.18.3",
+      "shipped_files": 88,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/fontconfig-2.18.3-hd47e2ca_1.conda",
+      "binary_sha256": "f26139e3c774a6434c8a73381c08e3d2a4c2f9d9ef9587c66aab8836211ee2ec",
+      "feedstock": "https://github.com/conda-forge/fontconfig-feedstock",
+      "feedstock_commit": "7f94a24652814e2985044aeae8b2966fae633035",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 8616,
+          "sha256": "51a51aa9823704fd90bccc616cdd17ebabb5b2b3e9cbde886ca02c7002288067",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "4f7b554a38cdf78c033f666c8871f3749e14a094f65a07f630c91ed0b43d35e3"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "fonts-conda-ecosystem-1-0",
+      "name": "fonts-conda-ecosystem",
+      "version": "1",
+      "shipped_files": 0,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/fonts-conda-ecosystem-1-0.tar.bz2",
+      "binary_sha256": "a997f2f1921bb9c9d76e6fa2f6b408b7fa549edd349a77639c9fe7a23ea93e61",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "No staged payload files; retain package/recipe identity. Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1488,
+          "sha256": "e7e41b9bdcc1e5a3b3f897a084ae48ac2a1a50172edf1a9a29ad482e0c5e8341",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "fonts-conda-forge-1-hc364b38_1",
+      "name": "fonts-conda-forge",
+      "version": "1",
+      "shipped_files": 0,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/fonts-conda-forge-1-hc364b38_1.conda",
+      "binary_sha256": "54eea8469786bc2291cc40bca5f46438d3e062a399e8f53f013b6a9f50e98333",
+      "feedstock": "https://github.com/conda-forge/fonts-conda-forge-feedstock",
+      "feedstock_commit": "1b7ad83c3dd122e856cbb86a4a52264cc1e28c5e",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "No staged payload files; retain package/recipe identity. Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1488,
+          "sha256": "e7e41b9bdcc1e5a3b3f897a084ae48ac2a1a50172edf1a9a29ad482e0c5e8341",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "glew-2.3.0-hdfd1c44_0",
+      "name": "glew",
+      "version": "2.3.0",
+      "shipped_files": 13,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/glew-2.3.0-hdfd1c44_0.conda",
+      "binary_sha256": "a582ff0418d9b0bbe13d7f42c363506ebfc026b487569885a5cb01c88e2d8641",
+      "feedstock": "https://github.com/conda-forge/glew-feedstock",
+      "feedstock_commit": "15f8261a0c4cd7644d74be23b5bef0ade84b34c6",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 3797,
+          "sha256": "8991cd11befec7c6a63662700f03c0cc42e864b6e77c7e70b80297c951a7f0ff",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "b261a06dfc8b970e0a1974488530e58dd2390acf68acb05b45235cd6fb17a086"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "glfw-3.5.1-hfd05255_0",
+      "name": "glfw",
+      "version": "3.5.1",
+      "shipped_files": 9,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/glfw-3.5.1-hfd05255_0.conda",
+      "binary_sha256": "4433ee569c040b68515e8ad479780660110a3f92c1e3ef5982935e6465345111",
+      "feedstock": "https://github.com/conda-forge/glfw-feedstock",
+      "feedstock_commit": "d50ee92f2e4e81ab03c0f511fef7ada619d51210",
+      "metadata_license": "Zlib",
+      "selected_terms": "Zlib",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 904,
+          "sha256": "149704059b5d0bf551637e50042dd4de9c2cae921021f6636298911e3a5f9462",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "5234f4f29473e9a06bc7847d8371858dd135d38466eeeaa652fdc9f8f9ff0c20"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "graphite2-1.3.15-h5112557_1",
+      "name": "graphite2",
+      "version": "1.3.15",
+      "shipped_files": 10,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/graphite2-1.3.15-h5112557_1.conda",
+      "binary_sha256": "93a59bdf944fb6f947bd7ad2f293d5d80db3a90f8ff8dfabc591e3752141e46f",
+      "feedstock": "https://github.com/conda-forge/graphite2-feedstock",
+      "feedstock_commit": "ba0a8e0362b411f2fa172e105d805270ac086509",
+      "metadata_license": "LGPL-2.0-or-later",
+      "selected_terms": "MIT option; retained LGPL/MPL/GPL alternatives",
+      "review": "Exact 1.3.15 LICENSE expressly offers MIT for SIL code; runtime headers agree. Old COPYING/metadata is incomplete; all alternatives retained.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 1235,
+          "sha256": "2c272829ff23f182c8bf7ea12fedea69b0ae148663123ed5240c117cb129c9c1",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "c6bc8b4252724665297f7cad0c55897285c673f9b8e6db3522ace833593fe0b1"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "icu-78.3-h5112557_2",
+      "name": "icu",
+      "version": "78.3",
+      "shipped_files": 270,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/icu-78.3-h5112557_2.conda",
+      "binary_sha256": "75c549b55b673e15de8785a8e5dd85bca7eb612eee0ff4dc8d7bdaa15eacbdbb",
+      "feedstock": "https://github.com/conda-forge/icu-feedstock",
+      "feedstock_commit": "05cd48dd0219b71d577103cc880a443ab7ba3acf",
+      "metadata_license": "MIT",
+      "selected_terms": "Unicode and bundled third-party terms",
+      "review": "Preserve exact ICU composite license, Unicode/data attributions and separately pinned source/data archives.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 27718,
+          "sha256": "e55522d81edc687a341a4411e0776e54ca654e90147f354a90458aaced4116af",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "3a2e7a47604ba702f345878308e6fefeca612ee895cf4a5f222e7955fabfe0c0",
+        "9d8b3899096aeb83e4e21ef8a40fec9e03b28db18c48452efac882ce25a91e27"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "imath-dev-3.2.2-ha7e1020_2",
+      "name": "imath-dev",
+      "version": "3.2.2",
+      "shipped_files": 43,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/imath-dev-3.2.2-ha7e1020_2.conda",
+      "binary_sha256": "ba29140df147008d1195725c358016492f595cbae8afef14b9ee698a409fd5cb",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 1497,
+          "sha256": "c20236d3b39fd20eba8e3d1fb3b892a5483df2e7d8d61bf43f165d3fac22f601",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "0f5a783b424f374e6f27ec8b0c73130e89b08814ac8fa2e84fd7fe0b05862c53"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "imath-lib-3.2.2-ha41a7fa_2",
+      "name": "imath-lib",
+      "version": "3.2.2",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/imath-lib-3.2.2-ha41a7fa_2.conda",
+      "binary_sha256": "665b01ca9d091b4042fd491d2e6683cfcda737b775f57c2dca69d641855b2819",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 1497,
+          "sha256": "c20236d3b39fd20eba8e3d1fb3b892a5483df2e7d8d61bf43f165d3fac22f601",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "0f5a783b424f374e6f27ec8b0c73130e89b08814ac8fa2e84fd7fe0b05862c53"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "krb5-1.22.2-h719d79b_2",
+      "name": "krb5",
+      "version": "1.22.2",
+      "shipped_files": 40,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/krb5-1.22.2-h719d79b_2.conda",
+      "binary_sha256": "63ff03324e903eb01a715ccf357df56d66224e61952fd6615d86490ebefb3285",
+      "feedstock": "https://github.com/conda-forge/krb5-feedstock",
+      "feedstock_commit": "39e6b3c27e0762e320d9518e069c3df9f26b5bf9",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "doc/notice.rst",
+          "bytes": 62479,
+          "sha256": "35a540e57bd0c22f1a5c8262dac9f80b1b440ce249db8d2d02604c800149b52e",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "289f5bb81d1f2f8d5eecebe56a056aeed95d35fd9bb4a7071c5dd7ad4b3fe888"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "lerc-4.2.0-hd936e49_0",
+      "name": "lerc",
+      "version": "4.2.0",
+      "shipped_files": 5,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/lerc-4.2.0-hd936e49_0.conda",
+      "binary_sha256": "93d666f63f284ef77b87b0b1f77b70f7d36d315a132f9afa64bc0012d937ba39",
+      "feedstock": "https://github.com/conda-forge/lerc-feedstock",
+      "feedstock_commit": "11a9b9cedb32ef23cd0dc48743e0a354fc4f7342",
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 9198,
+          "sha256": "77a8b761727c75e2167b15bfdf61b2c0bcf8792271228bebe80779106ad00671",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "a1fb593ed1fcb5b38800caf3c4454f872745202e961d00d745e53d81447e17c9"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libblas-3.11.0-6_hf2e6a31_mkl",
+      "name": "libblas",
+      "version": "3.11.0",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libblas-3.11.0-6_hf2e6a31_mkl.conda",
+      "binary_sha256": "10c8054f007adca8c780cd8bb9335fa5d990f0494b825158d3157983a25b1ea2",
+      "feedstock": "https://github.com/conda-forge/blas-feedstock",
+      "feedstock_commit": "ab5471117bf3cfef3059c24dc8c9cfcf4d606c45",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1521,
+          "sha256": "c52691f010a91c8ef71062f01d62dcef465fd14bd5ff8b47155cee2480c1d844",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "80de7c6e83d1d84d016b4cb299f2c15f5a82b9d36865dd5c16bf221fe9a303ad",
+        "4b9ba79bfd4921ca820e83979db76ab3363155709444a787979e81c22285ffa9"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libboost-1.91.0-h9dfe17d_0",
+      "name": "libboost",
+      "version": "1.91.0",
+      "shipped_files": 86,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libboost-1.91.0-h9dfe17d_0.conda",
+      "binary_sha256": "844154e7c527a6c10e043ceb24f19dac929bb7087af5be9ecf05bfccda22844c",
+      "feedstock": "https://github.com/conda-forge/boost-feedstock",
+      "feedstock_commit": "959bc8e0888790e1d7b4b0cebc42a7acdfb3c765",
+      "metadata_license": "BSL-1.0",
+      "selected_terms": "BSL-1.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE_1_0.txt",
+          "bytes": 1338,
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "de5e6b0e4913395c6bdfa90537febd9028ea4c0735d2cdb0cd9b45d5f51264f5"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libboost-devel-1.91.0-h1c1089f_0",
+      "name": "libboost-devel",
+      "version": "1.91.0",
+      "shipped_files": 144,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libboost-devel-1.91.0-h1c1089f_0.conda",
+      "binary_sha256": "01d0682679166af1d5fc14c9787682fc4c70f9da5b5d57b4068f7c22c086404c",
+      "feedstock": "https://github.com/conda-forge/boost-feedstock",
+      "feedstock_commit": "959bc8e0888790e1d7b4b0cebc42a7acdfb3c765",
+      "metadata_license": "BSL-1.0",
+      "selected_terms": "BSL-1.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE_1_0.txt",
+          "bytes": 1338,
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "de5e6b0e4913395c6bdfa90537febd9028ea4c0735d2cdb0cd9b45d5f51264f5"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libboost-headers-1.91.0-h57928b3_0",
+      "name": "libboost-headers",
+      "version": "1.91.0",
+      "shipped_files": 16315,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libboost-headers-1.91.0-h57928b3_0.conda",
+      "binary_sha256": "3cec732adc6917c0758508225a9e98a7645c7bca53a10d404a6ebd5007da3a6d",
+      "feedstock": "https://github.com/conda-forge/boost-feedstock",
+      "feedstock_commit": "959bc8e0888790e1d7b4b0cebc42a7acdfb3c765",
+      "metadata_license": "BSL-1.0",
+      "selected_terms": "BSL-1.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE_1_0.txt",
+          "bytes": 1338,
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "de5e6b0e4913395c6bdfa90537febd9028ea4c0735d2cdb0cd9b45d5f51264f5"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libbrotlicommon-1.2.0-hf02afa3_4",
+      "name": "libbrotlicommon",
+      "version": "1.2.0",
+      "shipped_files": 8,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libbrotlicommon-1.2.0-hf02afa3_4.conda",
+      "binary_sha256": "88247c467f77d99abfe2596fa5c91c2ec0f2942d6fc292d5729ab3538d1b0a0f",
+      "feedstock": "https://github.com/conda-forge/brotli-feedstock",
+      "feedstock_commit": "ceface8d883376fc74f6fc7d82125a1183e810d7",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1084,
+          "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libbrotlidec-1.2.0-h84f9c24_4",
+      "name": "libbrotlidec",
+      "version": "1.2.0",
+      "shipped_files": 3,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libbrotlidec-1.2.0-h84f9c24_4.conda",
+      "binary_sha256": "ddcf50274ccdd863c176190726c524903e0b875aa13e9d60c3755b2fa221fc62",
+      "feedstock": "https://github.com/conda-forge/brotli-feedstock",
+      "feedstock_commit": "ceface8d883376fc74f6fc7d82125a1183e810d7",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1084,
+          "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libbrotlienc-1.2.0-he2a975b_4",
+      "name": "libbrotlienc",
+      "version": "1.2.0",
+      "shipped_files": 3,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libbrotlienc-1.2.0-he2a975b_4.conda",
+      "binary_sha256": "d6744e57961728e12e4ac8e54bb0edd235a1c34d663a9df0dd153f9540a799bc",
+      "feedstock": "https://github.com/conda-forge/brotli-feedstock",
+      "feedstock_commit": "ceface8d883376fc74f6fc7d82125a1183e810d7",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1084,
+          "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libcblas-3.11.0-6_h2a3cdd5_mkl",
+      "name": "libcblas",
+      "version": "3.11.0",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libcblas-3.11.0-6_h2a3cdd5_mkl.conda",
+      "binary_sha256": "02b2a2225f4899c6aaa1dc723e06b3f7a4903d2129988f91fc1527409b07b0a5",
+      "feedstock": "https://github.com/conda-forge/blas-feedstock",
+      "feedstock_commit": "ab5471117bf3cfef3059c24dc8c9cfcf4d606c45",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1521,
+          "sha256": "c52691f010a91c8ef71062f01d62dcef465fd14bd5ff8b47155cee2480c1d844",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "80de7c6e83d1d84d016b4cb299f2c15f5a82b9d36865dd5c16bf221fe9a303ad",
+        "4b9ba79bfd4921ca820e83979db76ab3363155709444a787979e81c22285ffa9"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libclang13-23.1.2-default_hacd6ee9_0",
+      "name": "libclang13",
+      "version": "23.1.2",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libclang13-23.1.2-default_hacd6ee9_0.conda",
+      "binary_sha256": "216cf2224a81090c15230ff2e6e2a01259ceb70b29da4ef72e64de1fffb0ce22",
+      "feedstock": "https://github.com/conda-forge/clangdev-feedstock",
+      "feedstock_commit": "790b452829aae3c1261820656dab09eb6850b87f",
+      "metadata_license": "Apache-2.0 WITH LLVM-exception",
+      "selected_terms": "Apache-2.0 WITH LLVM-exception; embedded BSD/MIT/NCSA terms",
+      "review": "Exact LLVM 23.1.2 source and conda patches; BLAKE3, regex and other support notices retained.",
+      "notice_files": [
+        {
+          "path": "clang/LICENSE.TXT",
+          "bytes": 15140,
+          "sha256": "ebcd9bbf783a73d05c53ba4d586b8d5813dcdf3bbec50265860ccc885e606f47",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "75788d759e6987a910975b902f554dc77c08b076b945b2cebde54116d8e831ca"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libdeflate-1.25-h1a1d4e4_1",
+      "name": "libdeflate",
+      "version": "1.25",
+      "shipped_files": 10,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libdeflate-1.25-h1a1d4e4_1.conda",
+      "binary_sha256": "af1cda21d4653f594fbef20aa4e1ff158a546902b3307ef8af9a9b44b43862d2",
+      "feedstock": "https://github.com/conda-forge/libdeflate-feedstock",
+      "feedstock_commit": "995dda5e8253e79324b87cb9b2fcf8cd40357ed2",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 1078,
+          "sha256": "4ad69099cb4374836fd27583d9991e2838cd86b6e4666ab26b2d32582c91e73a",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "d11473c1ad4c57d874695e8026865e38b47116bbcb872bfc622ec8f37a86017d"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libexpat-2.8.5-hac47afa_0",
+      "name": "libexpat",
+      "version": "2.8.5",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libexpat-2.8.5-hac47afa_0.conda",
+      "binary_sha256": "70c73d9fd24ad996f2821d1501adae2ca70984b4e2d8faed76227f348ce86078",
+      "feedstock": "https://github.com/conda-forge/expat-feedstock",
+      "feedstock_commit": "8c6a1ae4141ab05eac441c97e5e13d2f58b45eed",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 1144,
+          "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "1e727b8933ec51a77a9a9d9afcf8e688bce45d907c13e36ab7393fe36e703182"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libffi-3.7.0-h3d046cb_1",
+      "name": "libffi",
+      "version": "3.7.0",
+      "shipped_files": 11,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libffi-3.7.0-h3d046cb_1.conda",
+      "binary_sha256": "613e8077c5cca5df7fe84ade7d5050301bee3c6c4c450ffe61d34a349ab4f11c",
+      "feedstock": "https://github.com/conda-forge/libffi-feedstock",
+      "feedstock_commit": "dc557589925d228815625e735ff1e63236d5fcd7",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1132,
+          "sha256": "17b64dc60f3b6897a60f971e288b973f655c2edcdf08b25f3c3dd5549857881c",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "2255c5a638dfb51bf67c20a12a7bb70d17feb1e9eababac05f5573146f586436"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libfreetype-2.14.3-h57928b3_2",
+      "name": "libfreetype",
+      "version": "2.14.3",
+      "shipped_files": 0,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libfreetype-2.14.3-h57928b3_2.conda",
+      "binary_sha256": "d794d7fddb6eea50e18a62fa27ab3819f40d51bad00b90cf4ca591fb0d4006c2",
+      "feedstock": "https://github.com/conda-forge/freetype-feedstock",
+      "feedstock_commit": "3520c4122afde3a5c30609f035de7cc4f501c069",
+      "metadata_license": "GPL-2.0-only OR FTL",
+      "selected_terms": "FTL option and per-file exceptions",
+      "review": "No staged payload files; retain package/recipe identity. Metapackage owns no staged files; DLL obligations on libfreetype6.",
+      "notice_files": [],
+      "source_archive_sha256s": [
+        "e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libfreetype6-2.14.3-hdbac1cb_2",
+      "name": "libfreetype6",
+      "version": "2.14.3",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libfreetype6-2.14.3-hdbac1cb_2.conda",
+      "binary_sha256": "cbc650854003e434d4ff6c7b1a2667e38a4242ad8a391a1c5ff89721624065ce",
+      "feedstock": "https://github.com/conda-forge/freetype-feedstock",
+      "feedstock_commit": "3520c4122afde3a5c30609f035de7cc4f501c069",
+      "metadata_license": "GPL-2.0-only OR FTL",
+      "selected_terms": "FTL option and per-file exceptions",
+      "review": "Include FreeType credit, full FTL and complete nine exception files; fonts/code unmodified.",
+      "notice_files": [],
+      "source_archive_sha256s": [
+        "e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libglib-2.90.0-ha564072_0",
+      "name": "libglib",
+      "version": "2.90.0",
+      "shipped_files": 435,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libglib-2.90.0-ha564072_0.conda",
+      "binary_sha256": "55d9fad9d0884111826500629285dbd35c827e3f2b5fe04b50e3d7d67c71425e",
+      "feedstock": "https://github.com/conda-forge/glib-feedstock",
+      "feedstock_commit": "680d46a6d7a6dae4cb68234c72067a9d20313633",
+      "metadata_license": "LGPL-2.1-or-later",
+      "selected_terms": "LGPL-2.1-or-later; selected LGPL branch for xdgmime",
+      "review": "Only DLLs and LGPL spawn helpers shipped. GPL CI/tests/gettextize scripts absent; preserve corresponding source and recipe patches.",
+      "notice_files": [
+        {
+          "path": "LICENSES/LGPL-2.1-or-later.txt",
+          "bytes": 25967,
+          "sha256": "fa6f36630bb1e0c571d34b2bbdf188d08495c9dbf58f28cac112f303fc1f58fb",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "17d15cac2af80a33271127408e0abc2748eb297c595c2a26409e81e14e7d1b8f"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libharfbuzz-14.5.0-h03b5201_0",
+      "name": "libharfbuzz",
+      "version": "14.5.0",
+      "shipped_files": 8,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libharfbuzz-14.5.0-h03b5201_0.conda",
+      "binary_sha256": "9e9a29fc8bacc2018719a5b18d3b31bffefb7db4a0cf2eb731e2b77293372ebc",
+      "feedstock": "https://github.com/conda-forge/harfbuzz-feedstock",
+      "feedstock_commit": "c370e96fc1dacb79ed86266274c3858734b343f4",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 1971,
+          "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "97ec7488a46b974e18e08ee774af93173e7e1dbf738424796eb315ebcb735ec5"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libhwloc-2.12.2-default_h4379cf1_1000",
+      "name": "libhwloc",
+      "version": "2.12.2",
+      "shipped_files": 541,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libhwloc-2.12.2-default_h4379cf1_1000.conda",
+      "binary_sha256": "8cdf11333a81085468d9aa536ebb155abd74adc293576f6013fc0c85a7a90da3",
+      "feedstock": "https://github.com/conda-forge/libhwloc-feedstock",
+      "feedstock_commit": "16f43203bff377d4b83de898a4d4e67573707ae6",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 2552,
+          "sha256": "d79a936a42f3c6cb7c8375a023d43f4435f4664d3a5a2ea6b4623cff83c7fc06",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "ff7d309fdff7ceddfe15c1e79eaff25f3126a134f29f44d4e85571f187a6bab8"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libiconv-1.18-hc1393d2_3",
+      "name": "libiconv",
+      "version": "1.18",
+      "shipped_files": 7,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libiconv-1.18-hc1393d2_3.conda",
+      "binary_sha256": "35e04e3ddac7720fc7c550a1c9f998604299d6a7bd1f3ec9b2825d825061daa2",
+      "feedstock": "https://github.com/conda-forge/libiconv-feedstock",
+      "feedstock_commit": "c7fdcb1b68d6579a08d0c5dc5f34cbbf38780538",
+      "metadata_license": "LGPL-2.1-only",
+      "selected_terms": "LGPL-2.1-only for library; separate tool licences",
+      "review": "Only library shipped. Exact source and Windows CMake/patch inputs prepared; no GPL command-line program selected.",
+      "notice_files": [
+        {
+          "path": "COPYING.LIB",
+          "bytes": 26419,
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "3b08f5f4f9b4eb82f151a7040bfd6fe6c6fb922efe4b1659c66ea933276965e8"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libintl-0.22.5-h5728263_4",
+      "name": "libintl",
+      "version": "0.22.5",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libintl-0.22.5-h5728263_4.conda",
+      "binary_sha256": "85b50be2209f3b8a873830ec9894477d260f4c7ba9540e65959f5812bf7219f8",
+      "feedstock": "https://github.com/conda-forge/gettext-feedstock",
+      "feedstock_commit": "8e011f31bdfb82ad0e67ae47a8147146db7bba2f",
+      "metadata_license": "LGPL-2.1-or-later",
+      "selected_terms": "LGPL-2.1-or-later for libintl; separate upstream tool licences",
+      "review": "Only libintl library shipped, not gettext GPL command-line tools. Full COPYING.LIB and exact source/eight patches prepared.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 35151,
+          "sha256": "e79e9c8a0c85d735ff98185918ec94ed7d175efc377012787aebcf3b80f0d90b",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "fe10c37353213d78a5b83d48af231e005c4da84db5ce88037d88355938259640"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libjpeg-turbo-3.2.0-hfd05255_1",
+      "name": "libjpeg-turbo",
+      "version": "3.2.0",
+      "shipped_files": 34,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libjpeg-turbo-3.2.0-hfd05255_1.conda",
+      "binary_sha256": "df78ab4c0eecb3dd9331898f96baeed8e5ca1c363346332517abeb0b614b9a53",
+      "feedstock": "https://github.com/conda-forge/libjpeg-turbo-feedstock",
+      "feedstock_commit": "cc922f6dba346613d6c2820d58011f1c6c175e7d",
+      "metadata_license": "IJG AND BSD-3-Clause AND Zlib",
+      "selected_terms": "IJG AND BSD-3-Clause AND Zlib",
+      "review": "Complete README.ijg added alongside LICENSE.md, libspng/zlib and exact original legal comments. Retain IJG acknowledgement and original attribution.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 6077,
+          "sha256": "ba6bceebcba0fdd35488477c2cca8c4632ce82c74dbfbc87d886ce6fc4433579",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "980dd81f425082aa6d7c9e47fef27554ce7a9ffc8e2f6e863b97d263c5c50858"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "liblapack-3.11.0-6_hf9ab0e9_mkl",
+      "name": "liblapack",
+      "version": "3.11.0",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/liblapack-3.11.0-6_hf9ab0e9_mkl.conda",
+      "binary_sha256": "2e6ac39e456ba13ec8f02fc0787b8a22c89780e24bd5556eaf642177463ffb36",
+      "feedstock": "https://github.com/conda-forge/blas-feedstock",
+      "feedstock_commit": "ab5471117bf3cfef3059c24dc8c9cfcf4d606c45",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1521,
+          "sha256": "c52691f010a91c8ef71062f01d62dcef465fd14bd5ff8b47155cee2480c1d844",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "80de7c6e83d1d84d016b4cb299f2c15f5a82b9d36865dd5c16bf221fe9a303ad",
+        "4b9ba79bfd4921ca820e83979db76ab3363155709444a787979e81c22285ffa9"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "liblzma-5.8.3-hfd05255_1",
+      "name": "liblzma",
+      "version": "5.8.3",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/liblzma-5.8.3-hfd05255_1.conda",
+      "binary_sha256": "d36c4a1e1f80fd08e18a407e03622ff2f34dfdd022da6488ad19603dea19e6d5",
+      "feedstock": "https://github.com/conda-forge/xz-feedstock",
+      "feedstock_commit": "bc37fbf54469221332fc589c1404294a159f403b",
+      "metadata_license": "0BSD",
+      "selected_terms": "0BSD for liblzma",
+      "review": "Exact COPYING distinguishes GPL scripts and LGPL getopt from library. Those programs absent in shipped liblzma package.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 3119,
+          "sha256": "616a3ad264ce29b8f1cb97e53037b139d406899ca8d1f799651e17bfa09830b8",
+          "central_copy_matches": true
+        },
+        {
+          "path": "COPYING.0BSD",
+          "bytes": 607,
+          "sha256": "0b01625d853911cd0e2e088dcfb743261034a091bb379246cb25a14cc4c74bf1",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "3d3a1b973af218114f4f889bbaa2f4c037deaae0c8e815eec381c3d546b974a0"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libpng-1.6.58-hdc8cecf_1",
+      "name": "libpng",
+      "version": "1.6.58",
+      "shipped_files": 26,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libpng-1.6.58-hdc8cecf_1.conda",
+      "binary_sha256": "8c49c32adf3ba2c59783630b82377f54ab72204ea99e2bafc90a47a8e25c1032",
+      "feedstock": "https://github.com/conda-forge/libpng-feedstock",
+      "feedstock_commit": "60f3bc443248f84e4ac8a2649db925f8ca3e63f9",
+      "metadata_license": "zlib-acknowledgement",
+      "selected_terms": "zlib-acknowledgement",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 5345,
+          "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "8c9b05b675ca7301a458df2c2e46f26e1d41ff36b8863f8c33530bc58c2e6225"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libpython-3.11.16-hcc31f7b_2_cpython",
+      "name": "libpython",
+      "version": "3.11.16",
+      "shipped_files": 0,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libpython-3.11.16-hcc31f7b_2_cpython.conda",
+      "binary_sha256": "04f062b03acf1ddc4beec719f96e55f1d2e7fb95f5ec9b165a2842fd8f477b59",
+      "feedstock": "https://github.com/conda-forge/python-feedstock",
+      "feedstock_commit": "1caf20aeeafa5cf659e8128db9946f9eaf0edeb5",
+      "metadata_license": "Python-2.0",
+      "selected_terms": "Python-2.0",
+      "review": "No staged payload files; retain package/recipe identity. Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 13936,
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libsqlite-3.53.4-hf5d6505_1",
+      "name": "libsqlite",
+      "version": "3.53.4",
+      "shipped_files": 5,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libsqlite-3.53.4-hf5d6505_1.conda",
+      "binary_sha256": "0a45d7c0f20146fff787a106f8fa187872e309c70975ff8f0936e188914c26ad",
+      "feedstock": "https://github.com/conda-forge/sqlite-feedstock",
+      "feedstock_commit": "37e9bfaa43f70cff05e5a0f6a33235dbd8ed4e95",
+      "metadata_license": "blessing",
+      "selected_terms": "Public-domain dedication/blessing",
+      "review": "Header dedication retained with standalone source-hashed supplement; no missing licence inferred from absent info/licenses.",
+      "notice_files": [],
+      "source_archive_sha256s": [
+        "0e9483900e92cd5de8fd48d16bf9200145a61f7fd5be542a5ac81d8a9516eb9c"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libtiff-4.7.2-h8f73337_1",
+      "name": "libtiff",
+      "version": "4.7.2",
+      "shipped_files": 403,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libtiff-4.7.2-h8f73337_1.conda",
+      "binary_sha256": "3575a092e3e52625a1767804a4ebd321becaadf61b63dcd6735ebb88c0b3c359",
+      "feedstock": "https://github.com/conda-forge/libtiff-feedstock",
+      "feedstock_commit": "69b00df993d8c9571dbd2aa423e50a10f1adfeda",
+      "metadata_license": "HPND",
+      "selected_terms": "HPND",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 2416,
+          "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "672bd7d10aee4606171afb864f3570b83340f6a33e2c186dc0512f7145ffdf6a"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libuhdr-lib-1.4.0-ha41a7fa_2",
+      "name": "libuhdr-lib",
+      "version": "1.4.0",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/libuhdr-lib-1.4.0-ha41a7fa_2.conda",
+      "binary_sha256": "0e9f483d4142356c9f65c89a90e0496752f815557b47901430027484e4f972dd",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0; Adobe Gain Map and embedded BSD attribution",
+      "review": "Original Adobe Gain Map NOTICE retained, plus image_io/modp_b64 notices; test-image CC-BY licence is source-only.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "e7e1252e2c44d8ed6b99ee0f67a3caf2d8a61c43834b13b1c3cd485574c03ab9"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libvulkan-loader-1.4.357.0-h477610d_2",
+      "name": "libvulkan-loader",
+      "version": "1.4.357.0",
+      "shipped_files": 6,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libvulkan-loader-1.4.357.0-h477610d_2.conda",
+      "binary_sha256": "4b094443126c5fc38d200eb0ea335b67e64d966d7aa737bb3141217a787b0c73",
+      "feedstock": "https://github.com/conda-forge/vulkan-loader-feedstock",
+      "feedstock_commit": "e61a610f0e72e4e757be6e27b015b0dc421aaf08",
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11661,
+          "sha256": "43c0a37e6a0fa7ff3c843b3ec5a4fac84b712558ddac103fbd4c1649662a9ece",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "54f2537df22313768da0317dda2abdaaab7711b4081c48c869a79db343d0ae70"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libwebp-base-1.6.0-h4d5522a_1",
+      "name": "libwebp-base",
+      "version": "1.6.0",
+      "shipped_files": 27,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libwebp-base-1.6.0-h4d5522a_1.conda",
+      "binary_sha256": "4470d98d3178b0d45492eed4808afe421d2e7808352b8d06c2dc29166b75d94d",
+      "feedstock": "https://github.com/conda-forge/libwebp-base-feedstock",
+      "feedstock_commit": "b8a54ec0653ea0ac18e509fc889f1fc8f0b90233",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 1496,
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_10",
+      "name": "libwinpthread",
+      "version": "12.0.0.r4.gg4f2fc60ca",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_10.conda",
+      "binary_sha256": "0fccf2d17026255b6e10ace1f191d0a2a18f2d65088fd02430be17c701f8ffe0",
+      "feedstock": "https://github.com/conda-forge/m2w64-sysroot-feedstock",
+      "feedstock_commit": "a4af9fca14ce01a464814f50d39694ddd464ab75",
+      "metadata_license": "MIT AND BSD-3-Clause-Clear",
+      "selected_terms": "MIT AND BSD-3-Clause-Clear; applicable MinGW runtime/ZPL terms",
+      "review": "Exact dc42231f0392f75de72e87ba0170ec60fcc6c10b source and patches; original winpthreads and MinGW runtime notices preserved. Compiler-only tools are separate.",
+      "notice_files": [
+        {
+          "path": "COPYING.MinGW-w64/COPYING.MinGW-w64.txt",
+          "bytes": 5905,
+          "sha256": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1",
+          "central_copy_matches": true
+        },
+        {
+          "path": "mingw-w64-libraries/winpthreads/COPYING",
+          "bytes": 2883,
+          "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "14d20d9cc584af2c72c9cf392cca8792920df96d92369dbe6b12a5a82ada761e"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libxml2-16-2.15.4-h3cfd58e_0",
+      "name": "libxml2-16",
+      "version": "2.15.4",
+      "shipped_files": 4,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libxml2-16-2.15.4-h3cfd58e_0.conda",
+      "binary_sha256": "9fa71cec30425c9cc8eda6af3574af1faf4fefa5e239c9e037b1f778ef3ce8ac",
+      "feedstock": "https://github.com/conda-forge/libxml2-feedstock",
+      "feedstock_commit": "1a38dbff8f5c32a9332c5568055dfbbfe8eb6a99",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "Copyright",
+          "bytes": 1314,
+          "sha256": "5d4873884a890122a4b9b20ad56ac6f7da1d796a5bfcf04a427970ac96217626",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "a569ee9c59eabb197a0d5047046d757ee14c86fb2d4a734555b633cb5584ad25"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libxml2-2.15.4-he095d88_0",
+      "name": "libxml2",
+      "version": "2.15.4",
+      "shipped_files": 2,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libxml2-2.15.4-he095d88_0.conda",
+      "binary_sha256": "a19bb3821830f6b1281e782844d5dd265f796dfed2e4812b16c9995a8c778c88",
+      "feedstock": "https://github.com/conda-forge/libxml2-feedstock",
+      "feedstock_commit": "1a38dbff8f5c32a9332c5568055dfbbfe8eb6a99",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "Copyright",
+          "bytes": 1314,
+          "sha256": "5d4873884a890122a4b9b20ad56ac6f7da1d796a5bfcf04a427970ac96217626",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "a569ee9c59eabb197a0d5047046d757ee14c86fb2d4a734555b633cb5584ad25"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libxslt-1.1.45-ha5384fd_1",
+      "name": "libxslt",
+      "version": "1.1.45",
+      "shipped_files": 39,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libxslt-1.1.45-ha5384fd_1.conda",
+      "binary_sha256": "7a2402fa33b7e4a99bba6250ce21c36269a8acbfcb3652057dce0f4a60b7f6bd",
+      "feedstock": "https://github.com/conda-forge/libxslt-feedstock",
+      "feedstock_commit": "42ac4b8e1341feaeb0656bdf03ec7bfb22b8425f",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "Copyright",
+          "bytes": 2968,
+          "sha256": "7e48e290b6bfccc2ec1b297023a1d77f2fd87417f71fbb9f50aabef40a851819",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "9acfe68419c4d06a45c550321b3212762d92f41465062ca4ea19e632ee5d216e"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "libzlib-1.3.2-hfd05255_3",
+      "name": "libzlib",
+      "version": "1.3.2",
+      "shipped_files": 2,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda",
+      "binary_sha256": "0629c2cc0404d3bb29d6baa7b4ba62da80797015e86de050db81ea5a07050527",
+      "feedstock": "https://github.com/conda-forge/zlib-feedstock",
+      "feedstock_commit": "044fc2361e1c5f1a35c8f417f1434a585e627297",
+      "metadata_license": "Zlib",
+      "selected_terms": "Zlib",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1002,
+          "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "bb329a0a2cd0274d05519d61c667c062e06990d72e125ee2dfa8de64f0119d16"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "llvm-openmp-23.1.2-h49e36cd_0",
+      "name": "llvm-openmp",
+      "version": "23.1.2",
+      "shipped_files": 9,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/llvm-openmp-23.1.2-h49e36cd_0.conda",
+      "binary_sha256": "8b462c021d6bf3f956749d305bd3f52deb82ae2901047c0c7061a21c3550e48f",
+      "feedstock": "https://github.com/conda-forge/openmp-feedstock",
+      "feedstock_commit": "51dc92fc3482102596acb11a86be50b3bb4b315b",
+      "metadata_license": "Apache-2.0 WITH LLVM-exception",
+      "selected_terms": "Apache-2.0 WITH LLVM-exception; Intel ITT and other embedded terms",
+      "review": "Same upstream version via distinct recipe ZIP; original runtime/ITT notices retained. Does not inherit unrelated LLVM tool/test licences.",
+      "notice_files": [
+        {
+          "path": "openmp/LICENSE.TXT",
+          "bytes": 19741,
+          "sha256": "fdad1758a9e1f9d5a81e18879b3406772115edc92c24bfa36b70c654f325e8e4",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "b8bee50081a0374e4f8a8438f80e5441f9010c7a7c054dab5fc91ef446b77cd0"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "lz4-c-1.10.0-h6a83c73_2",
+      "name": "lz4-c",
+      "version": "1.10.0",
+      "shipped_files": 14,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/lz4-c-1.10.0-h6a83c73_2.conda",
+      "binary_sha256": "6824e36be0f95ae516dc36dddd18f69cbad0e4e07906fcb10a5f26a8dc471903",
+      "feedstock": "https://github.com/conda-forge/lz4-c-feedstock",
+      "feedstock_commit": "7739afba01c0c2ec6ce7d9c9fab6c9818d7d6f22",
+      "metadata_license": "BSD-2-Clause",
+      "selected_terms": "BSD-2-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "lib/LICENSE",
+          "bytes": 1311,
+          "sha256": "8b58c446121a109ccf32edc094bba3010a3d85e4ee3702950db55e4d3e87736c",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "materialx-dev-1.39.5-hc84e75f_2",
+      "name": "materialx-dev",
+      "version": "1.39.5",
+      "shipped_files": 132,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/materialx-dev-1.39.5-hc84e75f_2.conda",
+      "binary_sha256": "b237a07ecf64059eba283b4bc3fd0122f52dc180278e7b8831ee2d3c7d9e84b3",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0 and embedded BSD/MIT/other terms",
+      "review": "Exact package Git revision; THIRD-PARTY.md, pybind11, cgltf, TinyObjLoader, Glad and original legal blocks retained.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 10349,
+          "sha256": "6d1d968fb225eca367cb7f0b8831ab012a35d92b547e945e17ef8e7b05c3e5cc",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "268acc44652c56197cdf0fa334c7602261227dfcaa6c965dc9ecb948300a454a"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "materialx-lib-1.39.5-h659f713_2",
+      "name": "materialx-lib",
+      "version": "1.39.5",
+      "shipped_files": 325,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/materialx-lib-1.39.5-h659f713_2.conda",
+      "binary_sha256": "1238c04193e660755aa7e126a9c22157f8e0aedf6cbfb19407131ae774186537",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0 and embedded BSD/MIT/other terms",
+      "review": "Exact package Git revision; THIRD-PARTY.md, pybind11, cgltf, TinyObjLoader, Glad and original legal blocks retained.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 10349,
+          "sha256": "6d1d968fb225eca367cb7f0b8831ab012a35d92b547e945e17ef8e7b05c3e5cc",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "268acc44652c56197cdf0fa334c7602261227dfcaa6c965dc9ecb948300a454a"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "materialx-python-1.39.5-py311h05853af_2",
+      "name": "materialx-python",
+      "version": "1.39.5",
+      "shipped_files": 317,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/materialx-python-1.39.5-py311h05853af_2.conda",
+      "binary_sha256": "365c6bf363058688c5d0c4d1211fd63ed718af8a0d3097810a895e6926edd6a8",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0 and embedded BSD/MIT/other terms",
+      "review": "Exact package Git revision; THIRD-PARTY.md, pybind11, cgltf, TinyObjLoader, Glad and original legal blocks retained.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 10349,
+          "sha256": "6d1d968fb225eca367cb7f0b8831ab012a35d92b547e945e17ef8e7b05c3e5cc",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "268acc44652c56197cdf0fa334c7602261227dfcaa6c965dc9ecb948300a454a"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "materialx-render-1.39.5-ha3ab1ad_2",
+      "name": "materialx-render",
+      "version": "1.39.5",
+      "shipped_files": 351,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/materialx-render-1.39.5-ha3ab1ad_2.conda",
+      "binary_sha256": "defb9428dbb14386dd193cedb273baa53c7c195a7d93bbbd9b20d8934d1e8778",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0 and embedded BSD/MIT/other terms",
+      "review": "Exact package Git revision; THIRD-PARTY.md, pybind11, cgltf, TinyObjLoader, Glad and original legal blocks retained.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 10349,
+          "sha256": "6d1d968fb225eca367cb7f0b8831ab012a35d92b547e945e17ef8e7b05c3e5cc",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "268acc44652c56197cdf0fa334c7602261227dfcaa6c965dc9ecb948300a454a"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "minizip-4.2.2-hdc83b33_1",
+      "name": "minizip",
+      "version": "4.2.2",
+      "shipped_files": 32,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/minizip-4.2.2-hdc83b33_1.conda",
+      "binary_sha256": "ea378e49e567baede08d298f43718f14833f8c0ae6066660e4d6b62f6e936f99",
+      "feedstock": "https://github.com/conda-forge/minizip-feedstock",
+      "feedstock_commit": "c5d0d25d3bc2aff85865d3b06828b77b3d4d0b89",
+      "metadata_license": "Zlib",
+      "selected_terms": "Zlib",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 877,
+          "sha256": "675181c03fc1302a1c8554c00f7be9bb420c5dbc9dcc2013433cec144413de03",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "71af7b9799856d8b03619df3949e9c1be9703f8de0795af71399ba283cb27aac"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "mkl-2025.3.1-hac47afa_13",
+      "name": "mkl",
+      "version": "2025.3.1",
+      "shipped_files": 24,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/mkl-2025.3.1-hac47afa_13.conda",
+      "binary_sha256": "d0ec759eed591693d4b51d9e31f43e9ec701484a012b14f28f5d6fd75317f481",
+      "feedstock": "https://github.com/conda-forge/intel_repack-feedstock",
+      "feedstock_commit": "d147e5e8ff90ee81333e2d1e6fb7d3b2842dc262",
+      "metadata_license": "LicenseRef-IntelSimplifiedSoftwareOct2022",
+      "selected_terms": "Intel Simplified Software License October 2022 and tpp.txt terms",
+      "review": "24 original package files unchanged; binary-only grant permits use/redistribution with notices, no modification/reverse engineering, no endorsement. Intel developer-tools EULA is not substituted for bundled terms.",
+      "notice_files": [
+        {
+          "path": "onemkl-license/info/licenses/license.txt",
+          "bytes": 4105,
+          "sha256": "7721633d0ddff43fae25ebfd405f8166a0ce730cbcec44f2f3ad9d5eb8ac9a6f",
+          "central_copy_matches": true
+        },
+        {
+          "path": "onemkl-license/info/licenses/tpp.txt",
+          "bytes": 65770,
+          "sha256": "6fb57367c2107b8b3347e0e9db10d368c7b9ea898a08132b2f841b24b86f076f",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "numpy-2.4.6-py311h65cb7f3_0",
+      "name": "numpy",
+      "version": "2.4.6",
+      "shipped_files": 1065,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/numpy-2.4.6-py311h65cb7f3_0.conda",
+      "binary_sha256": "cd26f615140d0ed557f8927947ca62c181d55ddbe418eebd24bd06cd32fb3938",
+      "feedstock": "https://github.com/conda-forge/numpy-feedstock",
+      "feedstock_commit": "8835fee674ca24b3e219f66053b3f6995e516d97",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause plus 17 bundled third-party licences",
+      "review": "Exact 2.4.6 source/recipe; all 17 installed licences preserved; dynamically selected MKL has its own Intel terms.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1543,
+          "sha256": "1be1df33863f97a7bc1c4d67980bd6c69c9a6fef0a5ee76e6ad6cb91e56e8491",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "f3a3570c4a2a16746ac2c31a7c7c7b0c186b95ce902e33db6f28094ed7387dda"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "onemkl-license-2025.3.1-h57928b3_13",
+      "name": "onemkl-license",
+      "version": "2025.3.1",
+      "shipped_files": 8,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/onemkl-license-2025.3.1-h57928b3_13.conda",
+      "binary_sha256": "4ca711784724992014a2ba1bfc2e4798182f374d1f11a05f33d636e9f10ca6ca",
+      "feedstock": "https://github.com/conda-forge/intel_repack-feedstock",
+      "feedstock_commit": "d147e5e8ff90ee81333e2d1e6fb7d3b2842dc262",
+      "metadata_license": "LicenseRef-IntelSimplifiedSoftwareOct2022",
+      "selected_terms": "Intel Simplified Software License October 2022 and tpp.txt terms",
+      "review": "Full licence and composite third-party notices copied in runtime and central notices.",
+      "notice_files": [
+        {
+          "path": "onemkl-license/info/licenses/license.txt",
+          "bytes": 4105,
+          "sha256": "7721633d0ddff43fae25ebfd405f8166a0ce730cbcec44f2f3ad9d5eb8ac9a6f",
+          "central_copy_matches": true
+        },
+        {
+          "path": "onemkl-license/info/licenses/tpp.txt",
+          "bytes": 65770,
+          "sha256": "6fb57367c2107b8b3347e0e9db10d368c7b9ea898a08132b2f841b24b86f076f",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "opencolorio-dev-2.5.2-hcad6c6f_1",
+      "name": "opencolorio-dev",
+      "version": "2.5.2",
+      "shipped_files": 13,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/opencolorio-dev-2.5.2-hcad6c6f_1.conda",
+      "binary_sha256": "531439bab0b29ca7030474f55ce228ade87d2b1774eb3a33722b97c7920f07bc",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1485,
+          "sha256": "82a40c52065ee968aa62015735e84378ac11425db7a233e6a2dcd2c83fc24276",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "cb8b0ae38fa523be8f899a0b2d6b8ca8cbcda7bc4322c91d1ac2b6b2a0082474"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "opencolorio-lib-2.5.2-ha41a7fa_1",
+      "name": "opencolorio-lib",
+      "version": "2.5.2",
+      "shipped_files": 2,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/opencolorio-lib-2.5.2-ha41a7fa_1.conda",
+      "binary_sha256": "ef263f1e8b4ea9f1be22289f26631a68b9b1277af008065c546419d81d0d70a6",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1485,
+          "sha256": "82a40c52065ee968aa62015735e84378ac11425db7a233e6a2dcd2c83fc24276",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "cb8b0ae38fa523be8f899a0b2d6b8ca8cbcda7bc4322c91d1ac2b6b2a0082474"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openexr-core-lib-3.4.14-ha41a7fa_1",
+      "name": "openexr-core-lib",
+      "version": "3.4.14",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/openexr-core-lib-3.4.14-ha41a7fa_1.conda",
+      "binary_sha256": "79a46d6d245afceac85cdcbd6ca96753143341713eeb9fe678d74cd50e771d57",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 1501,
+          "sha256": "84853c91d4c2e0310741d4773469d98bb93e61029608e0ba0882a3fffdf330bd",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "174d0d711d963c46eaa7cd2669d6cb1ea52579f43aa2726892f0b9554339ba6b"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openexr-lib-3.4.14-h34d3dfd_1",
+      "name": "openexr-lib",
+      "version": "3.4.14",
+      "shipped_files": 4,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/openexr-lib-3.4.14-h34d3dfd_1.conda",
+      "binary_sha256": "d9406fdef5bcf174a0861f50799e29348aaa8737987011be6621c4bc1ddf1428",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 1501,
+          "sha256": "84853c91d4c2e0310741d4773469d98bb93e61029608e0ba0882a3fffdf330bd",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "174d0d711d963c46eaa7cd2669d6cb1ea52579f43aa2726892f0b9554339ba6b"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openimageio-dev-3.1.17.0-ha2cf85a_0",
+      "name": "openimageio-dev",
+      "version": "3.1.17.0",
+      "shipped_files": 75,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/openimageio-dev-3.1.17.0-ha2cf85a_0.conda",
+      "binary_sha256": "6b3605b0d2f6bf86b2f0ab2269dc349a9020284ba88c74a675db06b8153e6850",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0 and retained BSD/MIT/other terms",
+      "review": "Exact version THIRD-PARTY.md preserves older BSD OIIO/Gelato/OSL and embedded image/hash/header code notices; patch is in complete recipe ZIP.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "92a26c0af4ffc6676d72d9dfe0e991eb45fdf3192abee3d0855a24d6c721b013"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openimageio-lib-3.1.17.0-ha41a7fa_0",
+      "name": "openimageio-lib",
+      "version": "3.1.17.0",
+      "shipped_files": 7,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/openimageio-lib-3.1.17.0-ha41a7fa_0.conda",
+      "binary_sha256": "c35eeb9627398e4d6b58c0ee2d02d471f1068b145914ed550a29fdb0a156fa74",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0 and retained BSD/MIT/other terms",
+      "review": "Exact version THIRD-PARTY.md preserves older BSD OIIO/Gelato/OSL and embedded image/hash/header code notices; patch is in complete recipe ZIP.",
+      "notice_files": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "92a26c0af4ffc6676d72d9dfe0e991eb45fdf3192abee3d0855a24d6c721b013"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openjph-0.31.0-hf13a347_0",
+      "name": "openjph",
+      "version": "0.31.0",
+      "shipped_files": 19,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/openjph-0.31.0-hf13a347_0.conda",
+      "binary_sha256": "37a5104c0adb4bbdccc856dd9458c631fc260da4ba1aaced3fb27b4a08a0c341",
+      "feedstock": "https://github.com/conda-forge/openjph-feedstock",
+      "feedstock_commit": "24c1fbc3ffd452b917978485cd78be0181ebdf99",
+      "metadata_license": "BSD-2-Clause",
+      "selected_terms": "BSD-2-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1448,
+          "sha256": "5ddf5177863dfc9ab65fa129d587db651241f00e21ed2427b218bea997591f98",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "fe169dbbaae71a169a0a6a68dccb346616193252c1ca044217afa0d5d1dc436f"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openssl-3.6.4-hf411b9b_0",
+      "name": "openssl",
+      "version": "3.6.4",
+      "shipped_files": 163,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/openssl-3.6.4-hf411b9b_0.conda",
+      "binary_sha256": "9dddb559ba49744d5d94092d8d13cb0567f5c3b3f439f3acf28433d1f4256acc",
+      "feedstock": "https://github.com/conda-forge/openssl-feedstock",
+      "feedstock_commit": "8d5465a6a4ce539acb53d275df6b992a64902e29",
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 10175,
+          "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "9bffaa1ad1e07b354c21bd3324ec02fa15579f45a7d0494b3e74bc449b7333ef"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "opensubdiv-gpu-dev-3.7.0-h59eb60f_1",
+      "name": "opensubdiv-gpu-dev",
+      "version": "3.7.0",
+      "shipped_files": 87,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/opensubdiv-gpu-dev-3.7.0-h59eb60f_1.conda",
+      "binary_sha256": "3b066efb3498ded75d2944cbae470ce28f1d81a4100877a499c2f20c07358b71",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "LicenseRef-TOSL-1.0",
+      "selected_terms": "TOST-1.0",
+      "review": "Actual original Tomorrow Open Source Technology Licence retained; metadata TOSL spelling is not the licence text.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 10186,
+          "sha256": "9211071ceaea05cec948f44a025ede3030f41506960d68b50e7ddb6edc2abe5b",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "f843eb49daf20264007d807cbc64516a1fed9cdb1149aaf84ff47691d97491f9"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "opensubdiv-gpu-lib-3.7.0-ha41a7fa_1",
+      "name": "opensubdiv-gpu-lib",
+      "version": "3.7.0",
+      "shipped_files": 2,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/opensubdiv-gpu-lib-3.7.0-ha41a7fa_1.conda",
+      "binary_sha256": "2b48e21a93a30e891741aea47e94fec3d42566773d820ee6a10882e90ec16655",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "LicenseRef-TOSL-1.0",
+      "selected_terms": "TOST-1.0",
+      "review": "Actual original Tomorrow Open Source Technology Licence retained; metadata TOSL spelling is not the licence text.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 10186,
+          "sha256": "9211071ceaea05cec948f44a025ede3030f41506960d68b50e7ddb6edc2abe5b",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "f843eb49daf20264007d807cbc64516a1fed9cdb1149aaf84ff47691d97491f9"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openusd-26.08-py311hf55a469_4",
+      "name": "openusd",
+      "version": "26.08",
+      "shipped_files": 3017,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/openusd-26.08-py311hf55a469_4.conda",
+      "binary_sha256": "c9a57f0c50b57675771cd7c89781bf30a24b48307421d259d36ab73c6fbef228",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "TOST-1.0 and embedded third-party terms",
+      "review": "Actual source LICENSE.txt controls over Apache package metadata. Exact NOTICE, Roboto/OFL, embedded deflate/image/XML/hash/utility notices and build patches retained.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 49827,
+          "sha256": "4d6e8e3a9bd0104e10c48e3bc6af2f0976448a70a377d20cef674740f96f4452",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "4bccbb95cddda1dbeef2f74a08b9456352f2aa91bfd4578c0c613009c7950149"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openvdb-dev-13.0.0-h1ee7742_2",
+      "name": "openvdb-dev",
+      "version": "13.0.0",
+      "shipped_files": 176,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/openvdb-dev-13.0.0-h1ee7742_2.conda",
+      "binary_sha256": "1db183df44eadbca03b9788fdaeb08f03639343e8cfe9b4bff34bdb6e51f1697",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 10173,
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+          "central_copy_matches": true
+        },
+        {
+          "path": "RE-LICENSE_NOTE.txt",
+          "bytes": 824,
+          "sha256": "ac78fb9ed20b3276fb7892e81adcc9a1d483feb46a554a4529a40c92779f0744",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "4d6a91df5f347017496fe8d22c3dbb7c4b5d7289499d4eb4d53dd2c75bb454e1"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "openvdb-lib-13.0.0-h659f713_2",
+      "name": "openvdb-lib",
+      "version": "13.0.0",
+      "shipped_files": 1,
+      "binary_url": "https://conda.anaconda.org/anderslanglands/win-64/openvdb-lib-13.0.0-h659f713_2.conda",
+      "binary_sha256": "0865a751e44f578717ac345298b0e36e4b7194c1132aaa7ba9030ed1394a164a",
+      "feedstock": null,
+      "feedstock_commit": null,
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 10173,
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+          "central_copy_matches": true
+        },
+        {
+          "path": "RE-LICENSE_NOTE.txt",
+          "bytes": 824,
+          "sha256": "ac78fb9ed20b3276fb7892e81adcc9a1d483feb46a554a4529a40c92779f0744",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "4d6a91df5f347017496fe8d22c3dbb7c4b5d7289499d4eb4d53dd2c75bb454e1"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "packaging-26.3-pyhc364b38_0",
+      "name": "packaging",
+      "version": "26.3",
+      "shipped_files": 32,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/packaging-26.3-pyhc364b38_0.conda",
+      "binary_sha256": "c432626b16768b8dab228bfb706f7060c2d462a21c516d240f68f2f902b5a044",
+      "feedstock": "https://github.com/conda-forge/packaging-feedstock",
+      "feedstock_commit": "d317fa3536f5e95a1b2ee769599bf471f165e79f",
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 197,
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "pcre2-10.47-h8466c1e_1",
+      "name": "pcre2",
+      "version": "10.47",
+      "shipped_files": 235,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/pcre2-10.47-h8466c1e_1.conda",
+      "binary_sha256": "d8e9ea26b52a09d880d1e5371830c8dd5b4c099a6db64dbdf8236440744b7499",
+      "feedstock": "https://github.com/conda-forge/pcre2-feedstock",
+      "feedstock_commit": "1036df63759c1365071c7531a6e01fcca90f28a1",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 97,
+          "sha256": "99272c55f3dcfa07a8a7e15a5c1a33096e4727de74241d65fa049fccfdd59507",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "409c443549b13b216da40049850a32f3e6c57d4224ab11553ab5a786878a158e",
+        "ea5a6fb45e050f813f070ecaa098fe0389068beea61ac7dce5410a0c642ccfa3"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "pip-26.2.1-pyh8b19718_0",
+      "name": "pip",
+      "version": "26.2.1",
+      "shipped_files": 483,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/pip-26.2.1-pyh8b19718_0.conda",
+      "binary_sha256": "c205bae42eb11b364fe3663a817cbcbc20a8ef544c6b2ff6f391013487117259",
+      "feedstock": "https://github.com/conda-forge/pip-feedstock",
+      "feedstock_commit": "e90f5ef13d4da0781a8980c8ee9f56dfff9ef10e",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT plus bundled third-party terms, including MPL certificate data",
+      "review": "Exact source and vendor notices retained; independent certifi 2026.6.17 PEM matches; generated launcher checked separately.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1093,
+          "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "f6ad667e89a1fe78046c8f13232b247200f5258d7828f3f7883d660878e0813f"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "pixman-0.46.4-h5112557_3",
+      "name": "pixman",
+      "version": "0.46.4",
+      "shipped_files": 5,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/pixman-0.46.4-h5112557_3.conda",
+      "binary_sha256": "cad8b94c2b00264a15d469eed6dc53aac1c59c6d46f27ad1d91bfaf227cf136a",
+      "feedstock": "https://github.com/conda-forge/pixman-feedstock",
+      "feedstock_commit": "aa115040c3fa1c298ba27ed7afb42d6feb4fac28",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 2087,
+          "sha256": "fac9270f0987b96ff4533fca3548c633e02083cbba4a0172a3b149b2e4019793",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "d09c44ebc3bd5bee7021c79f922fe8fb2fb57f7320f55e97ff9914d2346a591c"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "pyopengl-3.1.10-pyh7428d3b_2",
+      "name": "pyopengl",
+      "version": "3.1.10",
+      "shipped_files": 2921,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/pyopengl-3.1.10-pyh7428d3b_2.conda",
+      "binary_sha256": "4e2bd274c9c8d4d934b9e4d791a52cd9885ad5d6718687fef098d1e1d4d1505c",
+      "feedstock": "https://github.com/conda-forge/pyopengl-feedstock",
+      "feedstock_commit": "da66fdf1a84889d4fff46c03361885420b0d4280",
+      "metadata_license": "LicenseRef-pyopengl",
+      "selected_terms": "OpenGL-ctypes and PyOpenGL v3 BSD-style terms",
+      "review": "Full composite original licence retained, no fault-tolerance claim. Source interpreter code remains supplied.",
+      "notice_files": [
+        {
+          "path": "license.txt",
+          "bytes": 11678,
+          "sha256": "d37ec6e00a4f88bf80ec0b7b3b9dbea88534c1c66c2f529dc64c7c02e07a6a1b",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "c4a02d6866b54eb119c8e9b3fb04fa835a95ab802dd96607ab4cdb0012df8335"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "pyside6-6.11.2-py311h700d311_1",
+      "name": "pyside6",
+      "version": "6.11.2",
+      "shipped_files": 472,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/pyside6-6.11.2-py311h700d311_1.conda",
+      "binary_sha256": "43414ea274fe2d89f6e13ca473cf7f5d048c379e904eedf982110cb84d42a689",
+      "feedstock": "https://github.com/conda-forge/pyside2-feedstock",
+      "feedstock_commit": "9f33d21f478203824a1ad2613bc397d5831e75d5",
+      "metadata_license": "LGPL-3.0-only",
+      "selected_terms": "LGPL-3.0-only; embedded terms and independent tool licences",
+      "review": "Use prior Qt/PySide exact-target/attribution matrix, pinned commit, recipes, full source and actual modified-library replacement evidence.",
+      "notice_files": [
+        {
+          "path": "LICENSES/LGPL-3.0-only.txt",
+          "bytes": 7651,
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "b9ccbaba303eb6a471876cb21d7636bc7d24a360b6838d27cf4c8731e0982ecf"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "pystring-1.2.0-h477610d_0",
+      "name": "pystring",
+      "version": "1.2.0",
+      "shipped_files": 8,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/pystring-1.2.0-h477610d_0.conda",
+      "binary_sha256": "ec3f397d0f8d4e60cd1b2c109825a32ad819c9793d30e5c1badee6d3fe54e2bf",
+      "feedstock": "https://github.com/conda-forge/pystring-feedstock",
+      "feedstock_commit": "57b9c91578b43fc9b28e10087a9ca6dd4f5357cb",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1530,
+          "sha256": "f7f060301402ea0b5c507b865b1a9de037d4d7b24f37422a93b70fe9c7a9b78a",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "020a603a757ba1e429f4b1ea6feb3afbe0fb34bcafa355032e1f1b8a0019d198"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "python-3.11.16-hb12b558_2_cpython",
+      "name": "python",
+      "version": "3.11.16",
+      "shipped_files": 1349,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/python-3.11.16-hb12b558_2_cpython.conda",
+      "binary_sha256": "f8c7ba41d2bafe4b9f0be3f8f13a399dae76f5b83e679f63d86a26e8527f7c7a",
+      "feedstock": "https://github.com/conda-forge/python-feedstock",
+      "feedstock_commit": "1caf20aeeafa5cf659e8128db9946f9eaf0edeb5",
+      "metadata_license": "Python-2.0",
+      "selected_terms": "Python-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 13936,
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "python_abi-3.11-9_cp311",
+      "name": "python_abi",
+      "version": "3.11",
+      "shipped_files": 0,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/python_abi-3.11-9_cp311.conda",
+      "binary_sha256": "bcfbad269758f4617035314fe379ee655bc2d9db5282e7a00d61450b7cefa3cf",
+      "feedstock": "https://github.com/conda-forge/python_abi-feedstock",
+      "feedstock_commit": "c51e576b173a1e0e333e8b63f3754f509e10488a",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "No staged payload files; retain package/recipe identity. Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1488,
+          "sha256": "44ef42d743263ebacf7f3d175a940c62959d75af9afd05ef016861e9b4bf2859",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "qt6-main-6.11.2-pl5321hfcac499_0",
+      "name": "qt6-main",
+      "version": "6.11.2",
+      "shipped_files": 9908,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/qt6-main-6.11.2-pl5321hfcac499_0.conda",
+      "binary_sha256": "042c94a5a7a89b0b28a24f6ae6a2d3d609751edab78454057973ec5cc3e77d7d",
+      "feedstock": "https://github.com/conda-forge/qt-main-feedstock",
+      "feedstock_commit": "f5620d9f676339075309eb167bc3bda5e641384f",
+      "metadata_license": "LGPL-3.0-only",
+      "selected_terms": "LGPL-3.0-only for application stack; independent GPL-3.0 tools/Qt exception; embedded terms",
+      "review": "All 70 root Qt DLL targets mapped previously. Designer/QmlCompiler tooling is independently aggregated, not imported/linked into proprietary application stack. Full corresponding Qt source/patches and GPL texts required; AFL-2.1 selected for DBus alternate branch.",
+      "notice_files": [
+        {
+          "path": "LICENSES/LGPL-3.0-only.txt",
+          "bytes": 7651,
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "6dcfbca271d76a6502741a2c0dc6fc98ef7dd0b7b4cfd0abcebb285a86a26f33",
+        "2a0d2f92c60e0962ef5f6039d3793424c6f39e49ba27ac04a5b21ca4ae012e15"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "setuptools-84.0.0-pyh332efcf_0",
+      "name": "setuptools",
+      "version": "84.0.0",
+      "shipped_files": 343,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/setuptools-84.0.0-pyh332efcf_0.conda",
+      "binary_sha256": "9e200ee5f9ff19a4d94e4b51c4856d53dec849f91032f345cf0c6bc3d51a7183",
+      "feedstock": "https://github.com/conda-forge/setuptools-feedstock",
+      "feedstock_commit": "4e095b83d00bd6044ae78d9ffa5e3faacdc28283",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT plus MPL-2.0 schemas/validate-pyproject, BSD fastjsonschema and other vendors",
+      "review": "Exact source/member comparison and complete MPL/NOTICE retained; covered editable source is already shipped.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1023,
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "snappy-1.2.2-h7fa0ca8_2",
+      "name": "snappy",
+      "version": "1.2.2",
+      "shipped_files": 10,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/snappy-1.2.2-h7fa0ca8_2.conda",
+      "binary_sha256": "cb9cb97d7d45eeb12b47eee7649ae6be41e080a5394a42e1467663df734f9971",
+      "feedstock": "https://github.com/conda-forge/snappy-feedstock",
+      "feedstock_commit": "a9057b8bdbb9a3a602a0805a3943bca5d738f4c2",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "COPYING",
+          "bytes": 2645,
+          "sha256": "55172044f7e241207117448a4d9d6ba1d0925c8ad66b5d4c08c70adfa9cc3de6",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "90f74bc1fbf78a6c56b3c4a082a05103b3a56bb17bca1a27e052ea11723292dc"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "tbb-2022.3.0-h3155e25_2",
+      "name": "tbb",
+      "version": "2022.3.0",
+      "shipped_files": 4,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/tbb-2022.3.0-h3155e25_2.conda",
+      "binary_sha256": "abd9a489f059fba85c8ffa1abdaa4d515d6de6a3325238b8e81203b913cf65a9",
+      "feedstock": "https://github.com/conda-forge/tbb-feedstock",
+      "feedstock_commit": "3d1b6d9e8a8d833e4bef73ca8e1da4942149b0b8",
+      "metadata_license": "Apache-2.0",
+      "selected_terms": "Apache-2.0",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "central_copy_matches": true
+        },
+        {
+          "path": "third-party-programs.txt",
+          "bytes": 11631,
+          "sha256": "1634857eb058dce5278c57a832b8974190785145f4be9acdbdb511f3a0c4091c",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "01598a46c1162c27253a0de0236f520fd8ee8166e9ebb84a4243574f88e6e50a"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "tbb-devel-2022.3.0-h68e04fd_2",
+      "name": "tbb-devel",
+      "version": "2022.3.0",
+      "shipped_files": 155,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/tbb-devel-2022.3.0-h68e04fd_2.conda",
+      "binary_sha256": "23ed2218154799160f2a066574fbbeff059432af2b89a555a0cd490586a58c63",
+      "feedstock": "https://github.com/conda-forge/tbb-feedstock",
+      "feedstock_commit": "3d1b6d9e8a8d833e4bef73ca8e1da4942149b0b8",
+      "metadata_license": "",
+      "selected_terms": "Apache-2.0 and third-party-programs.txt",
+      "review": "Blank metadata resolved by exact tbb/devel notice bytes and original Apache headers.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "central_copy_matches": true
+        },
+        {
+          "path": "third-party-programs.txt",
+          "bytes": 11631,
+          "sha256": "1634857eb058dce5278c57a832b8974190785145f4be9acdbdb511f3a0c4091c",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "01598a46c1162c27253a0de0236f520fd8ee8166e9ebb84a4243574f88e6e50a"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "tk-8.6.13-h967ab96_4",
+      "name": "tk",
+      "version": "8.6.13",
+      "shipped_files": 1103,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/tk-8.6.13-h967ab96_4.conda",
+      "binary_sha256": "f19618a3a82cc483dacf1c70a30367ee7b0c7e71b90f1f80e14feff44fbd3688",
+      "feedstock": "https://github.com/conda-forge/tk-feedstock",
+      "feedstock_commit": "6403db0bd9908a477c262cb2f55b662f318c4b1b",
+      "metadata_license": "TCL",
+      "selected_terms": "TCL",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "tcl8.6.13/license.terms",
+          "bytes": 2255,
+          "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "2e65fa069a23365440a3c56c556b8673b5e32a283800d8d9b257e3f584ce0675",
+        "43a1fae7412f61ff11de2cfd05d28cfc3a73762f354a417c62370a54e2caf066"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "tzdata-2026c-h151e31d_0",
+      "name": "tzdata",
+      "version": "2026c",
+      "shipped_files": 606,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda",
+      "binary_sha256": "b928c30ddcb0e3f544c6eade8352737e6e610e263276b90232db6a578ef899d8",
+      "feedstock": "https://github.com/conda-forge/tzdata-feedstock",
+      "feedstock_commit": "39a934dc0811ac7ce7f389d849c2bc3464f2ac33",
+      "metadata_license": "LicenseRef-Public-Domain",
+      "selected_terms": "LicenseRef-Public-Domain",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 252,
+          "sha256": "0613408568889f5739e5ae252b722a2659c02002839ad970a63dc5e9174b27cf",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "e4a178a4477f3d0ea77cc31828ff72aa38feff8d61aa13e7e99e142e9d902be4",
+        "b1cffc3ace4c4c7cd0efba2f7add86ec3d0b79da48bcf03582671fd3c8feace8"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "ucrt-10.0.26100.0-h57928b3_0",
+      "name": "ucrt",
+      "version": "10.0.26100.0",
+      "shipped_files": 92,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda",
+      "binary_sha256": "3005729dce6f3d3f5ec91dfc49fc75a0095f9cd23bab49efb899657297ac91a5",
+      "feedstock": "https://github.com/conda-forge/ucrt-feedstock",
+      "feedstock_commit": "46ee6062622aa89360649331a6ab800265e3ab08",
+      "metadata_license": "LicenseRef-MicrosoftWindowsSDK10",
+      "selected_terms": "Microsoft Windows SDK redistribution terms",
+      "review": "All 92 copies match exact SDK cabinet release-x64 suppliers; retain Windows-only deployment/copyright/notices and protected recipient terms.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 29410,
+          "sha256": "f4589c739597890dd40bccb6bf20632a99c228bdd20cfbf585b5b30c9e61b3fb",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "vc-14.5-ha367084_41",
+      "name": "vc",
+      "version": "14.5",
+      "shipped_files": 0,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/vc-14.5-ha367084_41.conda",
+      "binary_sha256": "35444c55a92e2f7f7ba26bc70f81e56e52344f7d064c0fd4b40a46a58517b79c",
+      "feedstock": "https://github.com/conda-forge/vc-feedstock",
+      "feedstock_commit": "782496c55b64e6f47b592a5efde2dff17fb6af6c",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "Metadata-only package; no staged payload",
+      "review": "No staged payload files; retain package/recipe identity. No staged files. Publisher grant for actual VC DLLs reviewed separately.",
+      "notice_files": [],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "vc14_runtime-14.51.36247-habf1de7_41",
+      "name": "vc14_runtime",
+      "version": "14.51.36247",
+      "shipped_files": 22,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda",
+      "binary_sha256": "4e4cb599cdc41bf2109d1464c127b5bcbddf548ce3e322e612afb691338b48f8",
+      "feedstock": "https://github.com/conda-forge/vc-feedstock",
+      "feedstock_commit": "782496c55b64e6f47b592a5efde2dff17fb6af6c",
+      "metadata_license": "LicenseRef-MicrosoftVisualCpp2015-2022Runtime",
+      "selected_terms": "Microsoft Visual C++ redistribution terms",
+      "review": "All applicable VC/OpenMP copies match signed Community release-x64 suppliers. Publisher Community individual development entitlement/permitted-file list and recipient protections recorded.",
+      "notice_files": [
+        {
+          "path": "LICENSE.DOCX",
+          "bytes": 39553,
+          "sha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783",
+          "central_copy_matches": true
+        },
+        {
+          "path": "LICENSE.RTF",
+          "bytes": 45,
+          "sha256": "9020a331682370e8359e02c5e51762d375896d62f42e33aef331be83255036bc",
+          "central_copy_matches": true
+        },
+        {
+          "path": "LICENSE.TXT",
+          "bytes": 7590,
+          "sha256": "cf89b37107c22cf8ce21043da1da143087b86ce7fd4556f91c25bc429533807e",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "vcomp14-14.51.36247-habf1de7_41",
+      "name": "vcomp14",
+      "version": "14.51.36247",
+      "shipped_files": 2,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/vcomp14-14.51.36247-habf1de7_41.conda",
+      "binary_sha256": "731e043390c9457299484d39e427221fc868a9249540a498a5a4f6456c7744d1",
+      "feedstock": "https://github.com/conda-forge/vc-feedstock",
+      "feedstock_commit": "782496c55b64e6f47b592a5efde2dff17fb6af6c",
+      "metadata_license": "LicenseRef-MicrosoftVisualCpp2015-2022Runtime",
+      "selected_terms": "Microsoft Visual C++ redistribution terms",
+      "review": "Same permitted-file/supplier-byte/publisher entitlement review as VC.",
+      "notice_files": [
+        {
+          "path": "LICENSE.DOCX",
+          "bytes": 39553,
+          "sha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783",
+          "central_copy_matches": true
+        },
+        {
+          "path": "LICENSE.RTF",
+          "bytes": 45,
+          "sha256": "9020a331682370e8359e02c5e51762d375896d62f42e33aef331be83255036bc",
+          "central_copy_matches": true
+        },
+        {
+          "path": "LICENSE.TXT",
+          "bytes": 7590,
+          "sha256": "cf89b37107c22cf8ce21043da1da143087b86ce7fd4556f91c25bc429533807e",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "wheel-0.48.0-pyhd8ed1ab_0",
+      "name": "wheel",
+      "version": "0.48.0",
+      "shipped_files": 22,
+      "binary_url": "https://conda.anaconda.org/conda-forge/noarch/wheel-0.48.0-pyhd8ed1ab_0.conda",
+      "binary_sha256": "ba64b29b6d418024cb565081a1799262cb2780d2534ff4c14f76aa858c4286cd",
+      "feedstock": "https://github.com/conda-forge/wheel-feedstock",
+      "feedstock_commit": "85708da48e09211a9352b49dfab356065cdf45e2",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 1107,
+          "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "94800765601e9171bf5d58d066e640662842bcedcbab982b2c90787a2c987322"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "yaml-cpp-0.8.0-h5112557_1",
+      "name": "yaml-cpp",
+      "version": "0.8.0",
+      "shipped_files": 46,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/yaml-cpp-0.8.0-h5112557_1.conda",
+      "binary_sha256": "643e9f439d6446c28e85f30b089e0fafbc937e57b7443f9e66d1dc2ef6bce6ff",
+      "feedstock": "https://github.com/conda-forge/yaml-cpp-feedstock",
+      "feedstock_commit": "2abed9ce0d2d07c2acf17ecc96919821c74ec24e",
+      "metadata_license": "MIT",
+      "selected_terms": "MIT",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1061,
+          "sha256": "aa6fcc27be034e41e21dd832f9175bfe694a48491d9e14ff0fa278e19ad14f1b",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "fbe74bbdcee21d656715688706da3c8becfd946d92cd44705cc6098bb23b3a16"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "zlib-1.3.2-hfd05255_3",
+      "name": "zlib",
+      "version": "1.3.2",
+      "shipped_files": 15,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/zlib-1.3.2-hfd05255_3.conda",
+      "binary_sha256": "5a0b55df66ff07b4342e04967cef69f8bf348f6a0fb1cc1eca741c7b015dfe77",
+      "feedstock": "https://github.com/conda-forge/zlib-feedstock",
+      "feedstock_commit": "044fc2361e1c5f1a35c8f417f1434a585e627297",
+      "metadata_license": "Zlib",
+      "selected_terms": "Zlib",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1002,
+          "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "bb329a0a2cd0274d05519d61c667c062e06990d72e125ee2dfa8de64f0119d16"
+      ],
+      "engineering_review_complete": true
+    },
+    {
+      "package": "zstd-1.5.7-h534d264_7",
+      "name": "zstd",
+      "version": "1.5.7",
+      "shipped_files": 14,
+      "binary_url": "https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda",
+      "binary_sha256": "ca7daae4f218a11fab82cc2857f0ea518ec3f46acec60490485347a4c22c6b3e",
+      "feedstock": "https://github.com/conda-forge/zstd-feedstock",
+      "feedstock_commit": "24c0f94340c0875e1a3bb815611276850f7cd7ca",
+      "metadata_license": "BSD-3-Clause",
+      "selected_terms": "BSD-3-Clause",
+      "review": "Exact binary paths/supplier hashes reconciled; original package notices and pinned source legal catalogue retained. Embedded notices remain additional to the primary licence.",
+      "notice_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1549,
+          "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8",
+          "central_copy_matches": true
+        }
+      ],
+      "source_archive_sha256s": [
+        "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3"
+      ],
+      "engineering_review_complete": true
+    }
+  ],
+  "generated_launchers": [
+    {
+      "path": "materialx-runtime/Scripts/pip.exe",
+      "sha256": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+      "matches": "mamba 2.9.0 conda_exe byte array",
+      "bytes": 74752
+    },
+    {
+      "path": "materialx-runtime/Scripts/pip-script.py",
+      "sha256": "c165204c6f3eaeead8ed9bed9d0313e8b3419c147c8f88c277a19af019f4630f",
+      "matches": "mamba 2.9.0 python_entry_point_template plus recorded environment shebang",
+      "bytes": 289
+    },
+    {
+      "path": "materialx-runtime/Scripts/pip3.exe",
+      "sha256": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+      "matches": "mamba 2.9.0 conda_exe byte array",
+      "bytes": 74752
+    },
+    {
+      "path": "materialx-runtime/Scripts/pip3-script.py",
+      "sha256": "c165204c6f3eaeead8ed9bed9d0313e8b3419c147c8f88c277a19af019f4630f",
+      "matches": "mamba 2.9.0 python_entry_point_template plus recorded environment shebang",
+      "bytes": 289
+    },
+    {
+      "path": "materialx-runtime/Scripts/wheel.exe",
+      "sha256": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+      "matches": "mamba 2.9.0 conda_exe byte array",
+      "bytes": 74752
+    },
+    {
+      "path": "materialx-runtime/Scripts/wheel-script.py",
+      "sha256": "1c8a3f060398332d6a2ca2b15d649dc6065060a945b624b84d64af3951fc0ce5",
+      "matches": "mamba 2.9.0 python_entry_point_template plus recorded environment shebang",
+      "bytes": 282
+    }
+  ],
+  "additional_component_reviews": [
+    {
+      "components": "Alembic/Imath/Boost.Python/AbcView, ufbx/VDB bridges, resources/HDRIs/presets/theme",
+      "evidence": "redistribution_native_notices_2026-10-08.md",
+      "engineering_review_complete": true
+    },
+    {
+      "components": "cryptography/OpenSSL/cffi/libffi/pycparser, Cargo.lock crates, Rust std",
+      "evidence": "redistribution_payload_review_2026-10-08.md and licence supplements",
+      "engineering_review_complete": true
+    },
+    {
+      "components": "Nuitka 4.2.2 supplier runtime; NSIS zlib/nsExec installer",
+      "evidence": "Native runtime supplier legal blocks, original NSIS-LICENSE.txt; NSIS LZMA not selected",
+      "engineering_review_complete": true
+    }
+  ]
+}

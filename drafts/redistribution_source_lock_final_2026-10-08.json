@@ -1,0 +1,1624 @@
+{
+  "runtime": "rt-2192364560b51c5afc8f7221",
+  "sources": [
+    {
+      "packages": [
+        "ca-certificates"
+      ],
+      "recipe_source": {
+        "url": "https://pypi.org/packages/source/c/certifi/certifi-2026.7.22.tar.gz",
+        "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
+      },
+      "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+      "bytes": 138112,
+      "local_archive": "build/distribution/payload-review-2026-10-08/additional-sources/certifi-2026.7.22.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 1,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "fmt"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/fmtlib/fmt/archive/12.2.0.tar.gz",
+        "sha256": "8b852bb5aa6e7d8564f9e81394055395dd1d1936d38dfd3a17792a02bebd7af0"
+      },
+      "sha256": "8b852bb5aa6e7d8564f9e81394055395dd1d1936d38dfd3a17792a02bebd7af0",
+      "bytes": 738355,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/fmt-8b852bb5aa6e-12.2.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/fmtlib/fmt/archive/12.2.0.tar.gz",
+      "reviewed_license_catalogue": 116,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "bzip2"
+      ],
+      "recipe_source": {
+        "url": "https://gitlab.com/bzip2/bzip2/-/archive/bzip2-1.0.8/bzip2-bzip2-1.0.8.tar.gz",
+        "sha256": "db106b740252669664fd8f3a1c69fe7f689d5cd4b132f82ba82b9afba27627df",
+        "patches": [
+          "patches/0001-cross.patch",
+          "patches/0002-Windows-Make-library-name-lowercase.patch",
+          "patches/0003-Windows-Add-dyn-lib-build-rename-libbz2_static.patch"
+        ]
+      },
+      "sha256": "db106b740252669664fd8f3a1c69fe7f689d5cd4b132f82ba82b9afba27627df",
+      "bytes": 365300,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/bzip2-db106b740252-bzip2-bzip2-1.0.8.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://gitlab.com/bzip2/bzip2/-/archive/bzip2-1.0.8/bzip2-bzip2-1.0.8.tar.gz",
+      "reviewed_license_catalogue": 15,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "blosc"
+      ],
+      "recipe_source": {
+        "sha256": "9fcd60301aae28f97f1301b735f966cc19e7c49b6b4321b839b4579a0c156f38",
+        "url": "https://github.com/Blosc/c-blosc/archive/v1.21.6.tar.gz"
+      },
+      "sha256": "9fcd60301aae28f97f1301b735f966cc19e7c49b6b4321b839b4579a0c156f38",
+      "bytes": 2495309,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/blosc-9fcd60301aae-v1.21.6.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/Blosc/c-blosc/archive/v1.21.6.tar.gz",
+      "reviewed_license_catalogue": 273,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "font-ttf-source-code-pro"
+      ],
+      "recipe_source": {
+        "sha256": "d8f879fefd66ecb7291ea2d73984b9c0a97fb499424e58290ba6b81787d0c725",
+        "url": "https://github.com/adobe-fonts/source-code-pro/archive/refs/tags/2.038R-ro/1.058R-it/1.018R-VAR.tar.gz"
+      },
+      "sha256": "d8f879fefd66ecb7291ea2d73984b9c0a97fb499424e58290ba6b81787d0c725",
+      "bytes": 6818951,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/font-ttf-source-code-pro-d8f879fefd66-1.018R-VAR.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/adobe-fonts/source-code-pro/archive/refs/tags/2.038R-ro/1.058R-it/1.018R-VAR.tar.gz",
+      "reviewed_license_catalogue": 1,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "double-conversion"
+      ],
+      "recipe_source": {
+        "fn": "double-conversion-3.4.0.tar.gz",
+        "url": "https://github.com/google/double-conversion/archive/v3.4.0.tar.gz",
+        "sha256": "42fd4d980ea86426e457b24bdfa835a6f5ad9517ddb01cdb42b99ab9c8dd5dc9"
+      },
+      "sha256": "42fd4d980ea86426e457b24bdfa835a6f5ad9517ddb01cdb42b99ab9c8dd5dc9",
+      "bytes": 7035722,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/double-conversion-42fd4d980ea8-double-conversion-3.4.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/google/double-conversion/archive/v3.4.0.tar.gz",
+      "reviewed_license_catalogue": 42,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "glew"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/nigels-com/glew/releases/download/glew-2.3.0/glew-2.3.0.tgz",
+        "sha256": "b261a06dfc8b970e0a1974488530e58dd2390acf68acb05b45235cd6fb17a086",
+        "patches": null
+      },
+      "sha256": "b261a06dfc8b970e0a1974488530e58dd2390acf68acb05b45235cd6fb17a086",
+      "bytes": 865493,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/glew-b261a06dfc8b-glew-2.3.0.tgz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/nigels-com/glew/releases/download/glew-2.3.0/glew-2.3.0.tgz",
+      "reviewed_license_catalogue": 18,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "font-ttf-dejavu-sans-mono"
+      ],
+      "recipe_source": {
+        "sha256": "5c6e497a2f36552cb5ffb112c413a6af39c0f3c47653662b90b4fa6499822fd7",
+        "url": "https://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-sans-ttf-2.37.zip"
+      },
+      "sha256": "5c6e497a2f36552cb5ffb112c413a6af39c0f3c47653662b90b4fa6499822fd7",
+      "bytes": 417746,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/font-ttf-dejavu-sans-mono-5c6e497a2f36-dejavu-sans-ttf-2.37.zip",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://sourceforge.net/projects/dejavu/files/dejavu/2.37/dejavu-sans-ttf-2.37.zip",
+      "reviewed_license_catalogue": 1,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "font-ttf-inconsolata"
+      ],
+      "recipe_source": {
+        "sha256": "f2d8d8ba6caa785a966ef17996822ab14ba91ec423431a29e1b6c4b14bc4cda5",
+        "url": "https://github.com/googlefonts/Inconsolata/archive/refs/tags/v3.000.tar.gz"
+      },
+      "sha256": "f2d8d8ba6caa785a966ef17996822ab14ba91ec423431a29e1b6c4b14bc4cda5",
+      "bytes": 11420005,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/font-ttf-inconsolata-f2d8d8ba6caa-v3.000.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/googlefonts/Inconsolata/archive/refs/tags/v3.000.tar.gz",
+      "reviewed_license_catalogue": 2,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "graphite2"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/silnrsi/graphite/releases/download/1.3.15/graphite2-1.3.15.tgz",
+        "sha256": "c6bc8b4252724665297f7cad0c55897285c673f9b8e6db3522ace833593fe0b1",
+        "patches": [
+          "001-graphite2-1.3.12-win64.patch",
+          "002-graphite2-1.2.1-pkgconfig.patch",
+          "004-graphite2-1.3.12-dllimport-fix.patch"
+        ]
+      },
+      "sha256": "c6bc8b4252724665297f7cad0c55897285c673f9b8e6db3522ace833593fe0b1",
+      "bytes": 13674849,
+      "local_archive": "build/distribution/third-party-sources-dev4/archives/graphite2-1.3.15.tgz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 135,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "fontconfig"
+      ],
+      "recipe_source": {
+        "url": "https://gitlab.freedesktop.org/api/v4/projects/890/packages/generic/fontconfig/2.18.3/fontconfig-2.18.3.tar.xz",
+        "sha256": "4f7b554a38cdf78c033f666c8871f3749e14a094f65a07f630c91ed0b43d35e3",
+        "patches": [
+          "windows-compat.patch"
+        ]
+      },
+      "sha256": "4f7b554a38cdf78c033f666c8871f3749e14a094f65a07f630c91ed0b43d35e3",
+      "bytes": 1172016,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/fontconfig-4f7b554a38cd-fontconfig-2.18.3.tar.xz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://gitlab.freedesktop.org/api/v4/projects/890/packages/generic/fontconfig/2.18.3/fontconfig-2.18.3.tar.xz",
+      "reviewed_license_catalogue": 159,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "glfw"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/glfw/glfw/archive/3.5.1.tar.gz",
+        "sha256": "5234f4f29473e9a06bc7847d8371858dd135d38466eeeaa652fdc9f8f9ff0c20",
+        "patches": [
+          "patches_for_conda_forge.patch"
+        ]
+      },
+      "sha256": "5234f4f29473e9a06bc7847d8371858dd135d38466eeeaa652fdc9f8f9ff0c20",
+      "bytes": 914248,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/glfw-5234f4f29473-3.5.1.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/glfw/glfw/archive/3.5.1.tar.gz",
+      "reviewed_license_catalogue": 95,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "cairo"
+      ],
+      "recipe_source": {
+        "url": "http://cairographics.org/releases/cairo-1.18.6.tar.xz",
+        "sha256": "1c767308174337a74694da0f3ec069c271452163a1ef4540964c50c301f157d4",
+        "patches": [
+          "meson-darwin-versions.patch",
+          "windows-soversion-continuity.patch"
+        ]
+      },
+      "sha256": "1c767308174337a74694da0f3ec069c271452163a1ef4540964c50c301f157d4",
+      "bytes": 32725456,
+      "local_archive": "build/distribution/third-party-sources-dev4/archives/cairo-1.18.6.tar.xz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 884,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "draco"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/google/draco/archive/1.5.7.tar.gz",
+        "sha256": "bf6b105b79223eab2b86795363dfe5e5356050006a96521477973aba8f036fe1",
+        "patches": [
+          "start-group.patch",
+          "cxx17-filesystem.patch",
+          "tinygltf-fscallbacks.patch",
+          "gltf-utils-cstdint.patch",
+          "cmp0219-macro-backslash.patch",
+          "eigen5-statusor-value-types.patch"
+        ]
+      },
+      "sha256": "bf6b105b79223eab2b86795363dfe5e5356050006a96521477973aba8f036fe1",
+      "bytes": 60465968,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/draco-bf6b105b7922-1.5.7.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/google/draco/archive/1.5.7.tar.gz",
+      "reviewed_license_catalogue": 465,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "imath-dev",
+        "imath-lib"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/AcademySoftwareFoundation/Imath/releases/download/v3.2.2/Imath-3.2.2.tar.gz",
+        "sha256": "0f5a783b424f374e6f27ec8b0c73130e89b08814ac8fa2e84fd7fe0b05862c53"
+      },
+      "sha256": "0f5a783b424f374e6f27ec8b0c73130e89b08814ac8fa2e84fd7fe0b05862c53",
+      "bytes": 680358,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/imath-dev-0f5a783b424f-Imath-3.2.2.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/AcademySoftwareFoundation/Imath/releases/download/v3.2.2/Imath-3.2.2.tar.gz",
+      "reviewed_license_catalogue": 274,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "icu"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-sources.tgz",
+        "sha256": "3a2e7a47604ba702f345878308e6fefeca612ee895cf4a5f222e7955fabfe0c0",
+        "patches": [
+          "icu4c-4_9_1-mingw-w64-mkdir-compatibility.patch",
+          "icu-config.patch",
+          "no-libm-pkgconfig-win.patch"
+        ]
+      },
+      "sha256": "3a2e7a47604ba702f345878308e6fefeca612ee895cf4a5f222e7955fabfe0c0",
+      "bytes": 27977255,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/icu-3a2e7a47604b-icu4c-78.3-sources.tgz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-sources.tgz",
+      "reviewed_license_catalogue": 3276,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "lerc"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/Esri/lerc/archive/v4.2.0.tar.gz",
+        "sha256": "a1fb593ed1fcb5b38800caf3c4454f872745202e961d00d745e53d81447e17c9"
+      },
+      "sha256": "a1fb593ed1fcb5b38800caf3c4454f872745202e961d00d745e53d81447e17c9",
+      "bytes": 4059752,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/lerc-a1fb593ed1fc-v4.2.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/Esri/lerc/archive/v4.2.0.tar.gz",
+      "reviewed_license_catalogue": 34,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "embree"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/RenderKit/embree/archive/refs/tags/v4.4.1.tar.gz",
+        "sha256": "dcf338cc61b636c871ccf370e673bfd380c5ecb71ce49ad50f28e1d4ec9995dc",
+        "patches": [
+          "use-conda-forge-ABI.patch"
+        ]
+      },
+      "sha256": "dcf338cc61b636c871ccf370e673bfd380c5ecb71ce49ad50f28e1d4ec9995dc",
+      "bytes": 70605063,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/embree-dcf338cc61b6-v4.4.1.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/RenderKit/embree/archive/refs/tags/v4.4.1.tar.gz",
+      "reviewed_license_catalogue": 683,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libblas",
+        "libcblas",
+        "liblapack"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/isuruf/vecLibFort/archive/99af8640e98c829b41c3235e3706760cd5696fe4.tar.gz",
+        "sha256": "80de7c6e83d1d84d016b4cb299f2c15f5a82b9d36865dd5c16bf221fe9a303ad",
+        "folder": "vecLibFort"
+      },
+      "sha256": "80de7c6e83d1d84d016b4cb299f2c15f5a82b9d36865dd5c16bf221fe9a303ad",
+      "bytes": 10052,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libblas-80de7c6e83d1-99af8640e98c829b41c3235e3706760cd5696fe4.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/isuruf/vecLibFort/archive/99af8640e98c829b41c3235e3706760cd5696fe4.tar.gz",
+      "reviewed_license_catalogue": 4,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "krb5"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/krb5/krb5/archive/krb5-1.22.2-final.tar.gz",
+        "sha256": "289f5bb81d1f2f8d5eecebe56a056aeed95d35fd9bb4a7071c5dd7ad4b3fe888",
+        "patches": [
+          "patches/0001-fix-windows-arm64-cross-build.patch"
+        ]
+      },
+      "sha256": "289f5bb81d1f2f8d5eecebe56a056aeed95d35fd9bb4a7071c5dd7ad4b3fe888",
+      "bytes": 4683231,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/krb5-289f5bb81d1f-krb5-1.22.2-final.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/krb5/krb5/archive/krb5-1.22.2-final.tar.gz",
+      "reviewed_license_catalogue": 1418,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libbrotlicommon",
+        "libbrotlidec",
+        "libbrotlienc"
+      ],
+      "recipe_source": {
+        "fn": "brotli-1.2.0.tar.gz",
+        "url": "https://github.com/google/brotli/archive/v1.2.0.tar.gz",
+        "sha256": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec"
+      },
+      "sha256": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec",
+      "bytes": 646315,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libbrotlicommon-816c96e8e8f1-brotli-1.2.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/google/brotli/archive/v1.2.0.tar.gz",
+      "reviewed_license_catalogue": 108,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libdeflate"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/ebiggers/libdeflate/archive/v1.25.tar.gz",
+        "sha256": "d11473c1ad4c57d874695e8026865e38b47116bbcb872bfc622ec8f37a86017d"
+      },
+      "sha256": "d11473c1ad4c57d874695e8026865e38b47116bbcb872bfc622ec8f37a86017d",
+      "bytes": 197494,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libdeflate-d11473c1ad4c-v1.25.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/ebiggers/libdeflate/archive/v1.25.tar.gz",
+      "reviewed_license_catalogue": 39,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libfreetype",
+        "libfreetype6"
+      ],
+      "recipe_source": {
+        "url": "https://download.savannah.gnu.org/releases/freetype/freetype-2.14.3.tar.gz",
+        "sha256": "e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1"
+      },
+      "sha256": "e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1",
+      "bytes": 4134916,
+      "local_archive": "build/distribution/third-party-sources-dev4/archives/freetype-2.14.3.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 533,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "icu"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-data.zip",
+        "sha256": "9d8b3899096aeb83e4e21ef8a40fec9e03b28db18c48452efac882ce25a91e27",
+        "target_directory": "icu-data-src"
+      },
+      "sha256": "9d8b3899096aeb83e4e21ef8a40fec9e03b28db18c48452efac882ce25a91e27",
+      "bytes": 20187983,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/icu-9d8b3899096a-icu4c-78.3-data.zip",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/unicode-org/icu/releases/download/release-78.3/icu4c-78.3-data.zip",
+      "reviewed_license_catalogue": 4510,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libexpat"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_8_5/expat-2.8.5.tar.xz",
+        "sha256": "1e727b8933ec51a77a9a9d9afcf8e688bce45d907c13e36ab7393fe36e703182"
+      },
+      "sha256": "1e727b8933ec51a77a9a9d9afcf8e688bce45d907c13e36ab7393fe36e703182",
+      "bytes": 528380,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libexpat-1e727b8933ec-expat-2.8.5.tar.xz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/libexpat/libexpat/releases/download/R_2_8_5/expat-2.8.5.tar.xz",
+      "reviewed_license_catalogue": 130,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libffi"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/libffi/libffi/releases/download/v3.7.0/libffi-3.7.0.tar.gz",
+        "sha256": "2255c5a638dfb51bf67c20a12a7bb70d17feb1e9eababac05f5573146f586436",
+        "patches": [
+          "0001-arm64-use-a-dedicated-dylib-for-trampolines-so-it-ca.patch",
+          "0002-Add-support-for-ffi_find_closure_for_code_np-on-Appl.patch",
+          "0003-define-extend_hfa_type-with-inline-assembly-for-clan.patch",
+          "0004-Don-t-define-FFI_COMPLEX_TYPEDEF-ifndef-FFI_TARGET_H.patch"
+        ]
+      },
+      "sha256": "2255c5a638dfb51bf67c20a12a7bb70d17feb1e9eababac05f5573146f586436",
+      "bytes": 1508891,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libffi-2255c5a638df-libffi-3.7.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/libffi/libffi/releases/download/v3.7.0/libffi-3.7.0.tar.gz",
+      "reviewed_license_catalogue": 129,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libiconv"
+      ],
+      "recipe_source": {
+        "url": "http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.18.tar.gz",
+        "sha256": "3b08f5f4f9b4eb82f151a7040bfd6fe6c6fb922efe4b1659c66ea933276965e8",
+        "patches": [
+          "CMakeLists.txt.patch",
+          "config.h.patch",
+          "configure.cmake.patch"
+        ]
+      },
+      "sha256": "3b08f5f4f9b4eb82f151a7040bfd6fe6c6fb922efe4b1659c66ea933276965e8",
+      "bytes": 5822590,
+      "local_archive": "build/distribution/third-party-sources-dev4/archives/libiconv-1.18.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 444,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libglib"
+      ],
+      "recipe_source": {
+        "url": "https://download.gnome.org/sources/glib/2.90/glib-2.90.0.tar.xz",
+        "sha256": "17d15cac2af80a33271127408e0abc2748eb297c595c2a26409e81e14e7d1b8f",
+        "patches": [
+          "patches/0001-Remove-hard-coded-paths.patch",
+          "patches/0002-crossplatform-test-tweaks.patch",
+          "patches/0004-Manually-link-with-libiconv-whenever-we-use-libintl..patch",
+          "patches/0005-Increase-some-test-timeouts.patch"
+        ]
+      },
+      "sha256": "17d15cac2af80a33271127408e0abc2748eb297c595c2a26409e81e14e7d1b8f",
+      "bytes": 5830480,
+      "local_archive": "build/distribution/third-party-sources-dev4/archives/glib-2.90.0.tar.xz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 1347,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libblas",
+        "libcblas",
+        "liblapack"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/Reference-LAPACK/lapack/archive/v3.11.0.tar.gz",
+        "sha256": "4b9ba79bfd4921ca820e83979db76ab3363155709444a787979e81c22285ffa9",
+        "patches": [
+          "patches/0001-Test-BLAS-and-LAPACKE-in-addition-to-LAPACK.patch",
+          "patches/0002-read-pipe-as-binary.patch",
+          "patches/0003-add-DLL-import-export-machinery-for-RowMajorStrg.patch",
+          "patches/0004-fixed-bug-in-array-bounds-in-complex-syl01-test.patch",
+          "patches/0005-Use-dynamic-allocation-in-SYL01-tests.patch"
+        ]
+      },
+      "sha256": "4b9ba79bfd4921ca820e83979db76ab3363155709444a787979e81c22285ffa9",
+      "bytes": 7723808,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libblas-4b9ba79bfd49-v3.11.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/Reference-LAPACK/lapack/archive/v3.11.0.tar.gz",
+      "reviewed_license_catalogue": 2655,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libjpeg-turbo"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/3.2.0.tar.gz",
+        "sha256": "980dd81f425082aa6d7c9e47fef27554ce7a9ffc8e2f6e863b97d263c5c50858"
+      },
+      "sha256": "980dd81f425082aa6d7c9e47fef27554ce7a9ffc8e2f6e863b97d263c5c50858",
+      "bytes": 2537858,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libjpeg-turbo-980dd81f4250-3.2.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/3.2.0.tar.gz",
+      "reviewed_license_catalogue": 349,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libhwloc"
+      ],
+      "recipe_source": {
+        "url": "https://www.open-mpi.org/software/hwloc/v2.12/downloads/hwloc-2.12.2.tar.gz",
+        "sha256": "ff7d309fdff7ceddfe15c1e79eaff25f3126a134f29f44d4e85571f187a6bab8"
+      },
+      "sha256": "ff7d309fdff7ceddfe15c1e79eaff25f3126a134f29f44d4e85571f187a6bab8",
+      "bytes": 6185554,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libhwloc-ff7d309fdff7-hwloc-2.12.2.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://www.open-mpi.org/software/hwloc/v2.12/downloads/hwloc-2.12.2.tar.gz",
+      "reviewed_license_catalogue": 241,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "liblzma"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/tukaani-project/xz/releases/download/v5.8.3/xz-5.8.3.tar.gz",
+        "sha256": "3d3a1b973af218114f4f889bbaa2f4c037deaae0c8e815eec381c3d546b974a0"
+      },
+      "sha256": "3d3a1b973af218114f4f889bbaa2f4c037deaae0c8e815eec381c3d546b974a0",
+      "bytes": 2771455,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/liblzma-3d3a1b973af2-xz-5.8.3.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/tukaani-project/xz/releases/download/v5.8.3/xz-5.8.3.tar.gz",
+      "reviewed_license_catalogue": 310,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libpng"
+      ],
+      "recipe_source": {
+        "url": "https://downloads.sourceforge.net/project/libpng/libpng16/1.6.58/libpng-1.6.58.tar.gz",
+        "sha256": "8c9b05b675ca7301a458df2c2e46f26e1d41ff36b8863f8c33530bc58c2e6225",
+        "patches": [
+          "patches/0001-Include-pkg-config-files-in-the-Windows-packages-too.patch",
+          "patches/0002-Ensure-that-lm-is-not-included-in-Windows-pkg-config.patch"
+        ]
+      },
+      "sha256": "8c9b05b675ca7301a458df2c2e46f26e1d41ff36b8863f8c33530bc58c2e6225",
+      "bytes": 1582074,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libpng-8c9b05b675ca-libpng-1.6.58.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://downloads.sourceforge.net/project/libpng/libpng16/1.6.58/libpng-1.6.58.tar.gz",
+      "reviewed_license_catalogue": 145,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libharfbuzz"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/harfbuzz/harfbuzz/archive/14.5.0.tar.gz",
+        "sha256": "97ec7488a46b974e18e08ee774af93173e7e1dbf738424796eb315ebcb735ec5",
+        "patches": [
+          "patches/0001-Revert-meson-fix-generating-introspection.patch"
+        ]
+      },
+      "sha256": "97ec7488a46b974e18e08ee774af93173e7e1dbf738424796eb315ebcb735ec5",
+      "bytes": 38777964,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libharfbuzz-97ec7488a46b-14.5.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/harfbuzz/harfbuzz/archive/14.5.0.tar.gz",
+      "reviewed_license_catalogue": 303,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libsqlite"
+      ],
+      "recipe_source": {
+        "url": "https://www.sqlite.org/2026/sqlite-autoconf-3530400.tar.gz",
+        "sha256": "0e9483900e92cd5de8fd48d16bf9200145a61f7fd5be542a5ac81d8a9516eb9c"
+      },
+      "sha256": "0e9483900e92cd5de8fd48d16bf9200145a61f7fd5be542a5ac81d8a9516eb9c",
+      "bytes": 3283177,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libsqlite-0e9483900e92-sqlite-autoconf-3530400.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://www.sqlite.org/2026/sqlite-autoconf-3530400.tar.gz",
+      "reviewed_license_catalogue": 38,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libuhdr-lib"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/google/libultrahdr/archive/refs/tags/v1.4.0.tar.gz",
+        "sha256": "e7e1252e2c44d8ed6b99ee0f67a3caf2d8a61c43834b13b1c3cd485574c03ab9",
+        "patches": [
+          "add-cstdint.patch",
+          "pkg-config-shared-cflags.patch"
+        ]
+      },
+      "sha256": "e7e1252e2c44d8ed6b99ee0f67a3caf2d8a61c43834b13b1c3cd485574c03ab9",
+      "bytes": 1375424,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libuhdr-lib-e7e1252e2c44-v1.4.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/google/libultrahdr/archive/refs/tags/v1.4.0.tar.gz",
+      "reviewed_license_catalogue": 59,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libpython",
+        "python"
+      ],
+      "recipe_source": {
+        "url": "https://www.python.org/ftp/python/3.11.16/Python-3.11.16.tar.xz",
+        "sha256": "91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+        "patches": [
+          "patches/0001-Win32-Change-FD_SETSIZE-from-512-to-2048.patch",
+          "patches/0002-Win32-distutils-Add-support-to-cygwinccompiler-for-V.patch",
+          "patches/0003-bpo-45258-search-for-isysroot-in-addition-to-sysroot.patch",
+          "patches/0004-runtime_library_dir_option-Use-1st-word-of-CC-as-com.patch",
+          "patches/0005-Win32-Do-not-download-externals.patch",
+          "patches/0006-Fix-find_library-so-that-it-looks-in-sys.prefix-lib-.patch",
+          "patches/0007-bpo-22699-Allow-compiling-on-debian-ubuntu-with-a-di.patch",
+          "patches/0008-Disable-registry-lookup-unless-CONDA_PY_ALLOW_REG_PA.patch",
+          "patches/0009-Unvendor-openssl.patch",
+          "patches/0010-Unvendor-sqlite3.patch",
+          "patches/0011-Use-ranlib-from-env-if-env-variable-is-set.patch",
+          "patches/0012-Add-CondaEcosystemModifyDllSearchPath.patch",
+          "patches/0013-Add-d1trimfile-SRC_DIR-to-make-pdbs-more-relocatable.patch",
+          "patches/0014-Doing-d1trimfile.patch",
+          "patches/0015-cross-compile-darwin.patch",
+          "patches/0016-Fix-TZPATH-on-windows.patch",
+          "patches/0017-Make-dyld-search-work-with-SYSTEM_VERSION_COMPAT-1.patch",
+          "patches/0018-Fix-LDSHARED-when-CC-is-overriden-on-Linux-too.patch",
+          "patches/0019-Unvendor-bzip2.patch",
+          "patches/0020-Unvendor-libffi.patch",
+          "patches/0021-Unvendor-tcltk.patch",
+          "patches/0022-unvendor-xz.patch",
+          "patches/0023-unvendor-zlib.patch",
+          "patches/0024-Do-not-pass-g-to-GCC-when-not-Py_DEBUG.patch",
+          "patches/0025-Unvendor-expat.patch",
+          "patches/0026-Do-not-define-pid_t-as-it-might-conflict-with-the-ac.patch"
+        ]
+      },
+      "sha256": "91bcdebfdde239a003ae93738a7fce0f9230fee5c4bc2b86f6e6e8c6f98aabe8",
+      "bytes": 20328716,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libpython-91bcdebfdde2-Python-3.11.16.tar.xz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://www.python.org/ftp/python/3.11.16/Python-3.11.16.tar.xz",
+      "reviewed_license_catalogue": 348,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libvulkan-loader"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/vulkan-sdk-1.4.357.0.tar.gz",
+        "sha256": "54f2537df22313768da0317dda2abdaaab7711b4081c48c869a79db343d0ae70",
+        "patches": [
+          "disable_macos_framework.patch",
+          "dedup_icds_by_library_handle.patch"
+        ]
+      },
+      "sha256": "54f2537df22313768da0317dda2abdaaab7711b4081c48c869a79db343d0ae70",
+      "bytes": 1820868,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libvulkan-loader-54f2537df223-vulkan-sdk-1.4.357.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/vulkan-sdk-1.4.357.0.tar.gz",
+      "reviewed_license_catalogue": 140,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libwebp-base"
+      ],
+      "recipe_source": {
+        "url": "http://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+        "sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564"
+      },
+      "sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+      "bytes": 4296070,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libwebp-base-e4ab7009bf06-libwebp-1.6.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+      "reviewed_license_catalogue": 277,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libintl"
+      ],
+      "recipe_source": {
+        "url": "https://ftp.gnu.org/pub/gnu/gettext/gettext-0.22.5.tar.xz",
+        "sha256": "fe10c37353213d78a5b83d48af231e005c4da84db5ce88037d88355938259640",
+        "patches": [
+          "0001-Mark-v-snprintf-as-available.patch",
+          "0002-Prevent-libtool-from-worrying-about-dependent-librar.patch",
+          "0003-Fix-some-DLL-export-markings-in-libintl.patch",
+          "0004-Fix-quoting-when-invoking-windres.patch",
+          "0005-CXXLD-is-not-a-thing.patch",
+          "0006-Work-around-Unixisms-in-libgettextpo.patch",
+          "0007-Add-missing-extern-C-protectors.patch",
+          "0008-Avoid-close-inconsistencies.patch"
+        ]
+      },
+      "sha256": "fe10c37353213d78a5b83d48af231e005c4da84db5ce88037d88355938259640",
+      "bytes": 10270724,
+      "local_archive": "build/distribution/third-party-sources-dev4/archives/gettext-0.22.5.tar.xz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 3565,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libtiff"
+      ],
+      "recipe_source": {
+        "url": "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.gz",
+        "sha256": "672bd7d10aee4606171afb864f3570b83340f6a33e2c186dc0512f7145ffdf6a",
+        "patches": [
+          "patches/use_unix_io.patch"
+        ]
+      },
+      "sha256": "672bd7d10aee4606171afb864f3570b83340f6a33e2c186dc0512f7145ffdf6a",
+      "bytes": 4083368,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libtiff-672bd7d10aee-tiff-4.7.2.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.gz",
+      "reviewed_license_catalogue": 203,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libxslt"
+      ],
+      "recipe_source": {
+        "url": "https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.45.tar.xz",
+        "sha256": "9acfe68419c4d06a45c550321b3212762d92f41465062ca4ea19e632ee5d216e",
+        "patches": [
+          "0001-Make-and-install-a-pkg-config-file-on-Windows.patch",
+          "0002-win-profiler-config.patch"
+        ]
+      },
+      "sha256": "9acfe68419c4d06a45c550321b3212762d92f41465062ca4ea19e632ee5d216e",
+      "bytes": 1519992,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libxslt-9acfe68419c4-libxslt-1.1.45.tar.xz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.45.tar.xz",
+      "reviewed_license_catalogue": 100,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libzlib",
+        "zlib"
+      ],
+      "recipe_source": {
+        "url": [
+          "http://zlib.net/zlib-1.3.2.tar.gz",
+          "https://gnupg.org/ftp/gcrypt/zlib/zlib-1.3.2.tar.gz"
+        ],
+        "sha256": "bb329a0a2cd0274d05519d61c667c062e06990d72e125ee2dfa8de64f0119d16"
+      },
+      "sha256": "bb329a0a2cd0274d05519d61c667c062e06990d72e125ee2dfa8de64f0119d16",
+      "bytes": 1502830,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libzlib-bb329a0a2cd0-zlib-1.3.2.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://zlib.net/zlib-1.3.2.tar.gz",
+      "reviewed_license_catalogue": 71,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "lz4-c"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/lz4/lz4/archive/v1.10.0.tar.gz",
+        "sha256": "537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b"
+      },
+      "sha256": "537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b",
+      "bytes": 387114,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/lz4-c-537512904744-v1.10.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/lz4/lz4/archive/v1.10.0.tar.gz",
+      "reviewed_license_catalogue": 56,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "minizip"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/zlib-ng/minizip-ng/archive/4.2.2/minizip-4.2.2.tar.gz",
+        "sha256": "71af7b9799856d8b03619df3949e9c1be9703f8de0795af71399ba283cb27aac",
+        "patches": [
+          "win_patch_output_name.patch",
+          "gtest_shared_main.patch"
+        ]
+      },
+      "sha256": "71af7b9799856d8b03619df3949e9c1be9703f8de0795af71399ba283cb27aac",
+      "bytes": 611941,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/minizip-71af7b979985-minizip-4.2.2.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/zlib-ng/minizip-ng/archive/4.2.2/minizip-4.2.2.tar.gz",
+      "reviewed_license_catalogue": 63,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libxml2-16",
+        "libxml2"
+      ],
+      "recipe_source": {
+        "url": "https://gitlab.gnome.org/GNOME/libxml2/-/archive/v2.15.4/libxml2-v2.15.4.tar.gz",
+        "sha256": "a569ee9c59eabb197a0d5047046d757ee14c86fb2d4a734555b633cb5584ad25"
+      },
+      "sha256": "a569ee9c59eabb197a0d5047046d757ee14c86fb2d4a734555b633cb5584ad25",
+      "bytes": 2965695,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libxml2-16-a569ee9c59ea-libxml2-v2.15.4.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://gitlab.gnome.org/GNOME/libxml2/-/archive/v2.15.4/libxml2-v2.15.4.tar.gz",
+      "reviewed_license_catalogue": 136,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "opencolorio-dev",
+        "opencolorio-lib"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/AcademySoftwareFoundation/OpenColorIO/releases/download/v2.5.2/OpenColorIO-2.5.2.tar.gz",
+        "sha256": "cb8b0ae38fa523be8f899a0b2d6b8ca8cbcda7bc4322c91d1ac2b6b2a0082474"
+      },
+      "sha256": "cb8b0ae38fa523be8f899a0b2d6b8ca8cbcda7bc4322c91d1ac2b6b2a0082474",
+      "bytes": 14134611,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/opencolorio-dev-cb8b0ae38fa5-OpenColorIO-2.5.2.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/AcademySoftwareFoundation/OpenColorIO/releases/download/v2.5.2/OpenColorIO-2.5.2.tar.gz",
+      "reviewed_license_catalogue": 973,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "numpy"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/numpy/numpy/releases/download/v2.4.6/numpy-2.4.6.tar.gz",
+        "sha256": "f3a3570c4a2a16746ac2c31a7c7c7b0c186b95ce902e33db6f28094ed7387dda",
+        "patches": [
+          "patches/0001-avoid-backslashes-from-sneaking-into-__config__.py.patch"
+        ]
+      },
+      "sha256": "f3a3570c4a2a16746ac2c31a7c7c7b0c186b95ce902e33db6f28094ed7387dda",
+      "bytes": 20735807,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/numpy-f3a3570c4a2a-numpy-2.4.6.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/numpy/numpy/releases/download/v2.4.6/numpy-2.4.6.tar.gz",
+      "reviewed_license_catalogue": 629,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libwinpthread"
+      ],
+      "recipe_source": {
+        "git_url": "https://github.com/mingw-w64/mingw-w64",
+        "git_rev": "dc42231f0",
+        "patches": [
+          "0001-Allow-to-use-bessel-and-complex-functions-without-un.patch",
+          "0002-heades-add-full-name-winrt.patch",
+          "0003-use-pthread_compat.h-in-sched.h.patch"
+        ]
+      },
+      "sha256": "14d20d9cc584af2c72c9cf392cca8792920df96d92369dbe6b12a5a82ada761e",
+      "bytes": 14474097,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libwinpthread-dc42231f0-dc42231f0392f75de72e87ba0170ec60fcc6c10b.tar.gz",
+      "git_commit": "dc42231f0392f75de72e87ba0170ec60fcc6c10b",
+      "alternative_archive": false,
+      "download_url": "https://github.com/mingw-w64/mingw-w64/archive/dc42231f0392f75de72e87ba0170ec60fcc6c10b.tar.gz",
+      "reviewed_license_catalogue": 2364,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "openexr-core-lib",
+        "openexr-lib"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/AcademySoftwareFoundation/openexr/releases/download/v3.4.14/openexr-3.4.14.tar.gz",
+        "sha256": "174d0d711d963c46eaa7cd2669d6cb1ea52579f43aa2726892f0b9554339ba6b"
+      },
+      "sha256": "174d0d711d963c46eaa7cd2669d6cb1ea52579f43aa2726892f0b9554339ba6b",
+      "bytes": 25838337,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/openexr-core-lib-174d0d711d96-openexr-3.4.14.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/AcademySoftwareFoundation/openexr/releases/download/v3.4.14/openexr-3.4.14.tar.gz",
+      "reviewed_license_catalogue": 848,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "openjph"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/aous72/OpenJPH/archive/0.31.0.tar.gz",
+        "sha256": "fe169dbbaae71a169a0a6a68dccb346616193252c1ca044217afa0d5d1dc436f",
+        "patches": [
+          "windows_lib_so_name.patch",
+          "fix_aarch_old_stdlibc.patch"
+        ]
+      },
+      "sha256": "fe169dbbaae71a169a0a6a68dccb346616193252c1ca044217afa0d5d1dc436f",
+      "bytes": 534814,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/openjph-fe169dbbaae7-0.31.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/aous72/OpenJPH/archive/0.31.0.tar.gz",
+      "reviewed_license_catalogue": 101,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "openimageio-dev",
+        "openimageio-lib"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/AcademySoftwareFoundation/OpenImageIO/archive/refs/tags/v3.1.17.0.tar.gz",
+        "sha256": "92a26c0af4ffc6676d72d9dfe0e991eb45fdf3192abee3d0855a24d6c721b013",
+        "patches": [
+          "patches/cmake-4-private-plugin-linking.patch"
+        ]
+      },
+      "sha256": "92a26c0af4ffc6676d72d9dfe0e991eb45fdf3192abee3d0855a24d6c721b013",
+      "bytes": 56133013,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/openimageio-dev-92a26c0af4ff-v3.1.17.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/AcademySoftwareFoundation/OpenImageIO/archive/refs/tags/v3.1.17.0.tar.gz",
+      "reviewed_license_catalogue": 649,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "materialx-dev",
+        "materialx-lib",
+        "materialx-python",
+        "materialx-render"
+      ],
+      "recipe_source": {
+        "git": "https://github.com/AcademySoftwareFoundation/MaterialX.git",
+        "rev": "7b64921ef1d42f2d57871e9d2c43dc11f041f26b",
+        "patches": [
+          "patches/fix-render-slang-gcc15.patch"
+        ]
+      },
+      "sha256": "268acc44652c56197cdf0fa334c7602261227dfcaa6c965dc9ecb948300a454a",
+      "bytes": 115121691,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/materialx-dev-7b64921ef1d4-7b64921ef1d42f2d57871e9d2c43dc11f041f26b.tar.gz",
+      "git_commit": "7b64921ef1d42f2d57871e9d2c43dc11f041f26b",
+      "alternative_archive": false,
+      "download_url": "https://github.com/AcademySoftwareFoundation/MaterialX/archive/7b64921ef1d42f2d57871e9d2c43dc11f041f26b.tar.gz",
+      "reviewed_license_catalogue": 590,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "openvdb-dev",
+        "openvdb-lib"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/AcademySoftwareFoundation/openvdb/archive/refs/tags/v13.0.0.tar.gz",
+        "sha256": "4d6a91df5f347017496fe8d22c3dbb7c4b5d7289499d4eb4d53dd2c75bb454e1"
+      },
+      "sha256": "4d6a91df5f347017496fe8d22c3dbb7c4b5d7289499d4eb4d53dd2c75bb454e1",
+      "bytes": 4891966,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/openvdb-dev-4d6a91df5f34-v13.0.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/AcademySoftwareFoundation/openvdb/archive/refs/tags/v13.0.0.tar.gz",
+      "reviewed_license_catalogue": 799,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "packaging"
+      ],
+      "recipe_source": {
+        "url": "https://pypi.org/packages/source/p/packaging/packaging-26.3.tar.gz",
+        "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79"
+      },
+      "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79",
+      "bytes": 313412,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/packaging-94edc256424a-packaging-26.3.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://pypi.org/packages/source/p/packaging/packaging-26.3.tar.gz",
+      "reviewed_license_catalogue": 5,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "pcre2"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/PCRE2Project/pcre2/archive/refs/tags/pcre2-10.47.tar.gz",
+        "sha256": "409c443549b13b216da40049850a32f3e6c57d4224ab11553ab5a786878a158e"
+      },
+      "sha256": "409c443549b13b216da40049850a32f3e6c57d4224ab11553ab5a786878a158e",
+      "bytes": 3354275,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/pcre2-409c443549b1-pcre2-10.47.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/PCRE2Project/pcre2/archive/refs/tags/pcre2-10.47.tar.gz",
+      "reviewed_license_catalogue": 86,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "opensubdiv-gpu-dev",
+        "opensubdiv-gpu-lib"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/archive/refs/tags/v3_7_0.tar.gz",
+        "sha256": "f843eb49daf20264007d807cbc64516a1fed9cdb1149aaf84ff47691d97491f9"
+      },
+      "sha256": "f843eb49daf20264007d807cbc64516a1fed9cdb1149aaf84ff47691d97491f9",
+      "bytes": 40736075,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/opensubdiv-gpu-dev-f843eb49daf2-v3_7_0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/PixarAnimationStudios/OpenSubdiv/archive/refs/tags/v3_7_0.tar.gz",
+      "reviewed_license_catalogue": 573,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "pcre2"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/zherczeg/sljit/archive/45f910b78c6605ebf5b53d3ec7cb00f2312fe417.tar.gz",
+        "sha256": "ea5a6fb45e050f813f070ecaa098fe0389068beea61ac7dce5410a0c642ccfa3",
+        "folder": "deps/sljit"
+      },
+      "sha256": "ea5a6fb45e050f813f070ecaa098fe0389068beea61ac7dce5410a0c642ccfa3",
+      "bytes": 1437951,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/pcre2-ea5a6fb45e05-45f910b78c6605ebf5b53d3ec7cb00f2312fe417.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/zherczeg/sljit/archive/45f910b78c6605ebf5b53d3ec7cb00f2312fe417.tar.gz",
+      "reviewed_license_catalogue": 47,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "pixman"
+      ],
+      "recipe_source": {
+        "url": "http://cairographics.org/releases/pixman-0.46.4.tar.gz",
+        "sha256": "d09c44ebc3bd5bee7021c79f922fe8fb2fb57f7320f55e97ff9914d2346a591c",
+        "patches": [
+          "meson-darwin-versions.patch"
+        ]
+      },
+      "sha256": "d09c44ebc3bd5bee7021c79f922fe8fb2fb57f7320f55e97ff9914d2346a591c",
+      "bytes": 827198,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/pixman-d09c44ebc3bd-pixman-0.46.4.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://cairographics.org/releases/pixman-0.46.4.tar.gz",
+      "reviewed_license_catalogue": 65,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "pip"
+      ],
+      "recipe_source": {
+        "url": "https://pypi.org/packages/source/p/pip/pip-26.2.1.tar.gz",
+        "sha256": "f6ad667e89a1fe78046c8f13232b247200f5258d7828f3f7883d660878e0813f"
+      },
+      "sha256": "f6ad667e89a1fe78046c8f13232b247200f5258d7828f3f7883d660878e0813f",
+      "bytes": 1848877,
+      "local_archive": "build/distribution/payload-review-2026-10-08/additional-sources/pip-26.2.1.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 45,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "pyside6"
+      ],
+      "recipe_source": {
+        "git": "https://github.com/qtproject/pyside-pyside-setup.git",
+        "rev": "refs/tags/v6.11.2",
+        "patches": [
+          "patches/pyi_osx.patch",
+          "patches/qfp_osx.patch",
+          "patches/do_not_store_build_time_compiler.patch",
+          "patches/tools.patch",
+          "patches/d252378.patch",
+          "patches/71c4d17.patch"
+        ]
+      },
+      "sha256": "b9ccbaba303eb6a471876cb21d7636bc7d24a360b6838d27cf4c8731e0982ecf",
+      "bytes": 20903618,
+      "local_archive": "build/distribution/third-party-sources-dev4/archives/pyside-setup-6.11.2-24627cd.tar.gz",
+      "git_commit": "24627cd36e1593adf22eb1f2950e4248e7bcc1ec",
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": null,
+      "previous_review": "docs/redistribution_qt_ms_review_2026-10-08.md"
+    },
+    {
+      "packages": [
+        "pystring"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/imageworks/pystring/archive/refs/tags/v1.2.0.tar.gz",
+        "sha256": "020a603a757ba1e429f4b1ea6feb3afbe0fb34bcafa355032e1f1b8a0019d198",
+        "patches": [
+          "fix_cmake_win.patch"
+        ]
+      },
+      "sha256": "020a603a757ba1e429f4b1ea6feb3afbe0fb34bcafa355032e1f1b8a0019d198",
+      "bytes": 24794,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/pystring-020a603a757b-v1.2.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/imageworks/pystring/archive/refs/tags/v1.2.0.tar.gz",
+      "reviewed_license_catalogue": 6,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "qt6-main"
+      ],
+      "recipe_source": {
+        "url": "https://ftp.fau.de/qtproject/official_releases/qt/6.11/6.11.2/single/qt-everywhere-src-6.11.2.tar.xz",
+        "md5": "669c1f3a41c37fdda389094882044d7a",
+        "patches": [
+          "patches/0003-qtbase-use-better-clang-optimize-size.patch",
+          "patches/0015-qt6-conf-osx.patch",
+          "patches/0020-remove-qt-host-path-check-in-cross-compiled-builds.patch",
+          "patches/0025-fix-qlibraryinfo-prefixpath-windows.patch",
+          "patches/0034-specpath-macos.patch",
+          "patches/0040-qttools-concurrent.patch"
+        ]
+      },
+      "sha256": "6dcfbca271d76a6502741a2c0dc6fc98ef7dd0b7b4cfd0abcebb285a86a26f33",
+      "bytes": 1019661552,
+      "local_archive": "build/distribution/third-party-sources-dev4/archives/qt-everywhere-src-6.11.2.tar.xz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": null,
+      "previous_review": "docs/redistribution_qt_ms_review_2026-10-08.md"
+    },
+    {
+      "packages": [
+        "qt6-main"
+      ],
+      "recipe_source": {
+        "url": "https://download.qt.io/development_releases/prebuilt/llvmpipe/windows/opengl32sw-64-mesa_12_0_rc2.7z",
+        "sha256": "2a0d2f92c60e0962ef5f6039d3793424c6f39e49ba27ac04a5b21ca4ae012e15",
+        "target_directory": "opengl32sw"
+      },
+      "sha256": "2a0d2f92c60e0962ef5f6039d3793424c6f39e49ba27ac04a5b21ca4ae012e15",
+      "bytes": 5093800,
+      "local_archive": "build/distribution/qt-ms-review-2026-10-08/opengl32sw-64-mesa_12_0_rc2.7z",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": null,
+      "previous_review": "docs/redistribution_qt_ms_review_2026-10-08.md"
+    },
+    {
+      "packages": [
+        "setuptools"
+      ],
+      "recipe_source": {
+        "url": "https://pypi.org/packages/source/s/setuptools/setuptools-84.0.0.tar.gz",
+        "sha256": "f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73",
+        "patches": [
+          "patches/0021-Add-d1trimfile-SRC_DIR-to-make-pdbs-more-relocatable.patch"
+        ]
+      },
+      "sha256": "f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73",
+      "bytes": 1168449,
+      "local_archive": "build/distribution/payload-review-2026-10-08/additional-sources/setuptools-84.0.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": null,
+      "reviewed_license_catalogue": 30,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "pyopengl"
+      ],
+      "recipe_source": {
+        "url": "https://pypi.org/packages/source/p/pyopengl/pyopengl-3.1.10.tar.gz",
+        "sha256": "c4a02d6866b54eb119c8e9b3fb04fa835a95ab802dd96607ab4cdb0012df8335"
+      },
+      "sha256": "c4a02d6866b54eb119c8e9b3fb04fa835a95ab802dd96607ab4cdb0012df8335",
+      "bytes": 1915580,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/pyopengl-c4a02d6866b5-pyopengl-3.1.10.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://pypi.org/packages/source/p/pyopengl/pyopengl-3.1.10.tar.gz",
+      "reviewed_license_catalogue": 2,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "snappy"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/google/snappy/archive/1.2.2.tar.gz",
+        "sha256": "90f74bc1fbf78a6c56b3c4a082a05103b3a56bb17bca1a27e052ea11723292dc",
+        "patches": [
+          "patches/0001-change-static-lib-output-name-on-windows.patch",
+          "patches/0002-Unbundle-gtest.patch",
+          "patches/0003-Disable-BMI2.patch",
+          "patches/0004-cmake-add-option-to-enable-disable-RTTI.patch",
+          "patches/0005-Omit-Werror-during-compilation.patch"
+        ]
+      },
+      "sha256": "90f74bc1fbf78a6c56b3c4a082a05103b3a56bb17bca1a27e052ea11723292dc",
+      "bytes": 1108618,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/snappy-90f74bc1fbf7-1.2.2.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/google/snappy/archive/1.2.2.tar.gz",
+      "reviewed_license_catalogue": 20,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "openssl"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/openssl/openssl/releases/download/openssl-3.6.4/openssl-3.6.4.tar.gz",
+        "sha256": "9bffaa1ad1e07b354c21bd3324ec02fa15579f45a7d0494b3e74bc449b7333ef"
+      },
+      "sha256": "9bffaa1ad1e07b354c21bd3324ec02fa15579f45a7d0494b3e74bc449b7333ef",
+      "bytes": 55003802,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/openssl-9bffaa1ad1e0-openssl-3.6.4.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/openssl/openssl/releases/download/openssl-3.6.4/openssl-3.6.4.tar.gz",
+      "reviewed_license_catalogue": 2318,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "tk"
+      ],
+      "recipe_source": {
+        "url": "https://downloads.sourceforge.net/tcl/tk8.6.13-src.tar.gz",
+        "sha256": "2e65fa069a23365440a3c56c556b8673b5e32a283800d8d9b257e3f584ce0675",
+        "target_directory": "tk8.6.13"
+      },
+      "sha256": "2e65fa069a23365440a3c56c556b8673b5e32a283800d8d9b257e3f584ce0675",
+      "bytes": 4546848,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/tk-2e65fa069a23-tk8.6.13-src.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://downloads.sourceforge.net/tcl/tk8.6.13-src.tar.gz",
+      "reviewed_license_catalogue": 286,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "tzdata"
+      ],
+      "recipe_source": {
+        "url": "https://data.iana.org/time-zones/releases/tzdata2026c.tar.gz",
+        "sha256": "e4a178a4477f3d0ea77cc31828ff72aa38feff8d61aa13e7e99e142e9d902be4"
+      },
+      "sha256": "e4a178a4477f3d0ea77cc31828ff72aa38feff8d61aa13e7e99e142e9d902be4",
+      "bytes": 475694,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/tzdata-e4a178a4477f-tzdata2026c.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://data.iana.org/time-zones/releases/tzdata2026c.tar.gz",
+      "reviewed_license_catalogue": 1,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "tbb",
+        "tbb-devel"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/oneapi-src/oneTBB/archive/refs/tags/v2022.3.0.tar.gz",
+        "sha256": "01598a46c1162c27253a0de0236f520fd8ee8166e9ebb84a4243574f88e6e50a"
+      },
+      "sha256": "01598a46c1162c27253a0de0236f520fd8ee8166e9ebb84a4243574f88e6e50a",
+      "bytes": 6836514,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/tbb-01598a46c116-v2022.3.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/oneapi-src/oneTBB/archive/refs/tags/v2022.3.0.tar.gz",
+      "reviewed_license_catalogue": 813,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "wheel"
+      ],
+      "recipe_source": {
+        "url": "https://files.pythonhosted.org/packages/source/w/wheel/wheel-0.48.0.tar.gz",
+        "sha256": "94800765601e9171bf5d58d066e640662842bcedcbab982b2c90787a2c987322"
+      },
+      "sha256": "94800765601e9171bf5d58d066e640662842bcedcbab982b2c90787a2c987322",
+      "bytes": 66471,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/wheel-94800765601e-wheel-0.48.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://files.pythonhosted.org/packages/source/w/wheel/wheel-0.48.0.tar.gz",
+      "reviewed_license_catalogue": 2,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "yaml-cpp"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/jbeder/yaml-cpp/archive/refs/tags/0.8.0.tar.gz",
+        "sha256": "fbe74bbdcee21d656715688706da3c8becfd946d92cd44705cc6098bb23b3a16",
+        "patches": [
+          "add-cstdint-include.patch"
+        ]
+      },
+      "sha256": "fbe74bbdcee21d656715688706da3c8becfd946d92cd44705cc6098bb23b3a16",
+      "bytes": 1017151,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/yaml-cpp-fbe74bbdcee2-0.8.0.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/jbeder/yaml-cpp/archive/refs/tags/0.8.0.tar.gz",
+      "reviewed_license_catalogue": 195,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "tzdata"
+      ],
+      "recipe_source": {
+        "url": "https://data.iana.org/time-zones/releases/tzcode2026c.tar.gz",
+        "sha256": "b1cffc3ace4c4c7cd0efba2f7add86ec3d0b79da48bcf03582671fd3c8feace8",
+        "target_directory": "tzcode"
+      },
+      "sha256": "b1cffc3ace4c4c7cd0efba2f7add86ec3d0b79da48bcf03582671fd3c8feace8",
+      "bytes": 325445,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/tzdata-b1cffc3ace4c-tzcode2026c.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://data.iana.org/time-zones/releases/tzcode2026c.tar.gz",
+      "reviewed_license_catalogue": 4,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "zstd"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/facebook/zstd/archive/v1.5.7.tar.gz",
+        "sha256": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3"
+      },
+      "sha256": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3",
+      "bytes": 2451884,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/zstd-37d7284556b2-v1.5.7.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/facebook/zstd/archive/v1.5.7.tar.gz",
+      "reviewed_license_catalogue": 368,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "tk"
+      ],
+      "recipe_source": {
+        "url": "https://downloads.sourceforge.net/tcl/tcl8.6.13-src.tar.gz",
+        "sha256": "43a1fae7412f61ff11de2cfd05d28cfc3a73762f354a417c62370a54e2caf066",
+        "target_directory": "tcl8.6.13"
+      },
+      "sha256": "43a1fae7412f61ff11de2cfd05d28cfc3a73762f354a417c62370a54e2caf066",
+      "bytes": 10834396,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/tk-43a1fae7412f-tcl8.6.13-src.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://downloads.sourceforge.net/tcl/tcl8.6.13-src.tar.gz",
+      "reviewed_license_catalogue": 537,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "openusd"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/PixarAnimationStudios/OpenUSD/archive/refs/tags/v26.08.tar.gz",
+        "sha256": "4bccbb95cddda1dbeef2f74a08b9456352f2aa91bfd4578c0c613009c7950149",
+        "patches": [
+          "link-python-to-executables.patch",
+          "find-prefix-python-in-config.patch"
+        ]
+      },
+      "sha256": "4bccbb95cddda1dbeef2f74a08b9456352f2aa91bfd4578c0c613009c7950149",
+      "bytes": 158807126,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/openusd-4bccbb95cddd-v26.08.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/PixarAnimationStudios/OpenUSD/archive/refs/tags/v26.08.tar.gz",
+      "reviewed_license_catalogue": 7098,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "font-ttf-ubuntu"
+      ],
+      "recipe_source": {
+        "sha256": "61a2b342526fd552f19fef438bb9211a8212de19ad96e32a1209c039f1d68ecf",
+        "url": "https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-0.83.zip"
+      },
+      "sha256": "1a96df0ea32bf88278ce9d24c3a31e4c3d31f4397ff7a3af6622dc488b0b830a",
+      "bytes": 8126028,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/ubuntu-font-family-sources_0.83.orig.tar.gz",
+      "git_commit": null,
+      "alternative_archive": true,
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-font-family-sources/ubuntu-font-family-sources_0.83.orig.tar.gz",
+      "reviewed_license_catalogue": 3,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libclang13"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/llvm/llvm-project/archive/refs/tags/llvmorg-23.1.2.tar.gz",
+        "sha256": "75788d759e6987a910975b902f554dc77c08b076b945b2cebde54116d8e831ca",
+        "patches": [
+          "patches/0001-Find-conda-gcc-installation.patch",
+          "patches/0002-Fix-sysroot-detection-for-linux.patch",
+          "patches/0003-clang-add-conda-specific-env-var-CONDA_BUILD_SYSROOT.patch",
+          "patches/0004-Fix-normalizeProgramName-s-handling-of-dots-outside-.patch",
+          "patches/0005-set-libclang-SOVERSION-unconditionally.patch",
+          "patches/0006-Make-PIE-default-on-macOS-too.patch",
+          "patches/0007-Find-ROCm-device-library-in-conda-layout.patch",
+          "patches/0008-Add-conda-mingw-paths.patch",
+          "patches/0009-Look-for-libLTO.dylib-in-the-versioned-ResourceDir.patch"
+        ],
+        "filter": [
+          "cmake/*",
+          "clang/*",
+          "clang-tools-extra/*"
+        ]
+      },
+      "sha256": "75788d759e6987a910975b902f554dc77c08b076b945b2cebde54116d8e831ca",
+      "bytes": 277460508,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libclang13-75788d759e69-llvmorg-23.1.2.tar.gz",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/llvm/llvm-project/archive/refs/tags/llvmorg-23.1.2.tar.gz",
+      "reviewed_license_catalogue": 41608,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "libboost",
+        "libboost-devel",
+        "libboost-headers"
+      ],
+      "recipe_source": {
+        "url": "https://archives.boost.io/release/1.91.0/source/boost_1_91_0.tar.bz2",
+        "sha256": "de5e6b0e4913395c6bdfa90537febd9028ea4c0735d2cdb0cd9b45d5f51264f5",
+        "patches": [
+          "patches/0001-Add-default-value-for-cxx-and-cxxflags-options-for-t.patch"
+        ]
+      },
+      "sha256": "de5e6b0e4913395c6bdfa90537febd9028ea4c0735d2cdb0cd9b45d5f51264f5",
+      "bytes": 204579466,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/libboost-de5e6b0e4913-boost_1_91_0.tar.bz2",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://archives.boost.io/release/1.91.0/source/boost_1_91_0.tar.bz2",
+      "reviewed_license_catalogue": 42688,
+      "previous_review": null
+    },
+    {
+      "packages": [
+        "llvm-openmp"
+      ],
+      "recipe_source": {
+        "url": "https://github.com/llvm/llvm-project/archive/refs/tags/llvmorg-23.1.2.zip",
+        "sha256": "b8bee50081a0374e4f8a8438f80e5441f9010c7a7c054dab5fc91ef446b77cd0",
+        "patches": [
+          "patches/0001-don-t-build-z_Linux_asm.S-with-MSVC-ensure-__kmp_inv.patch"
+        ]
+      },
+      "sha256": "b8bee50081a0374e4f8a8438f80e5441f9010c7a7c054dab5fc91ef446b77cd0",
+      "bytes": 374095584,
+      "local_archive": "build/distribution/dependency-final-review-2026-10-08/archives/llvm-openmp-b8bee50081a0-llvmorg-23.1.2.zip",
+      "git_commit": null,
+      "alternative_archive": false,
+      "download_url": "https://github.com/llvm/llvm-project/archive/refs/tags/llvmorg-23.1.2.zip",
+      "reviewed_license_catalogue": 41608,
+      "previous_review": null
+    }
+  ],
+  "public_delivery_complete": false
+}

@@ -74,3 +74,16 @@ exactes et 1 159 fichiers de recettes sont préparés localement. Ces complémen
 ne sont pas dans l'installateur dev.6 existant ; intégration sous une nouvelle
 version et revue restante précèdent la publication. Aucun binaire ni archive
 de sources n'est publié ici. Les deux dépôts restent privés.
+
+
+Revue locale des dépendances embarquées terminée : 104 paquets évalués,
+six lanceurs rapprochés exactement de leur fournisseur, 81 déclarations de
+sources vérifiées. Le complément natif conserve 15 406 documents/blocs de
+notices originaux avec leurs empreintes ; neuf parties lisibles passent les
+lecteurs français et anglais. Le manifeste vérifie tous les compléments et
+les membres des ZIP avant intégration. Le bilan et la matrice sont dans drafts.
+
+Ces ajouts exigent un nouvel installateur ; dev.6 existant est inchangé.
+La livraison publique des sources requises reste à faire. L'essai sur un autre
+PC est différé par l'éditeur, indépendamment de la revue des dépendances.
+Les deux dépôts restent privés, sans release ni binaire publié. Gumroad inchangé.

@@ -66,6 +66,16 @@ installing or using the software. These Microsoft-specific restrictions do not
 restrict the modification, replacement or debugging rights for LGPL libraries
 or any other third-party rights described above.
 
+## Intel MKL runtime components
+
+The included Intel MKL components retain the Intel Simplified Software License
+(October 2022) and their accompanying third-party notices. They are supplied in
+unmodified binary form. Their terms prohibit modification, reverse engineering,
+decompilation and disassembly, and use of Intel or supplier names to imply
+endorsement. Keep the complete Intel terms and notices with any permitted copy.
+Separately licensed third-party components retain their own rights; these Intel
+conditions do not restrict the modification or debugging of LGPL libraries.
+
 ## Preview, support and responsibility
 
 SceneScope is a development preview. Format and exporter support varies;

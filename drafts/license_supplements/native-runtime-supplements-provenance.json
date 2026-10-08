@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "path": "Native-runtime-rt-2192364560b51c5afc8f7221-notices.zip",
+      "bytes": 12345076,
+      "sha256": "0d8c60e4f2de86797a10c9ac0f582264a9f3aaca4bb6b280e576d604ec9a77fa"
+    },
+    {
+      "path": "Native-runtime-NOTICES-01.txt",
+      "bytes": 1799652,
+      "sha256": "0b84ecbeaf71b228f3fdca9f71c6891f6460178d01ae2d729d22f7c385f5eda8"
+    },
+    {
+      "path": "Native-runtime-NOTICES-02.txt",
+      "bytes": 1798492,
+      "sha256": "abf807630e18f7e6670faaa9e74dc54132b8e98b90f4649ba77276a090d0599d"
+    },
+    {
+      "path": "Native-runtime-NOTICES-03.txt",
+      "bytes": 1800120,
+      "sha256": "e32574ef879e1881f25b6cfc05ac486de32fa1998524c3df7323e3c8e1fa1497"
+    },
+    {
+      "path": "Native-runtime-NOTICES-04.txt",
+      "bytes": 1800119,
+      "sha256": "6066ae6d7351e3265d9a31c583cb5f8de8bc6d4ee0524fab4ddfaed2c0444178"
+    },
+    {
+      "path": "Native-runtime-NOTICES-05.txt",
+      "bytes": 1799806,
+      "sha256": "8296c69edc986149fca787320d2bdc8a3e5e151601ded323610dc9d31e1f1e66"
+    },
+    {
+      "path": "Native-runtime-NOTICES-06.txt",
+      "bytes": 1800239,
+      "sha256": "d16ad4004556fca1b70d50183e3edd362a87b77a672642a911cfb94189bbd1ce"
+    },
+    {
+      "path": "Native-runtime-NOTICES-07.txt",
+      "bytes": 1799921,
+      "sha256": "c137b67bd7625184c8b5ac9bae9c2250d47220ca72824f590988a37906a3345e"
+    },
+    {
+      "path": "Native-runtime-NOTICES-08.txt",
+      "bytes": 1799763,
+      "sha256": "26941122f8e705dba3561129eb3d29f93088cafc44d951777b47b0895e3c7f0b"
+    },
+    {
+      "path": "Native-runtime-NOTICES-09.txt",
+      "bytes": 1768533,
+      "sha256": "ed5f080528e53f13718e692251b9b60be785c2b2f7938ed119cebb7214b5ee86"
+    }
+  ],
+  "original_legal_members": 15406,
+  "source_archive_declarations": 81,
+  "members_by_family": {
+    "blosc": 120,
+    "bzip2": 3,
+    "ca-certificates": 1,
+    "cairo": 215,
+    "double-conversion": 4,
+    "draco": 391,
+    "embree": 6,
+    "fmt": 21,
+    "font-ttf-dejavu-sans-mono": 1,
+    "font-ttf-inconsolata": 2,
+    "font-ttf-source-code-pro": 1,
+    "font-ttf-ubuntu": 3,
+    "fontconfig": 84,
+    "glew": 5,
+    "glfw": 40,
+    "graphite2": 18,
+    "icu": 1389,
+    "imath-dev": 28,
+    "krb5": 444,
+    "lerc": 8,
+    "libblas": 2463,
+    "libboost": 6,
+    "libbrotlicommon": 13,
+    "libclang13": 277,
+    "libdeflate": 39,
+    "libexpat": 69,
+    "libffi": 93,
+    "libfreetype": 502,
+    "libglib": 485,
+    "libharfbuzz": 108,
+    "libhwloc": 115,
+    "libiconv": 183,
+    "libintl": 1290,
+    "libjpeg-turbo": 336,
+    "liblzma": 21,
+    "libpng": 109,
+    "libpython": 183,
+    "libsqlite": 37,
+    "libtiff": 79,
+    "libuhdr-lib": 10,
+    "libvulkan-loader": 52,
+    "libwebp-base": 186,
+    "libwinpthread": 486,
+    "libxml2-16": 115,
+    "libxslt": 53,
+    "libzlib": 25,
+    "lz4-c": 32,
+    "materialx-dev": 88,
+    "minizip": 51,
+    "numpy": 99,
+    "opencolorio-dev": 56,
+    "openexr-core-lib": 113,
+    "openimageio-dev": 37,
+    "openjph": 17,
+    "openssl": 327,
+    "opensubdiv-gpu-dev": 69,
+    "openusd": 3633,
+    "openvdb-dev": 15,
+    "packaging": 4,
+    "pcre2": 26,
+    "pip": 20,
+    "pixman": 40,
+    "pyopengl": 2,
+    "pystring": 2,
+    "setuptools": 11,
+    "snappy": 16,
+    "tbb": 42,
+    "tk": 549,
+    "tzdata": 4,
+    "yaml-cpp": 1,
+    "zstd": 17,
+    "generated-launchers": 4,
+    "nuitka-supplier": 12
+  },
+  "included_in_existing_dev6": false,
+  "historical_rebuild_proven": false,
+  "scope": "SceneScope native/runtime source attributions. Conservative collection: includes other platforms and source-only components; inclusion does not assert linking. Exact original files/comment blocks are retained in the accompanying ZIP with source hashes and byte offsets.\n\n"
+}

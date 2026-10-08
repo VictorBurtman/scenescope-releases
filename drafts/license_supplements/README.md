@@ -95,3 +95,23 @@ the Rust 1.93.0 source commit. Official archive checksums, original member hashe
 and scope are in `rust-stdlib-supplements-provenance.json`. This complements the
 Cargo.lock notices; it is not a historical rebuild or a claim that all catalogue
 components are linked into the Windows binary. Audit tooling/compiler are not shipped.
+
+## Final native/runtime assessment
+
+The local dependency engineering assessment is complete in
+`../../redistribution_final_review_2026-10-08.md`; release delivery and new-installer
+acceptance remain separate. Existing dev.6 is unchanged.
+
+`Native-runtime-rt-2192364560b51c5afc8f7221-notices.zip` retains 15,406 unique
+original legal files/comment blocks, with original source hashes and byte offsets.
+This conservative catalogue includes platform/source-only material without
+claiming every component is linked. Nine `Native-runtime-NOTICES-*.txt` parts
+provide offline readable copies below the reader's 2 MiB document limit.
+The collection includes exact IJG README, Adobe Gain Map, LLVM support/ITT,
+MinGW/runtime, generated-launcher/PSF and Nuitka supplier notices. Generated
+SceneScope C and original application source are never included.
+
+`native-runtime-supplements-provenance.json` pins these assets. The complete
+`supplement-manifest.json` pins every prepared supplement/README/provenance file.
+The new stager verifies those hashes and all original ZIP members before copying;
+the native catalogue remains archived to avoid thousands of loose install files.
