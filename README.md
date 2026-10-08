@@ -53,3 +53,13 @@ sources/Rust/libffi ; les 36 archives du Cargo.lock officiel sont vérifiées.
 Les archives binaires et la revue globale restent locales en cours de validation.
 Le dépôt de code original et ce dépôt de préparation restent privés. Aucun
 installateur ni média SDK Microsoft n'est téléchargé ici ou publié.
+
+
+Préparation dev.6 validée localement : correction de la copie et de la lecture
+des notices dans les chemins Windows longs. Les 450 tests passent sur le code
+source et sur le module compilé. Installation neuve, mise à niveau depuis dev.4,
+démarrage natif et notices hors ligne EN/FR passent dans des dossiers de test
+isolés ; les 547 notices sont copiées et inventoriées pour la désinstallation.
+Ces essais ne remplacent pas les tests sur un autre PC/GPU. La revue globale,
+les liens publics des sources et les décisions de signature restent ouverts.
+Aucun binaire n'est publié et les deux dépôts restent privés.

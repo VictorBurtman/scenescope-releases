@@ -1,6 +1,6 @@
 # SceneScope third-party notices and library replacement
 
-Local preview notice index, 2026-10-08, prepared for **0.1.0-dev.5** with runtime
+Local preview notice index, 2026-10-08, prepared for **0.1.0-dev.6** with runtime
 **rt-2192364560b51c5afc8f7221**. This is an index for preparing distribution,
 not a declaration that the current package's redistribution review is complete.
 The final release must carry the full applicable license texts, attributions,
@@ -40,7 +40,7 @@ The FreeType option requires the appropriate credit:
 "This software is based in part on the work of the FreeType Team."
 SQLite 3.53.4 includes an upstream public-domain dedication in its header.
 The prepared FreeType, SQLite and libintl supplements have hash provenance in
-`license_supplements/provenance.json`; they are included in the new dev.5 notice set.
+`license_supplements/provenance.json`; they are included in the new dev.6 notice set.
 
 ## Revised Qt/Mesa/Microsoft notice set
 
@@ -58,7 +58,7 @@ not every collected component is linked into Windows libraries.
 and per-file hash indices. The candidate stager validates every member before
 exposing readable copies in `notices/qt-pyside/` and `notices/mesa-llvm/`.
 `license_supplements/qt-ms-supplements-provenance.json` records their identities
-and the supplier comparisons. These additions are included in the dev.5 notice set;
+and the supplier comparisons. These additions are included in the dev.6 notice set;
 existing dev.4 files remain unchanged.
 
 A native isolated scene test observes the app's loaded Qt DLLs/plugins and normal
