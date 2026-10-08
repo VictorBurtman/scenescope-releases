@@ -1,7 +1,7 @@
 # SceneScope third-party notices and library replacement
 
-Review draft, 2026-10-08, based on local **0.1.0-dev.4** and runtime
-**rt-2192364560b51c5afc8f7221**. This is an index for preparing the next release,
+Local preview notice index, 2026-10-08, prepared for **0.1.0-dev.5** with runtime
+**rt-2192364560b51c5afc8f7221**. This is an index for preparing distribution,
 not a declaration that the current package's redistribution review is complete.
 The final release must carry the full applicable license texts, attributions,
 corresponding sources and verified instructions for its actual payload.
@@ -23,7 +23,8 @@ govern the components below and take precedence for those components.
 | NumPy / Intel MKL | 2.4.6 / 2025.3.1 | NumPy BSD terms and Intel/other applicable notices in their conda notice folders. |
 | Alembic / Imath / Boost / adapted AbcOpenGL | 1.8.12 / 3.2.2 / 1.91 / upstream adaptation | Full applicable upstream notices and modification provenance. `notices/alembic/`. |
 | ufbx | 0.23.0 | MIT option; copyright and permission notice with upstream source/provenance. `notices/ufbx/`. |
-| Cryptography / cffi / pycparser | 46.0.5 / 2.1.1 / 3.0 | Installed distribution metadata and license files within the runtime. |
+| Cryptography / cffi / pycparser | 46.0.5 / 2.1.1 / 3.0 | Installed metadata/license files within the runtime and readable copies under `notices/verifier/`. Cryptography embeds OpenSSL 3.5.5; its Apache-2.0 text is in `license_supplements/OpenSSL-3.5.5-LICENSE.txt`. `Verifier-46.0.5-NOTICES.txt`/ZIP preserve 80 source/crate/libffi notices, including all 36 checksum-verified Cargo.lock registry packages. Final embedded source/binary correspondence remains part of the wider review. |
+| Theme tokens | pyside6-fluent-ui adaptation / Microsoft Fluent UI | MIT notices are in `FLUENT_LICENSE.txt` and `FLUENT_THIRD_PARTY_NOTICES.md`, and accompany the resource files. No upstream font or widget implementation is shipped. |
 | FreeType | 2.14.3 | Proposed FTL option, subject to the source's per-file exceptions. Exact upstream license supplements are prepared separately. |
 | GLib / libiconv / libintl / Graphite2 / Cairo | See release inventory | LGPL or alternative licenses depend on the component and file; full texts and source arrangements must accompany the final selection. |
 | Microsoft VC runtime / UCRT | 14.51.36247 / package 10.0.26100.0, DLLs 10.0.26100.4654 | All 116 inventoried copies match permitted supplier x64 runtime files byte-for-byte. Community individual-development and SDK terms apply, with recipient protections in the application terms. Original vendor documents are in `notices/license_supplements/`. |
@@ -39,7 +40,7 @@ The FreeType option requires the appropriate credit:
 "This software is based in part on the work of the FreeType Team."
 SQLite 3.53.4 includes an upstream public-domain dedication in its header.
 The prepared FreeType, SQLite and libintl supplements have hash provenance in
-`license_supplements/provenance.json`; they are not yet inside dev.4.
+`license_supplements/provenance.json`; they are included in the new dev.5 notice set.
 
 ## Revised Qt/Mesa/Microsoft notice set
 
@@ -54,10 +55,10 @@ not every collected component is linked into Windows libraries.
 
 `license_supplements/Qt-PySide-6.11.2-notices.zip` and
 `license_supplements/Mesa-12.0.0-rc2-LLVM-3.6.2-notices.zip` contain exact texts
-and per-file hash indices. The next-candidate stager validates every member before
+and per-file hash indices. The candidate stager validates every member before
 exposing readable copies in `notices/qt-pyside/` and `notices/mesa-llvm/`.
 `license_supplements/qt-ms-supplements-provenance.json` records their identities
-and the supplier comparisons. These additions are prepared for the next build;
+and the supplier comparisons. These additions are included in the dev.5 notice set;
 existing dev.4 files remain unchanged.
 
 A native isolated scene test observes the app's loaded Qt DLLs/plugins and normal

@@ -59,3 +59,21 @@ labeled plain-text extraction is for convenient reading.
 supplier-byte evidence. All 24 VC/OpenMP and 92 UCRT copies match their permitted
 release x64 supplier files; Community/SDK publisher requirements remain applicable.
 Installation media used for this comparison are not redistributed here.
+
+## Verifier OpenSSL supplement, 2026-10-08
+
+`OpenSSL-3.5.5-LICENSE.txt` is the original Apache-2.0 text from the OpenSSL
+`openssl-3.5.5` tag. The installed cryptography 46.0.5 wheel reports
+`OpenSSL 3.5.5 27 Jan 2026`. Its hash and URL are in
+`verifier-supplements-provenance.json`. This addition does not close the remaining
+Rust/libffi embedded-component review. The wheel's own licenses are retained
+within the runtime and also copied into the central `notices/verifier/` folder.
+
+`Verifier-46.0.5-notices.zip` contains 80 original legal files or labeled exact
+legal-comment extracts, plus its hash/source index: five package license files,
+68 files from all 36 checksum-verified Cargo.lock registry packages and seven
+libffi legal header extracts from cffi's Windows x86/x64 source subset.
+`Verifier-46.0.5-NOTICES.txt` is the readable UTF-8 concatenation. Both hashes
+are pinned by `verifier-supplements-provenance.json`. Build-only/other-platform
+crates are conservatively retained; this is not a historical wheel rebuild or
+a claim that every crate is linked into the Windows binary.

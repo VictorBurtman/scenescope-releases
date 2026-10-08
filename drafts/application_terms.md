@@ -1,7 +1,6 @@
 # SceneScope application terms
 
-Review draft, 2026-10-08. Prepared for the next release; these terms have not
-been added to the tested dev.4 installer. Publisher: **Victor Burtman**.
+Development preview terms, 2026-10-08. Publisher: **Victor Burtman**.
 Contact: **victorburtman@gmail.com**.
 Copyright © 2026 Victor Burtman. All rights reserved in the original application.
 

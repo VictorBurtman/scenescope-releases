@@ -45,3 +45,11 @@ recensées correspondent désormais aux fichiers redistribuables du fournisseur.
 Les conditions incluent les protections Microsoft en préservant les droits LGPL.
 Les nouveaux bundles de notices restent des documents pour le prochain build.
 Aucun installateur, média SDK Microsoft ou code original SceneScope n'est publié.
+
+Préparation dev.5 : les conditions et les notices disposent d'un lecteur hors
+ligne EN/FR, avec information LGPL visible et page d'accord dans l'installateur.
+Les nouveaux compléments du vérificateur conservent OpenSSL 3.5.5 et 80 notices
+sources/Rust/libffi ; les 36 archives du Cargo.lock officiel sont vérifiées.
+Les archives binaires et la revue globale restent locales en cours de validation.
+Le dépôt de code original et ce dépôt de préparation restent privés. Aucun
+installateur ni média SDK Microsoft n'est téléchargé ici ou publié.
