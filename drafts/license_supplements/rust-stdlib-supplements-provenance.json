@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "path": "Rust-1.93.0-stdlib-notices.zip",
+      "bytes": 32209,
+      "sha256": "841ba02154c9929c4753666b097a9aa454f49b83fefda194a7557276f3dee4b8"
+    },
+    {
+      "path": "Rust-1.93.0-stdlib-NOTICES.txt",
+      "bytes": 468746,
+      "sha256": "28e9014f8e04c3df0e498eeb1f027aafe200ea05723bdc8d85a2fd5d9788ee8d"
+    }
+  ],
+  "original_members": 6,
+  "rust_version": "1.93.0",
+  "embedded_source_commit": "254b59607d4417e9dffbc307138ae5c86280fe4c",
+  "rust_std_archive": {
+    "source_commit_embedded_in_actual_pyd": "254b59607d4417e9dffbc307138ae5c86280fe4c",
+    "source_version": "1.93.0",
+    "official_archive_url": "https://static.rust-lang.org/dist/rust-std-1.93.0-x86_64-pc-windows-msvc.tar.xz",
+    "official_archive_sha256": "2593e29af0b8def34ceb1185b8e85bd93a9e0d3b0c108d704c1b31370c50a48c",
+    "official_notice_members": [
+      "rust-std-1.93.0-x86_64-pc-windows-msvc/LICENSE-APACHE",
+      "rust-std-1.93.0-x86_64-pc-windows-msvc/COPYRIGHT",
+      "rust-std-1.93.0-x86_64-pc-windows-msvc/LICENSE-MIT"
+    ],
+    "historical_native_rebuild_proven": false
+  },
+  "rustc_archive": {
+    "url": "https://static.rust-lang.org/dist/rustc-1.93.0-x86_64-pc-windows-msvc.tar.xz",
+    "sha256": "fa17677eee0d83eb055b309953184bf87ba634923d8897f860cda65d55c6e350",
+    "members": [
+      "rustc-1.93.0-x86_64-pc-windows-msvc/COPYRIGHT",
+      "rustc-1.93.0-x86_64-pc-windows-msvc/rustc/share/doc/rust/COPYRIGHT.html",
+      "rustc-1.93.0-x86_64-pc-windows-msvc/rustc/share/doc/rust/COPYRIGHT-library.html"
+    ],
+    "compiler_executed": false
+  },
+  "included_in_existing_dev6": false,
+  "historical_native_rebuild_proven": false,
+  "package_wide_review_complete": false,
+  "publication_complete": false
+}

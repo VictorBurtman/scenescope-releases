@@ -63,3 +63,14 @@ isolés ; les 547 notices sont copiées et inventoriées pour la désinstallatio
 Ces essais ne remplacent pas les tests sur un autre PC/GPU. La revue globale,
 les liens publics des sources et les décisions de signature restent ouverts.
 Aucun binaire n'est publié et les deux dépôts restent privés.
+
+
+Revue systématique du runtime dev.6 : 42 946 fichiers vérifiés, 104 paquets
+Conda rapprochés des empreintes et 148 fichiers du vérificateur identiques à
+leurs wheels PyPI. Signature de publication cryptography vérifiée. Les nouveaux
+compléments couvrent 162 documents originaux, les exceptions MPL certificats/
+setuptools, FreeType et la bibliothèque standard Rust 1.93.0. Quatre sources
+exactes et 1 159 fichiers de recettes sont préparés localement. Ces compléments
+ne sont pas dans l'installateur dev.6 existant ; intégration sous une nouvelle
+version et revue restante précèdent la publication. Aucun binaire ni archive
+de sources n'est publié ici. Les deux dépôts restent privés.

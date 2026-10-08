@@ -67,6 +67,30 @@ static import/delay-import inspection agrees for the app's module set. This
 observed scene path does not establish behavior for arbitrary external plugins.
 The retained independent tools keep their own licenses and source rights.
 
+## Additional preparation after dev.6
+
+The existing dev.6 installer remains unchanged. The following supplements are
+prepared for the next version and are not yet included in that installer:
+
+- `Runtime-extra-NOTICES.txt` and its original-byte ZIP retain 104 delivered
+  runtime notices, 43 additional source legal documents and nine complete
+  FreeType exception files. This includes NumPy, pip/setuptools vendored code,
+  Python, font and other library attributions.
+- The conda certificate bundle (certifi 2026.7.22) and pip's separate certifi
+  2026.6.17 data carry MPL-2.0 rights despite the package's ISC label. Original
+  PEM data matches both exact source archives. Setuptools includes MPL-2.0
+  schemas/validate-pyproject code and BSD fastjsonschema notices despite MIT
+  package metadata; editable sources and full notices remain in the runtime.
+- `Rust-1.93.0-stdlib-NOTICES.txt` and its ZIP preserve six standard-library,
+  compiler-builtins/libm and root Rust documents. The cryptography binary embeds
+  the matching Rust source commit. The catalogue includes conservative
+  platform-specific attributions; it does not establish a historical rebuild.
+
+Third-party source, modification and redistribution rights continue to take
+precedence over original application terms. Hash/source indices are in the
+matching supplement provenance files. Public delivery and final embedded/native
+classification remain pending.
+
 ## LGPL libraries and corresponding source
 
 The candidate uses external Qt DLLs and PySide/Shiboken extensions alongside

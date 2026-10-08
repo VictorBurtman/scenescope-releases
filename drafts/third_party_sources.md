@@ -58,6 +58,40 @@ a reproduced complete Qt Mesa build or an additional LGPL source obligation.
 Microsoft SDK installation media used for the supplier-byte comparison are
 private review evidence and are not part of the source-delivery assets.
 
+## Additional source preparation after dev.6
+
+The unchanged runtime identity also appears in dev.6. The systematic follow-up
+prepares exact certificate/Python tool sources for MPL/vendored scope beyond
+package metadata; these are local assets, not yet public links.
+
+| Archive | SHA-256 |
+|---|---|
+| certifi-2026.7.22.tar.gz | 741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55 |
+| certifi-2026.6.17.tar.gz | 024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432 |
+| setuptools-84.0.0.tar.gz | f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73 |
+| pip-26.2.1.tar.gz | f6ad667e89a1fe78046c8f13232b247200f5258d7828f3f7883d660878e0813f |
+
+All hashes match PyPI. The conda certificate/setuptools/pip recipe pins also
+match. Three delivered certificate PEM files and seven setuptools MPL-covered
+schema/notice/Python files match their source members exactly. MPL-covered
+editable files are already delivered in the runtime; their notices and rights
+must be kept with the final distribution.
+
+A complete `SceneScope-runtime-rt-2192364560b51c5afc8f7221-recipes.zip` is now
+prepared for all 104 conda packages: 1,159 original recipe/build/patch files plus
+index/instructions, SHA-256
+`9742885f974588de7c3c434854107f952145333f09188d3ef092ae9546a63965`.
+It supplements the earlier eight-component recipe package; it is not all
+upstream sources or proof of every historical native build.
+
+Rust standard-library notices additionally match the source commit observed in
+cryptography's binary, Rust 1.93.0. The official std/compiler archive hashes and
+original standard-library attribution catalogue are preserved in
+`rust-stdlib-supplements-provenance.json`. Rust tooling itself is not shipped.
+The verifier wheels match PyPI and 130 Python/stub/header files match their
+sdists. A verified cryptography publish attestation identifies its upstream
+publisher; it is not SLSA build provenance. Public source delivery remains open.
+
 ## Before publication
 
 Reconcile the reviewed Qt/Mesa set, remaining native/resource scope, source/build

@@ -77,3 +77,21 @@ libffi legal header extracts from cffi's Windows x86/x64 source subset.
 are pinned by `verifier-supplements-provenance.json`. Build-only/other-platform
 crates are conservatively retained; this is not a historical wheel rebuild or
 a claim that every crate is linked into the Windows binary.
+
+## Additional runtime and Rust standard-library notices
+
+Prepared after immutable dev.6; **not inside that existing installer**.
+`Runtime-extra-notices-rt-2192364560b51c5afc8f7221.zip` preserves 156 originals:
+104 runtime notices, 43 non-Qt source legal documents and nine complete FreeType
+exception files. `Runtime-extra-NOTICES.txt` is readable offline. Hashes and
+source-only labels are in `runtime-extra-supplements-provenance.json` and the
+ZIP index. This includes MPL-2.0 certificate/setuptools attributions beyond
+general ISC/MIT package labels.
+
+`Rust-1.93.0-stdlib-notices.zip` and `Rust-1.93.0-stdlib-NOTICES.txt` preserve
+six Rust/standard-library/compiler-builtins/libm documents, including the official
+standard-library attribution catalogue. The actual cryptography binary embeds
+the Rust 1.93.0 source commit. Official archive checksums, original member hashes
+and scope are in `rust-stdlib-supplements-provenance.json`. This complements the
+Cargo.lock notices; it is not a historical rebuild or a claim that all catalogue
+components are linked into the Windows binary. Audit tooling/compiler are not shipped.
