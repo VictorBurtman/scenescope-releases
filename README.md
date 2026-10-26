@@ -1,89 +1,111 @@
-# SceneScope — préparation de la distribution
+# SceneScope
 
-Ce dépôt est privé pendant la préparation. Il accueillera la documentation
-publique et les téléchargements de SceneScope. Le code de l'application reste
-dans un autre dépôt privé ; aucun historique de développement n'est importé ici.
+**Inspect 3D scenes, animation and simulation caches on Windows.**
+SceneScope is a fast viewer for USD, Alembic, FBX/OBJ and the cache formats used in
+VFX and motion-graphics pipelines. It opens files read-only, shows what is really in
+them, and never rewrites your sources.
 
-## Brouillons à relire
+*Visionneuse Windows pour scènes 3D, animations et caches de simulation. Les fichiers
+sont ouverts en lecture seule. Version française plus bas.*
 
-- [Présentation GitHub](drafts/github_README.md)
-- [Page Gumroad en français et en anglais](drafts/gumroad_copy.md)
-- [Notes de préversion](drafts/github_release.md)
-- [Conditions d'utilisation](drafts/application_terms.md)
-- [Notices tierces et remplacement des bibliothèques](drafts/third_party_notices.md)
-- [Préparation des sources tierces](drafts/third_party_sources.md)
-- [Suppléments de licences vérifiés](drafts/license_supplements/README.md)
+![SceneScope](assets/scenescope-gumroad-thumbnail-600-v1.png)
 
-Compte Gumroad : https://victorburtman.gumroad.com/
+## Download
 
-Page SceneScope créée par Victor : https://victorburtman.gumroad.com/l/qgcdqp
+**Current version: 0.1.0-rc.21 (preview)** — free, no account, no telemetry.
 
-Les champs entre doubles accolades attendent les derniers choix de publication.
-Aucun téléchargement public n'est disponible dans ce dépôt à ce stade.
-Les derniers essais Windows, les conditions et notices de redistribution,
-ainsi que les choix de signature et de mise à jour restent à finaliser.
+- **Installer:** [SceneScope-Setup-rc21.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.21/SceneScope-Setup-rc21.exe) (680 MB)
+- **Release page, checksums, notices and sources:** [v0.1.0-rc.21](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.21)
+- **SHA-256:** `9e725d0b02534aaedc87e2dcdb057cb20b88032b90de3f9261ad62c00ae5099d`
 
-Choix confirmés le 8 octobre 2026 : usage gratuit personnel et professionnel,
-y compris en studio, sans limite de postes. Éditeur : Victor Burtman.
-Assistance : victorburtman@gmail.com. Les contributions Gumroad restent facultatives.
+Check it in PowerShell before running:
 
-Les conditions et notices sont des brouillons à relire. La fourniture des sources
-des dépendances, les derniers contrôles de redistribution et la validation du
-prochain paquet restent à terminer avant publication.
+```powershell
+Get-FileHash .\SceneScope-Setup-rc21.exe -Algorithm SHA256
+```
 
-Suite du 8 octobre : huit archives sources exactes et leurs recettes/correctifs
-sont préparés et vérifiés hors ligne. Un essai de SceneScope avec un DLL QtCore
-réellement modifié réussit dans une copie isolée. Le NOTICE OpenUSD et les textes
-complets Graphite2/Qt sont préparés. La revue finale des fichiers et la livraison
-publique des sources restent à terminer ; aucun binaire n'est publié ici.
+### Install
 
-Revue Qt/Mesa/Microsoft du 8 octobre : les 70 bibliothèques Qt principales sont
-rapprochées de leurs cibles source ; 364 fichiers de notices Qt/PySide sont
-préparés et les sept problèmes de format d'attribution sont résolus. Le DLL Mesa
-correspond au précompilé Qt, avec les notices LLVM 3.6.2. Les 116 copies Microsoft
-recensées correspondent désormais aux fichiers redistribuables du fournisseur.
-Les conditions incluent les protections Microsoft en préservant les droits LGPL.
-Les nouveaux bundles de notices restent des documents pour le prochain build.
-Aucun installateur, média SDK Microsoft ou code original SceneScope n'est publié.
+1. Close SceneScope if it is running.
+2. Run `SceneScope-Setup-rc21.exe`. It installs for the current user (no administrator
+   rights) and includes everything it needs: Python, Qt, OpenUSD and MaterialX — nothing
+   else to install.
+3. An existing installation is updated in place; your preferences are kept and the
+   previous version is retained for recovery.
 
-Préparation dev.5 : les conditions et les notices disposent d'un lecteur hors
-ligne EN/FR, avec information LGPL visible et page d'accord dans l'installateur.
-Les nouveaux compléments du vérificateur conservent OpenSSL 3.5.5 et 80 notices
-sources/Rust/libffi ; les 36 archives du Cargo.lock officiel sont vérifiées.
-Les archives binaires et la revue globale restent locales en cours de validation.
-Le dépôt de code original et ce dépôt de préparation restent privés. Aucun
-installateur ni média SDK Microsoft n'est téléchargé ici ou publié.
+The installer is **not code-signed** (Authenticode NotSigned), so Windows SmartScreen may
+show a warning: choose *More info → Run anyway* after checking the SHA-256 above.
 
+### Requirements
 
-Préparation dev.6 validée localement : correction de la copie et de la lecture
-des notices dans les chemins Windows longs. Les 450 tests passent sur le code
-source et sur le module compilé. Installation neuve, mise à niveau depuis dev.4,
-démarrage natif et notices hors ligne EN/FR passent dans des dossiers de test
-isolés ; les 547 notices sont copiées et inventoriées pour la désinstallation.
-Ces essais ne remplacent pas les tests sur un autre PC/GPU. La revue globale,
-les liens publics des sources et les décisions de signature restent ouverts.
-Aucun binaire n'est publié et les deux dépôts restent privés.
+- Windows 11, 64-bit.
+- A GPU and driver providing an OpenGL 4.5 compatibility context.
+- About 8 GB of free disk space is prudent while installing (the installed application
+  is ~2.6 GB); memory needs depend on your scenes.
 
+Only an NVIDIA RTX 3080 Ti system has been qualified so far. Other GPUs, clean/offline
+machines and network shares are still being validated — please report what you find.
 
-Revue systématique du runtime dev.6 : 42 946 fichiers vérifiés, 104 paquets
-Conda rapprochés des empreintes et 148 fichiers du vérificateur identiques à
-leurs wheels PyPI. Signature de publication cryptography vérifiée. Les nouveaux
-compléments couvrent 162 documents originaux, les exceptions MPL certificats/
-setuptools, FreeType et la bibliothèque standard Rust 1.93.0. Quatre sources
-exactes et 1 159 fichiers de recettes sont préparés localement. Ces compléments
-ne sont pas dans l'installateur dev.6 existant ; intégration sous une nouvelle
-version et revue restante précèdent la publication. Aucun binaire ni archive
-de sources n'est publié ici. Les deux dépôts restent privés.
+## What it does
 
+- **Formats:** USD (`.usd .usda .usdc .usdz`), Alembic (`.abc`), FBX, OBJ, MaterialX
+  (`.mtlx`), OpenVDB, Houdini BGEO, XMesh, tyCache, PRT/PDC particles, Mantaflow UNI,
+  Field3D and Bifrost caches. Support varies by exporter and source data.
+- **Inspect:** scene hierarchy, composition (layers, variants, payloads), properties and
+  array browsers, shading graphs, dependencies and diagnostics.
+- **View:** Storm viewport with lighting and HDRI, material presets, display modes, cameras,
+  grid, selection, hide/isolate, data overlays (numeric, color, direction), lens effects
+  (depth of field, motion blur, bloom).
+- **Time:** timeline with visible range, loop, RAM cache and FPS control.
+- English and French interface.
 
-Revue locale des dépendances embarquées terminée : 104 paquets évalués,
-six lanceurs rapprochés exactement de leur fournisseur, 81 déclarations de
-sources vérifiées. Le complément natif conserve 15 406 documents/blocs de
-notices originaux avec leurs empreintes ; neuf parties lisibles passent les
-lecteurs français et anglais. Le manifeste vérifie tous les compléments et
-les membres des ZIP avant intégration. Le bilan et la matrice sont dans drafts.
+## License and terms
 
-Ces ajouts exigent un nouvel installateur ; dev.6 existant est inchangé.
-La livraison publique des sources requises reste à faire. L'essai sur un autre
-PC est différé par l'éditeur, indépendamment de la revue des dépendances.
-Les deux dépôts restent privés, sans release ni binaire publié. Gumroad inchangé.
+SceneScope is **free for personal, educational and professional use**, including studio
+and commercial work, without seat limits. A [Gumroad contribution](https://victorburtman.gumroad.com/l/qgcdqp)
+is optional and gives the same application and rights. Read the full [terms](TERMS.md).
+
+The original application code is proprietary. Bundled third-party software keeps its own
+licenses; the notices, the library-replacement instructions and the **corresponding source
+archives** are attached to each release (`SceneScope-notices-*.zip`,
+`source-delivery-index.json` and the source/recipe archives).
+
+## Support
+
+Contact **victorburtman@gmail.com** with the version, system information and steps to
+reproduce. SceneScope is a preview: support, schedule and response time are not guaranteed.
+
+---
+
+## Français
+
+**SceneScope** ouvre en lecture seule des scènes USD, Alembic, FBX/OBJ et de nombreux
+caches de simulation (VDB, BGEO, XMesh, tyCache, particules, Field3D, Bifrost) pour
+inspecter leur contenu réel sans jamais modifier vos fichiers.
+
+### Télécharger et installer
+
+Version actuelle : **0.1.0-rc.21 (préversion)**, gratuite, sans compte ni télémétrie.
+
+- **Installateur :** [SceneScope-Setup-rc21.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.21/SceneScope-Setup-rc21.exe) (680 Mo)
+- **SHA-256 :** `9e725d0b02534aaedc87e2dcdb057cb20b88032b90de3f9261ad62c00ae5099d`
+
+Fermez SceneScope s'il est ouvert, puis lancez l'installateur : il s'installe pour
+l'utilisateur courant, sans droits administrateur, et contient tout le nécessaire. Une
+installation existante est mise à jour sur place (préférences conservées, version
+précédente gardée pour la récupération). Le programme n'est pas signé : Windows SmartScreen
+peut afficher un avertissement (*Informations complémentaires → Exécuter quand même*)
+après vérification de l'empreinte SHA-256.
+
+**Prérequis :** Windows 11 64 bits, pilote graphique avec contexte OpenGL 4.5 en mode
+compatibilité. Seule une machine NVIDIA RTX 3080 Ti a été qualifiée à ce jour.
+
+### Licence
+
+Usage gratuit, personnel comme professionnel (studio et projets commerciaux compris),
+sans limite de postes ; la contribution Gumroad est facultative et ne change ni
+l'application ni les droits. Voir les [conditions](TERMS.md). Le code original reste
+propriétaire ; les composants tiers conservent leurs licences, avec notices et sources
+correspondantes jointes à chaque release.
+
+**Assistance :** victorburtman@gmail.com

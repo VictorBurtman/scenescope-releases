@@ -51,7 +51,8 @@ Rights granted by applicable law also remain unaffected.
 
 Microsoft runtime components are provided in their original binary form to run
 SceneScope on Microsoft Windows. They remain subject to their accompanying
-Microsoft terms; see the Microsoft license documents in `license_supplements/`.
+Microsoft terms; see the Microsoft license documents in the `license_supplements` folder of
+the release's `SceneScope-notices-*.zip`.
 The permission to use SceneScope does not grant a separate right to modify,
 sublicense, sell, publish or redistribute those Microsoft components as a
 standalone product. Any separate Microsoft license you hold may grant other
