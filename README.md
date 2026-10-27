@@ -12,22 +12,22 @@ sont ouverts en lecture seule. Version française plus bas.*
 
 ## Download
 
-**Current version: 0.1.0-rc.21 (preview)** — free, no account, no telemetry.
+**Current version: 0.1.0-rc.22 (preview)** — free, no account, no telemetry.
 
-- **Installer:** [SceneScope-Setup-rc21.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.21/SceneScope-Setup-rc21.exe) (680 MB)
-- **Release page, checksums, notices and sources:** [v0.1.0-rc.21](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.21)
-- **SHA-256:** `9e725d0b02534aaedc87e2dcdb057cb20b88032b90de3f9261ad62c00ae5099d`
+- **Installer:** [SceneScope-Setup-rc22-r2.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.22/SceneScope-Setup-rc22-r2.exe) (680 MB)
+- **Release page, checksums, notices and sources:** [v0.1.0-rc.22](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.22)
+- **SHA-256:** `0596cea7762284162683800ebeee3d85ffb62df14b788ad8bd0527ff1a9e961e`
 
 Check it in PowerShell before running:
 
 ```powershell
-Get-FileHash .\SceneScope-Setup-rc21.exe -Algorithm SHA256
+Get-FileHash .\SceneScope-Setup-rc22-r2.exe -Algorithm SHA256
 ```
 
 ### Install
 
 1. Close SceneScope if it is running.
-2. Run `SceneScope-Setup-rc21.exe`. It installs for the current user (no administrator
+2. Run `SceneScope-Setup-rc22-r2.exe`. It installs for the current user (no administrator
    rights) and includes everything it needs: Python, Qt, OpenUSD and MaterialX — nothing
    else to install.
 3. An existing installation is updated in place; your preferences are kept and the
@@ -85,10 +85,10 @@ inspecter leur contenu réel sans jamais modifier vos fichiers.
 
 ### Télécharger et installer
 
-Version actuelle : **0.1.0-rc.21 (préversion)**, gratuite, sans compte ni télémétrie.
+Version actuelle : **0.1.0-rc.22 (préversion)**, gratuite, sans compte ni télémétrie.
 
-- **Installateur :** [SceneScope-Setup-rc21.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.21/SceneScope-Setup-rc21.exe) (680 Mo)
-- **SHA-256 :** `9e725d0b02534aaedc87e2dcdb057cb20b88032b90de3f9261ad62c00ae5099d`
+- **Installateur :** [SceneScope-Setup-rc22-r2.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.22/SceneScope-Setup-rc22-r2.exe) (680 Mo)
+- **SHA-256 :** `0596cea7762284162683800ebeee3d85ffb62df14b788ad8bd0527ff1a9e961e`
 
 Fermez SceneScope s'il est ouvert, puis lancez l'installateur : il s'installe pour
 l'utilisateur courant, sans droits administrateur, et contient tout le nécessaire. Une
