@@ -12,22 +12,22 @@ sont ouverts en lecture seule. Version française plus bas.*
 
 ## Download
 
-**Current version: 0.1.0-rc.23 (preview)** — free, no account, no telemetry.
+**Current version: 0.1.0-rc.24 (preview)** — free, no account, no telemetry.
 
-- **Installer:** [SceneScope-Setup-rc23.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.23/SceneScope-Setup-rc23.exe) (680 MB)
-- **Release page, checksums, notices and sources:** [v0.1.0-rc.23](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.23)
-- **SHA-256:** `43cf231fb05c292240cba56933144afaa86b80f3290e860b4834f5b97e959b17`
+- **Installer:** [SceneScope-Setup-rc24.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.24/SceneScope-Setup-rc24.exe) (680 MB)
+- **Release page, checksums, notices and sources:** [v0.1.0-rc.24](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.24)
+- **SHA-256:** `cf9c60978d5baa864283c1a091e8fb3a737f9de61f661976a930d2a9048b31d0`
 
 Check it in PowerShell before running:
 
 ```powershell
-Get-FileHash .\SceneScope-Setup-rc23.exe -Algorithm SHA256
+Get-FileHash .\SceneScope-Setup-rc24.exe -Algorithm SHA256
 ```
 
 ### Install
 
 1. Close SceneScope if it is running.
-2. Run `SceneScope-Setup-rc23.exe`. It installs for the current user (no administrator
+2. Run `SceneScope-Setup-rc24.exe`. It installs for the current user (no administrator
    rights) and includes everything it needs: Python, Qt, OpenUSD and MaterialX — nothing
    else to install.
 3. An existing installation is updated in place; your preferences are kept and the
@@ -85,10 +85,10 @@ inspecter leur contenu réel sans jamais modifier vos fichiers.
 
 ### Télécharger et installer
 
-Version actuelle : **0.1.0-rc.23 (préversion)**, gratuite, sans compte ni télémétrie.
+Version actuelle : **0.1.0-rc.24 (préversion)**, gratuite, sans compte ni télémétrie.
 
-- **Installateur :** [SceneScope-Setup-rc23.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.23/SceneScope-Setup-rc23.exe) (680 Mo)
-- **SHA-256 :** `43cf231fb05c292240cba56933144afaa86b80f3290e860b4834f5b97e959b17`
+- **Installateur :** [SceneScope-Setup-rc24.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.24/SceneScope-Setup-rc24.exe) (680 Mo)
+- **SHA-256 :** `cf9c60978d5baa864283c1a091e8fb3a737f9de61f661976a930d2a9048b31d0`
 
 Fermez SceneScope s'il est ouvert, puis lancez l'installateur : il s'installe pour
 l'utilisateur courant, sans droits administrateur, et contient tout le nécessaire. Une
