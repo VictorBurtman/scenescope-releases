@@ -12,22 +12,22 @@ sont ouverts en lecture seule. Version française plus bas.*
 
 ## Download
 
-**Current version: 0.1.0-rc.22 (preview)** — free, no account, no telemetry.
+**Current version: 0.1.0-rc.23 (preview)** — free, no account, no telemetry.
 
-- **Installer:** [SceneScope-Setup-rc22-r2.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.22/SceneScope-Setup-rc22-r2.exe) (680 MB)
-- **Release page, checksums, notices and sources:** [v0.1.0-rc.22](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.22)
-- **SHA-256:** `0596cea7762284162683800ebeee3d85ffb62df14b788ad8bd0527ff1a9e961e`
+- **Installer:** [SceneScope-Setup-rc23.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.23/SceneScope-Setup-rc23.exe) (680 MB)
+- **Release page, checksums, notices and sources:** [v0.1.0-rc.23](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.23)
+- **SHA-256:** `43cf231fb05c292240cba56933144afaa86b80f3290e860b4834f5b97e959b17`
 
 Check it in PowerShell before running:
 
 ```powershell
-Get-FileHash .\SceneScope-Setup-rc22-r2.exe -Algorithm SHA256
+Get-FileHash .\SceneScope-Setup-rc23.exe -Algorithm SHA256
 ```
 
 ### Install
 
 1. Close SceneScope if it is running.
-2. Run `SceneScope-Setup-rc22-r2.exe`. It installs for the current user (no administrator
+2. Run `SceneScope-Setup-rc23.exe`. It installs for the current user (no administrator
    rights) and includes everything it needs: Python, Qt, OpenUSD and MaterialX — nothing
    else to install.
 3. An existing installation is updated in place; your preferences are kept and the
@@ -66,9 +66,9 @@ and commercial work, without seat limits. A [Gumroad contribution](https://victo
 is optional and gives the same application and rights. Read the full [terms](TERMS.md).
 
 The original application code is proprietary. Bundled third-party software keeps its own
-licenses; the notices, the library-replacement instructions and the **corresponding source
-archives** are attached to each release (`SceneScope-notices-*.zip`,
-`source-delivery-index.json` and the source/recipe archives).
+licenses. Notices and library-replacement instructions are included in the installer.
+The unchanged notice archive, `source-delivery-index.json` and **corresponding source/recipe
+archives** remain available on the [rc.21 release](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.21).
 
 ## Support
 
@@ -85,10 +85,10 @@ inspecter leur contenu réel sans jamais modifier vos fichiers.
 
 ### Télécharger et installer
 
-Version actuelle : **0.1.0-rc.22 (préversion)**, gratuite, sans compte ni télémétrie.
+Version actuelle : **0.1.0-rc.23 (préversion)**, gratuite, sans compte ni télémétrie.
 
-- **Installateur :** [SceneScope-Setup-rc22-r2.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.22/SceneScope-Setup-rc22-r2.exe) (680 Mo)
-- **SHA-256 :** `0596cea7762284162683800ebeee3d85ffb62df14b788ad8bd0527ff1a9e961e`
+- **Installateur :** [SceneScope-Setup-rc23.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.23/SceneScope-Setup-rc23.exe) (680 Mo)
+- **SHA-256 :** `43cf231fb05c292240cba56933144afaa86b80f3290e860b4834f5b97e959b17`
 
 Fermez SceneScope s'il est ouvert, puis lancez l'installateur : il s'installe pour
 l'utilisateur courant, sans droits administrateur, et contient tout le nécessaire. Une
@@ -105,7 +105,8 @@ compatibilité. Seule une machine NVIDIA RTX 3080 Ti a été qualifiée à ce jo
 Usage gratuit, personnel comme professionnel (studio et projets commerciaux compris),
 sans limite de postes ; la contribution Gumroad est facultative et ne change ni
 l'application ni les droits. Voir les [conditions](TERMS.md). Le code original reste
-propriétaire ; les composants tiers conservent leurs licences, avec notices et sources
-correspondantes jointes à chaque release.
+propriétaire ; les composants tiers conservent leurs licences. Les notices et instructions
+de remplacement des bibliothèques sont incluses dans l'installateur. Les archives de notices
+et sources correspondantes inchangées restent disponibles sur la [release rc.21](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.21).
 
 **Assistance :** victorburtman@gmail.com
