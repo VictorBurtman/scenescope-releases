@@ -1,7 +1,7 @@
 # SceneScope
 
 **Inspect 3D scenes, animation and simulation caches on Windows.**
-SceneScope is a fast viewer for USD, Alembic, FBX/OBJ and the cache formats used in
+SceneScope is a fast viewer for USD, Alembic, FBX/OBJ, STL and the cache formats used in
 VFX and motion-graphics pipelines. It opens files read-only, shows what is really in
 them, and never rewrites your sources.
 
@@ -12,22 +12,22 @@ sont ouverts en lecture seule. Version française plus bas.*
 
 ## Download
 
-**Current version: 0.1.0-rc.24 (preview)** — free, no account, no telemetry.
+**Current version: 0.1.0-rc.25 (preview)** — free, no account, no telemetry.
 
-- **Installer:** [SceneScope-Setup-rc24.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.24/SceneScope-Setup-rc24.exe) (680 MB)
-- **Release page, checksums, notices and sources:** [v0.1.0-rc.24](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.24)
-- **SHA-256:** `cf9c60978d5baa864283c1a091e8fb3a737f9de61f661976a930d2a9048b31d0`
+- **Installer:** [SceneScope-Setup-rc25.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.25/SceneScope-Setup-rc25.exe) (680 MB)
+- **Release page, checksums, notices and sources:** [v0.1.0-rc.25](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.25)
+- **SHA-256:** `2f9729453aa0b4a6f89878d0e31ef0dfbe424f4c000f736fc9ed3fb6c6c75c4d`
 
 Check it in PowerShell before running:
 
 ```powershell
-Get-FileHash .\SceneScope-Setup-rc24.exe -Algorithm SHA256
+Get-FileHash .\SceneScope-Setup-rc25.exe -Algorithm SHA256
 ```
 
 ### Install
 
 1. Close SceneScope if it is running.
-2. Run `SceneScope-Setup-rc24.exe`. It installs for the current user (no administrator
+2. Run `SceneScope-Setup-rc25.exe`. It installs for the current user (no administrator
    rights) and includes everything it needs: Python, Qt, OpenUSD and MaterialX — nothing
    else to install.
 3. An existing installation is updated in place; your preferences are kept and the
@@ -46,9 +46,15 @@ show a warning: choose *More info → Run anyway* after checking the SHA-256 abo
 Only an NVIDIA RTX 3080 Ti system has been qualified so far. Other GPUs, clean/offline
 machines and network shares are still being validated — please report what you find.
 
+## New in rc.25
+
+Open ASCII and binary STL meshes through File > Open, drag/drop or the command line.
+Source files are preserved. STL has no unit or up-axis metadata; coordinates are
+kept unchanged, with Y-up and one meter per unit as preview defaults.
+
 ## What it does
 
-- **Formats:** USD (`.usd .usda .usdc .usdz`), Alembic (`.abc`), FBX, OBJ, MaterialX
+- **Formats:** USD (`.usd .usda .usdc .usdz`), Alembic (`.abc`), FBX, OBJ, STL (ASCII/binary), MaterialX
   (`.mtlx`), OpenVDB, Houdini BGEO, XMesh, tyCache, PRT/PDC particles, Mantaflow UNI,
   Field3D and Bifrost caches. Support varies by exporter and source data.
 - **Inspect:** scene hierarchy, composition (layers, variants, payloads), properties and
@@ -79,16 +85,23 @@ reproduce. SceneScope is a preview: support, schedule and response time are not 
 
 ## Français
 
-**SceneScope** ouvre en lecture seule des scènes USD, Alembic, FBX/OBJ et de nombreux
+**SceneScope** ouvre en lecture seule des scènes USD, Alembic, FBX/OBJ, STL (ASCII/binaire) et de nombreux
 caches de simulation (VDB, BGEO, XMesh, tyCache, particules, Field3D, Bifrost) pour
 inspecter leur contenu réel sans jamais modifier vos fichiers.
 
+### Nouveauté rc.25
+
+Ouverture des maillages STL ASCII et binaires depuis Fichier > Ouvrir, par
+glisser-déposer ou en ligne de commande. Les fichiers source sont préservés.
+Le STL ne définit ni unité ni axe vertical : les coordonnées sont conservées,
+avec Y vertical et un mètre par unité par défaut pour l’aperçu.
+
 ### Télécharger et installer
 
-Version actuelle : **0.1.0-rc.24 (préversion)**, gratuite, sans compte ni télémétrie.
+Version actuelle : **0.1.0-rc.25 (préversion)**, gratuite, sans compte ni télémétrie.
 
-- **Installateur :** [SceneScope-Setup-rc24.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.24/SceneScope-Setup-rc24.exe) (680 Mo)
-- **SHA-256 :** `cf9c60978d5baa864283c1a091e8fb3a737f9de61f661976a930d2a9048b31d0`
+- **Installateur :** [SceneScope-Setup-rc25.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.25/SceneScope-Setup-rc25.exe) (680 Mo)
+- **SHA-256 :** `2f9729453aa0b4a6f89878d0e31ef0dfbe424f4c000f736fc9ed3fb6c6c75c4d`
 
 Fermez SceneScope s'il est ouvert, puis lancez l'installateur : il s'installe pour
 l'utilisateur courant, sans droits administrateur, et contient tout le nécessaire. Une
