@@ -12,22 +12,22 @@ sont ouverts en lecture seule. Version française plus bas.*
 
 ## Download
 
-**Current version: 0.1.0-rc.26 (preview)** — free, no account, no telemetry.
+**Current version: 0.1.0-rc.27 (preview)** — free, no account, no telemetry.
 
-- **Installer:** [SceneScope-Setup-rc26.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.26/SceneScope-Setup-rc26.exe) (680 MB)
-- **Release page, checksums, notices and sources:** [v0.1.0-rc.26](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.26)
-- **SHA-256:** `7b6b6745dc703c2539cc1ef657bc5ed86bbb7c0da9ffa7789bfa835d61ecbb4a`
+- **Installer:** [SceneScope-Setup-rc27.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.27/SceneScope-Setup-rc27.exe) (680 MB)
+- **Release page, checksums, notices and sources:** [v0.1.0-rc.27](https://github.com/VictorBurtman/scenescope-releases/releases/tag/v0.1.0-rc.27)
+- **SHA-256:** `b0954c4edd8bb87d21368be8f0d21fbc2c76fecc15c21b2f52981fbb6d6fe02f`
 
 Check it in PowerShell before running:
 
 ```powershell
-Get-FileHash .\SceneScope-Setup-rc26.exe -Algorithm SHA256
+Get-FileHash .\SceneScope-Setup-rc27.exe -Algorithm SHA256
 ```
 
 ### Install
 
 1. Close SceneScope if it is running.
-2. Run `SceneScope-Setup-rc26.exe`. It installs for the current user (no administrator
+2. Run `SceneScope-Setup-rc27.exe`. It installs for the current user (no administrator
    rights) and includes everything it needs: Python, Qt, OpenUSD and MaterialX — nothing
    else to install.
 3. An existing installation is updated in place; your preferences are kept and the
@@ -46,7 +46,18 @@ show a warning: choose *More info → Run anyway* after checking the SHA-256 abo
 Only an NVIDIA RTX 3080 Ti system has been qualified so far. Other GPUs, clean/offline
 machines and network shares are still being validated — please report what you find.
 
-## New in rc.26: signed in-app updates
+## New in rc.27
+
+- A smaller orientation cube and navigation buttons leave more viewport space.
+- Keyboard shortcuts work immediately: new windows focus the viewport instead of hierarchy search.
+- STL documentation is available from Help > Official Documentation.
+- Windows taskbar windows use SceneScope's icon and launcher.
+- Preferences opens without flashing temporary text windows.
+
+Users on rc.26 can update from the app. Automatic checks run at most once daily;
+use **Help > Check for updates** for an immediate check. Download/install remain explicit choices.
+
+## Signed in-app updates (available since rc.26)
 
 Use **Help > Check for updates**. New profiles can enable daily checks of the
 prerelease channel. Existing profiles can enable **Check for updates automatically**
@@ -55,7 +66,7 @@ Updates verify signed metadata, SHA-256 and inventories, reuse a verified matchi
 runtime, wait for normal window/worker closure, and preserve preferences with
 startup confirmation and rollback recovery.
 
-**From rc.15 or rc.25, install rc.26 manually once.** Those releases shipped without
+**From rc.15 or rc.25, install rc.27 manually once.** Those releases shipped without
 the public update endpoint and key; a published installer alone cannot notify them.
 After the bootstrap upgrade, genuine subsequent releases can be offered in the app.
 Studio deployments retain their administrator-managed update policy.
@@ -112,7 +123,7 @@ nécessitent toujours votre choix. Les mises à jour vérifient la signature,
 les empreintes et les inventaires, attendent la fermeture normale des fenêtres
 et workers, conservent les préférences et prévoient un retour arrière.
 
-**Depuis rc.15 ou rc.25, installez d'abord rc.26 manuellement.** Ces versions
+**Depuis rc.15 ou rc.25, installez d'abord rc.27 manuellement.** Ces versions
 ne contenaient ni adresse du service public ni clé de confiance. Les véritables
 versions suivantes pourront ensuite être proposées dans l'application.
 Les déploiements studio conservent leur politique de mise à jour administrée.
@@ -126,10 +137,10 @@ avec Y vertical et un mètre par unité par défaut pour l’aperçu.
 
 ### Télécharger et installer
 
-Version actuelle : **0.1.0-rc.26 (préversion)**, gratuite, sans compte ni télémétrie.
+Version actuelle : **0.1.0-rc.27 (préversion)**, gratuite, sans compte ni télémétrie.
 
-- **Installateur :** [SceneScope-Setup-rc26.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.26/SceneScope-Setup-rc26.exe) (680 Mo)
-- **SHA-256 :** `7b6b6745dc703c2539cc1ef657bc5ed86bbb7c0da9ffa7789bfa835d61ecbb4a`
+- **Installateur :** [SceneScope-Setup-rc27.exe](https://github.com/VictorBurtman/scenescope-releases/releases/download/v0.1.0-rc.27/SceneScope-Setup-rc27.exe) (680 Mo)
+- **SHA-256 :** `b0954c4edd8bb87d21368be8f0d21fbc2c76fecc15c21b2f52981fbb6d6fe02f`
 
 Fermez SceneScope s'il est ouvert, puis lancez l'installateur : il s'installe pour
 l'utilisateur courant, sans droits administrateur, et contient tout le nécessaire. Une
